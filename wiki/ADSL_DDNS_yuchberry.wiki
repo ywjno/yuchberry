@@ -22,7 +22,7 @@ ADSL 方式可以让用户获得一个Internet广域网地址（如 114.113.56.8
 
   * 下载yuchberry服务器程序到计算机上，解压缩到一个文件夹里面。
 
-  * 打开config.ini文件，进行配置，具体的配置看这里。
+  * 打开config.ini文件，进行配置，具体的配置看[http://code.google.com/p/yuchberry/wiki/fill_config_ini 这里]。
    # 输入"用户密码"的时候，要记住，客户端需要用的上。
    # “yuchberry server 端口” 需要填入在前面“路由器端口映射”所分配的端口。（例如 9716）
 
