@@ -2,15 +2,49 @@
 
 通过jre提供的keytool工具生成服务器使用的私钥证书，打开服务器config.ini 文件中的SSL配置，客户端选择“使用SSL”，然后连接、安装、启用自己制作的数字证书，就可以进行安全通讯了。
 
+_如果从来没有配置过服务器，请先参照[http://code.google.com/p/yuchberry/wiki/ADSL_DDNS_yuchberry 这里]或者是[http://code.google.com/p/yuchberry/wiki/Independent_Host_yuchberry 这里]，配置服务器。_
+
+_如果你正在运行配置过的服务器，请关闭后再进行如下操作。_
+
+
 == 服务器授权方式加密 == 
 
+ === 服务器端密钥生成 === 
   
   * 生成密钥库（私钥）
-  [http://imgur.com/9aKNr.jpg]
-   # 打开服务器解压缩文件，找到一个genket.bat的批处理文件，_（如果是linux，请将 config.ini 内容复制出来，写成genkey.sh shell脚本格式运行）_，双击。输入keystore密码（例如 654321 ），<font color="red">这个密码需要和config.ini中的“userPassword”保持一致</font>，关于config.ini 的配置看[http://code.google.com/p/yuchberry/wiki/fill_config_ini 这里]。
-   # 红色的框需要<font color="red">重点解释一下</font>。如果服务器IP地址为 114.113.56.82 ，在[http://code.google.com/p/yuchberry/wiki/ADSL_DDNS_yuchberry#配置客户端 客户端配置]中,也需要填写这个IP地址进行连接，那么这个地方也需要填写 114.113.56.82，而不是如图的 yuchberry.gicp.net。
+       [http://imgur.com/9aKNr.jpg]
+   # 打开服务器解压缩文件，找到一个genket.bat的批处理文件，_（如果是linux，请将 genket.bat 内容复制出来，写成genkey.sh shell脚本格式运行）_，双击。输入keystore密码（例如 654321 ），<font color="red">这个密码需要和config.ini中的“userPassword”保持一致</font>，关于config.ini 的配置看[http://code.google.com/p/yuchberry/wiki/fill_config_ini 这里]。
+   # 红色的框需要<font color="red">重点解释一下</font>。如果服务器IP地址为 114.113.56.82 ，在[http://code.google.com/p/yuchberry/wiki/ADSL_DDNS_yuchberry#配置客户端 客户端配置]中第二布填写“主机”,需要填写这个IP地址进行连接，这个地方也需要填写 114.113.56.82，而不是如图的 yuchberry.gicp.net。
 
-  * 更改config.ini的useSSL选项为 1 。在[http://code.google.com/p/yuchberry/wiki/fill_config_ini 这里]有详细说明。
+  * 更改config.ini的useSSL选项为 1 ，保存。在[http://code.google.com/p/yuchberry/wiki/fill_config_ini 这里]有详细说明。
+
+  * 启动服务器。如果遇到什么问题，请到[http://code.google.com/p/yuchberry/issues/list 这里]进行查找、询问。
+
+
+
+ === 客户端配置 === 
+
+  * 打开yuchberry 选择 "使用SSL"。其他配置不变，具体看[http://code.google.com/p/yuchberry/wiki/ADSL_DDNS_yuchberry#配置客户端 这里]。点击连接。
+
+  * 这个时候客户端会下载证书，全部点击确认的选项。如果之前没有设置过“密钥存储区密码”，也就是每次使用BlackBerry Desktop Manager 连接手机的时候，出现的密码设定对话框都点击了取消，那么最好是设置一个密码，不然证书无法安装。
+
+  * 一些用户可能仍然安装不了的情况。可以进入“选项”->“安全选项”->“密钥存储区”,将选项改成如下图所示。
+    [http://imgur.com/UelDz.jpg]
+
+  * 如果连接不上，那么需要手动启用证书。
+   # “选项”->“安全选项”->“证书”,找到自己运行genKey.bat 生成私钥时候红色框填写的那个证书，发现是个红叉。
+   # 点击 黑莓菜单键，选择“信任”。变成了黄色的问号。这就说明可以使用了。
+    
+    [http://imgur.com/KVHSm.jpg]
+
+    [http://imgur.com/rve6B.jpg]
+
+  * 重新打开yuchberry连接服务器。
+
+
+如果遇到其他任何问题，可以到[http://code.google.com/p/yuchberry/issues/list 这里]进行查找和询问。
+
+
 
   
 
