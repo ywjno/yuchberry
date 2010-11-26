@@ -44,7 +44,7 @@ ADSL 方式可以让用户获得一个Internet广域网地址（如 114.113.56.8
 
   * 选择SSL。可以留空。这个需要服务器配合，在如何配置更加安全的SSL链接文章中，有解释如何使用yuchberry配置SSL。
 
-   [http://imgur.com/rbfWJ.jpg]
+   [http://imgur.com/rbfWJ.jpg][http://imgur.com/tfCfU.jpg]
 
 
 == 连接测试 ==
