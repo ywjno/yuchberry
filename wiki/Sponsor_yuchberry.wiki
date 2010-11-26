@@ -1,16 +1,25 @@
+#labels Phase-Support
 = 赞助及付费二次开发 =
 
 钱不是万能的，但是它可以帮助我完成更多的工作。感谢你的赞助！
 
 == 赞助 ==
 
-  * 通过[https://lab.alipay.com/life/payment/fill.htm?_ad=c&_adType=alipay_my_home_aide01 支付宝赞助]。拥有支付宝的朋友，可以向 yuchting@gmail.com 这个账户中付款任意你想赞助的金额。记得要写上“赞助yuchberry”啊。任何赞助yuchberry的朋友，都可以在*当前最新版*中提出要求作如下个性化更改：
+  * 通过[https://lab.alipay.com/life/payment/fill.htm?_ad=c&_adType=alipay_my_home_aide01 支付宝赞助]。拥有支付宝的朋友，可以向 yuchting@gmail.com 这个账户中付款任意你想赞助的金额。记得要写上“赞助yuchberry”啊。
+
+  * 通过[http://www.google.com PayPal赞助]。<form action="https://www.paypal.com/cgi-bin/webscr" method="post">
+<input type="hidden" name="cmd" value="_s-xclick">
+<input type="hidden" name="encrypted" value="-----BEGIN PKCS7-----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-----END PKCS7-----
+">
+<input type="image" src="https://www.paypal.com/zh_XC/i/btn/btn_paynowCC_LG.gif" border="0" name="submit" alt="PayPal——最安全便捷的在线支付方式！">
+<img alt="" border="0" src="https://www.paypal.com/zh_XC/i/scr/pixel.gif" width="1" height="1">
+</form>
+
+
+  *任何赞助yuchberry的朋友，都可以在*当前最新版*中提出要求作如下个性化更改：
    # 更换新邮件提新铃声
    # 图标的个性化制作
 
-  * 通过[http://www.google.com PayPal赞助]。
-
 == 二次开发 ==
 
-[https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=P84XTX5Y48N76&lc=NO&item_name=HellaDroid&item_number=helladroid&currency_code=EUR&bn=PP%2dDonationsBF%3abtn_donateCC_LG%2egif%3aNonHosted https://www.paypal.com/en_US/i/btn/btn_donateCC_LG.gif]
-  
+  * 如果你觉的yuchberry的功能不够强大，不适合你的日常需要，我可以提供联系方式，在商榷一定
