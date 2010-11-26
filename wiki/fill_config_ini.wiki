@@ -1,0 +1,40 @@
+#summary One-sentence summary of this page.
+
+= 填写服务器 config.ini 文件 =
+
+服务器配置需要一个简单的说明，用于填写yuchberry中间服务器访问的邮箱服务器地址、用户、密码等等。这个说明存放在config.ini 文件里面。
+
+==配置字段说明==
+
+  * *account*
+  完整账户名称，也就是需要推送的邮箱地址，例如yuchberry@gmail.com。不能填写yuchberry，如果填写错误，比如yuchberry@gmal.com，是可以收到信件，但是发送不出去。
+
+  * *protocol*
+  用于接收邮件的协议，有如下选择 pop3 pop3s imap imaps，带s的是用于 SSL 安全链接，例如 protocol=imaps
+  * *host*
+  邮件服务主机地址。例如 host=imap.gmail.com
+  * *port*
+  邮件服务端口号。例如 port=993
+  * *password*
+  邮箱密码，当然这个谁都不应该忘记。 例如 password=123456
+  * *protocol_send*
+  发送邮件使用的协议，几乎都是smtp。例如 protocol_send=smtp
+  * *host_send*
+  发送邮件的主机地址。例如 host_send=smtp.gmail.com
+  * *port_send*
+  发送邮件的主机端口。例如 port_send=587
+
+  以上属性配置具体参考邮件系统的帮助。比如gmail的就在[http://mail.google.com/support/?hl=zh_CN&p=inbox&rd=1 这里]，具体的IMAP配置在[http://mail.google.com/support/bin/topic.py?hl=cn&topic=12913 这里]，POP3在[http://mail.google.com/support/bin/topic.py?hl=cn&topic=12912 这里]。
+
+  * *userPassword*
+
+
+
+
+ 
+
+
+
+
+
+  
