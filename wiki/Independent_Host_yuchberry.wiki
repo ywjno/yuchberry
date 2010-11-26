@@ -41,3 +41,5 @@
   * 选择SSL。可以留空。这个需要服务器配合，在如何配置更加安全的SSL链接文章中，有解释如何使用yuchberry配置SSL。
 
    [http://imgur.com/rbfWJ.jpg]
+
+[http://code.google.com/p/yuchberry/wiki/ADSL_DDNS_yuchberry?ts=1290778638&updated=ADSL_DDNS_yuchberry#连接测试 连接测试]
