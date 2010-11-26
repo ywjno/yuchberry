@@ -32,6 +32,8 @@ ADSL 方式可以让用户获得一个Internet广域网地址（如 114.113.56.8
 
   * 下载客户端到电脑，通过 Desktop Manager 安装。OTA 版本在这里。
 
+   [http://imgur.com/rbfWJ.jpg]
+
   * 填写“主机”。
    # 如果你是使用主机直接拨号上网的话，填入你之前查询的IP地址（如 114.113.56.82 ）
    # 如果你使用的是[http://www.google.com.hk/search?rlz=1C1GPEA_enCN394CN394&sourceid=chrome&ie=UTF-8&q=%E5%8A%A8%E6%80%81%E5%9F%9F%E5%90%8D 动态域名]的话，请填写上动态域名，（例如花生壳是 yuchberry.gicp.net）
@@ -44,7 +46,7 @@ ADSL 方式可以让用户获得一个Internet广域网地址（如 114.113.56.8
 
   * 选择SSL。可以留空。这个需要服务器配合，在如何配置更加安全的SSL链接文章中，有解释如何使用yuchberry配置SSL。
 
-   [http://imgur.com/rbfWJ.jpg][http://imgur.com/tfCfU.jpg]
+   [http://imgur.com/tfCfU.jpg]
 
 
 == 连接测试 ==
