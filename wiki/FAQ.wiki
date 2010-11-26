@@ -31,4 +31,4 @@
 *A：*如果是个人简单用户，使用自己的ADSL，那么请看[http://code.google.com/p/yuchberry/wiki/ADSL_DDNS_yuchberry 这里]；如果是拥有独立IP主机的中小企业用户，请看[http://code.google.com/p/yuchberry/wiki/Independent_Host_yuchberry 这里]。当然这两种方式是有重叠的，个人完全可以购置独立IP的VPS或者主机，进行配置，也可以使用已有的主机配置。服务器程序占用的资源前一条说过。<br><br>
 
 *Q：*我遇到了问题怎么办？现在的yuchberry满足不了我的要求怎么办？<br>
-*A：*可以到[http://code.google.com/p/yuchberry/issues/list 这个页面]中找到是否有其他人问过类似的问题，或者提问，或者提出修改建议。当然也可以发邮件给我 yuchberry@gmail.com 进行询问，当然，也可以[http://www.google.com 付费]获得技术支持和二次开发。<br><br>
+*A：*可以到[http://code.google.com/p/yuchberry/issues/list 这个页面]中找到是否有其他人问过类似的问题，或者提问，或者提出修改建议。当然也可以发邮件给我 yuchting@gmail.com 进行询问，当然，也可以[http://www.google.com 付费]获得技术支持和二次开发。<br><br>
