@@ -26,7 +26,7 @@ ADSL 方式可以让用户获得一个Internet广域网地址（如 114.113.56.8
    # 输入"用户密码"的时候，要记住，客户端需要用的上。
    # “yuchberry server 端口” 需要填入在前面“路由器端口映射”所分配的端口。（例如 9716）
 
-  * 运行服务器程序，如果出现"prepare account OK"字样，祝贺你，服务器配置成功了。
+  * 双击runSvr.bat，运行服务器程序_（如果是linux，请将 runSvr.bat 内容复制出来，写成genkey.sh shell脚本格式运行）_，如果出现"prepare account OK"字样，祝贺你，服务器配置成功了。
 
 == 配置客户端 ==
 
