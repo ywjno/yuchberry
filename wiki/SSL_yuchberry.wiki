@@ -1,1 +1,19 @@
 = 配置更加安全的yuchberry =
+
+通过jre提供的keytool工具生成服务器使用的私钥证书，打开服务器config.ini 文件中的SSL配置，客户端选择“使用SSL”，然后连接、安装、启用自己制作的数字证书，就可以进行安全通讯了。
+
+== 服务器授权方式加密 == 
+
+  
+  * 生成密钥库（私钥）
+  [http://imgur.com/9aKNr.jpg]
+   # 打开服务器解压缩文件，找到一个genket.bat的批处理文件，_（如果是linux，请将 config.ini 内容复制出来，写成genkey.sh shell脚本格式运行）_，双击。输入keystore密码（例如 654321 ），<font color="red">这个密码需要和config.ini中的“userPassword”保持一致</font>，关于config.ini 的配置看[http://code.google.com/p/yuchberry/wiki/fill_config_ini 这里]。
+   # 红色的框需要<font color="red">重点解释一下</font>。如果服务器IP地址为 114.113.56.82 ，在[http://code.google.com/p/yuchberry/wiki/ADSL_DDNS_yuchberry#配置客户端 客户端配置]中,也需要填写这个IP地址进行连接，那么这个地方也需要填写 114.113.56.82，而不是如图的 yuchberry.gicp.net。
+
+  * 更改config.ini的useSSL选项为 1 。在[http://code.google.com/p/yuchberry/wiki/fill_config_ini 这里]有详细说明。
+
+  
+
+
+
+   
