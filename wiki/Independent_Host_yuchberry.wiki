@@ -42,4 +42,4 @@
 
    [http://imgur.com/rbfWJ.jpg]
 
-[http://code.google.com/p/yuchberry/wiki/ADSL_DDNS_yuchberry?ts=1290778638&updated=ADSL_DDNS_yuchberry#连接测试 连接测试]
+==[http://code.google.com/p/yuchberry/wiki/ADSL_DDNS_yuchberry?ts=1290778638&updated=ADSL_DDNS_yuchberry#连接测试 连接测试及其它问题]==
