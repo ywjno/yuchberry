@@ -4,7 +4,7 @@
 *A：*yuchberry不仅仅是一款软件，而是分为客户端和服务端的一种机制，以及实现这种机制的软件，主要目的是利用具有一般Internet访问功能的黑莓手机，和一台处于Internet广域网的个人主机，高效、快捷、安全的推送个人邮件。<br><br>
 
 *Q：* yuchberry 是免费的么？<br>
-*A：* 对。yuchberry是一款开源免费产品，放于google code host中的资源是完全免费的。你也可以赞助这个项目。咨询、技术支持是收费的，标准不一。
+*A：* 对。yuchberry是一款开源免费产品，放于google code host中的资源是完全免费的。你也可以[http://code.google.com/p/yuchberry/wiki/Sponsor_yuchberry 赞助这个项目]。
 
 *Q：*服务端交由谁来管理？<br>
 *A：*用户个人管理（或者企业中的网络管理员），不存在第三方服务（器）提供者。<br><br>
