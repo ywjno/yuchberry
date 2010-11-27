@@ -10,7 +10,7 @@
   * 通过[https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=yuchting%40gmail%2ecom&lc=C2&item_name=Donate%20yuchberry&button_subtype=services&currency_code=USD PayPal赞助]。 对拥有PayPal的朋友来说很方便，但是使用的是外汇，*不能使用人民币* 。
 
   * 任何赞助yuchberry的朋友，都可以在*当前最新版*中提出要求作如下个性化更改：
-   # 更换新邮件提新铃声
+   # 更换新邮件提醒铃声
    # 图标的个性化制作
 
 == 二次开发 ==
