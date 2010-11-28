@@ -15,7 +15,7 @@
    # 开始 -> 运行 -> 输入 cmd -> 输入 java ，如果出现的是一大串英文，而不是“不是内部文件”之类的提示，那么就已经装上了某个版本的java
    # 然后再输入 java -version 如果出现 1.5.x（或者更高版本） 的数字字样，那么就符合要求，不然就需要去重现下载安装。
 
-  * 下载yuchberry服务器程序到计算机上，解压缩到一个文件夹里面。如果有多个用户共享这台机器，需要解压到不同文件夹下。
+  * [http://code.google.com/p/yuchberry/downloads/list 下载]yuchberry服务器程序到计算机上，解压缩到一个文件夹里面。如果有多个用户共享这台机器，需要解压到不同文件夹下。
 
   * 打开config.ini文件，进行配置，具体的配置看[http://code.google.com/p/yuchberry/wiki/fill_config_ini 这里]。
    # 输入"用户密码"的时候，要记住，客户端需要用的上。
@@ -28,7 +28,7 @@
 
 == 配置客户端 ==
 
-  * 下载客户端到电脑，通过 Desktop Manager 安装。OTA 版本在这里。
+  * [http://code.google.com/p/yuchberry/downloads/list 下载]客户端到电脑，通过 Desktop Manager 安装。OTA 版本在这里。
 
   * 填写“主机”。需要询问配置yuchberry的服务器网管，询问其配置主机的IP。
 
