@@ -6,21 +6,22 @@ _由于是个人开发者，所以资金无法支持做多个移动运营商、�
 
 ==无APN或者单个APN==
 
-如果使用黑莓上网一点问题都没有，十分顺利，可以把这个APN填写留空，让系统自动决定使用那个APN，连接成功率会更高。或这个使用一个你确定的APN，比如移动的cmnet、cmwap，联通的uniwap等都可以。
+ 如果使用黑莓上网一点问题都没有，十分顺利，可以把这个APN填写留空，让系统自动决定使用那个APN，连接成功率会更高。或这个使用一个你确定的APN，比如移动的cmnet、cmwap，联通的uniwap等都可以。
 
 ==多个APN==
      [http://imgur.com/rbfWJ.jpg]
-分号的使用，可以让yuchberry自行使用多个APN进行尝试，连接网络。如果是联通用户，可以是交换使用cmnet和uniwap两个APN，我曾经尝试使用过uninet，发现这个APN几乎无效（北京地区如此）。可以如下面填写:<br><br>
-*cmnet;uniwap*<br>
-*uniwap;cmnet*<br><br>
-yuchberry会自动使用cmnet和uniwap进行尝试，之前想使用记忆功能，如果那个APN有效次数多，就在使用的时候判断优先使用那个，但是发现完全没有规律，在移动站变换的时候，几乎没有规律。所以直接写成自动尝试，每一个尝试3次，不行就换一个。
+ 分号的使用，可以让yuchberry自行使用多个APN进行尝试，连接网络。如果是联通用户，可以是交换使用cmnet和uniwap两个APN，我曾经尝试使用过uninet，发现这个APN几乎无效（北京地区如此）。可以如下面填写:<br><br>*
+ cmnet;uniwap*<br>*
+ uniwap;cmnet*
 
-如果有朋友在使用的时候发现其他的规律，可以直接在[http://code.google.com/p/yuchberry/issues/list 这里]告诉我，让我对其进行改进，让连接率更高。
+ yuchberry会自动使用cmnet和uniwap进行尝试，之前想使用记忆功能，如果那个APN有效次数多，就在使用的时候判断优先使用那个，但是发现完全没有规律，在移动站变换的时候，几乎没有规律。所以直接写成自动尝试，每一个尝试3次，不行就换一个。
+
+ 如果有朋友在使用的时候发现其他的规律，可以直接在[http://code.google.com/p/yuchberry/issues/list 这里]告诉我，让我对其进行改进，让连接率更高。
 
 ==WIFI==
 
-yuchberry不期望黑莓使用wifi连接自己的服务器，这样没有多少意义，但是如果是假设yuchberry服务器测试用的话，可以使用：
+ yuchberry不期望黑莓使用wifi连接自己的服务器，这样没有多少意义，但是如果是假设yuchberry服务器测试用的话，可以使用：*
 
-*interface=wifi*
+ interface=wifi*
 
-填写到APN的的选项上，那么就可以实现wifi连接了。
+ 填写到APN的的选项上，那么就可以实现wifi连接了。
