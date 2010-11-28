@@ -59,4 +59,4 @@ ADSL 方式可以让用户获得一个Internet广域网地址（如 114.113.56.8
 
 给自己的邮箱发送一封邮件吧，看看速度有多快？
 
-如果有配置上的任何问题，可以到[http://code.google.com/p/yuchberry/issues/list 这个页面]查找问题的解决方案，也可提出自己的问题。
+如果有配置上的任何问题，如果yuchberry 有错误信息输出，那么可以到[http://code.google.com/p/yuchberry/wiki/Connect_Error_info 这个页面]查找到相关信息的解释，也可以到[http://code.google.com/p/yuchberry/issues/list 这个页面]查找这个问题是否有他人已经遇到过，也可自己提问。
