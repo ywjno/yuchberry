@@ -1,0 +1,42 @@
+= 路由器端口映射、DDNS配置 =
+
+有些朋友可能对路由器的设置不是特别懂，在这里我想图文并茂的解释说明一下配置。方便大家可以顺利假设好服务器。
+
+下面的路由器配置例子是 TP_LINK 系列的，这个系列的家庭路由器应该是使用人数最多了吧？DDNS是以花生壳 为介绍，其他的DDNS服务器我相信也不会太难。
+
+== 路由器端口映射配置 ==
+
+  * 进入路由器配置界面。这个都不会的话——虽然我说话一向比较平和——拖出去打。
+
+[http://imgur.com/MvXqU.jpg]
+
+  * 选择“转发规则”进入添加“虚拟服务器”，点击“添加新条目”
+
+[http://imgur.com/N5cdB.jpg]
+
+  * 然后在添加界面输入你想添加的端口和映射的主机IP地址，如果你想映射的服务器（就是家里那台会运行yuchberry服务器程序的机器）是 192.168.10.20，那么就填上他。端口是你在配置服务器config.ini文件中填写的那个 *serverPort* 的值，忘了可以看[http://code.google.com/p/yuchberry/wiki/fill_config_ini 这里]。
+
+[http://imgur.com/ixENg.jpg]
+
+  * 保存后可以看到现有的条目上有了一个刚才已经添加好的条目。（图中是我家的路由器，其他的条目有BT的，电驴的，嘿嘿）
+
+[http://imgur.com/6h5Vd.jpg]
+
+== DDNS ==
+
+  * 可以先去 www.oray.com 申请一个通信证。然后如图进入花生壳控制台。
+
+[http://imgur.com/nPaV9.jpg]
+
+  * 可以看到下面的页面，一开始注册的时候免费的，会送一个域名，不能更换登录地址，而且不是十分稳定，于是我自己花了些钱，一百多吧，注册了一年的专业服务，就十分稳定了。具体的价格可以看[http://www.oray.com/peanuthull/service.php 这里]。
+
+[http://imgur.com/22zYB.jpg]
+
+  * 回到路由器界面，登录你的花生壳。显示登录成功之后就OK了。
+
+[http://imgur.com/5kNLp.jpg] 
+
+[http://imgur.com/vC6Vb.jpg]
+
+
+遇到其他的问题，先问问百度、谷歌，如果不行，那么就去[http://code.google.com/p/yuchberry/issues/list 这里]看看有没有人遇到和你一样的问题，或者提出你自己的问题。
