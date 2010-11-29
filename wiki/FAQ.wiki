@@ -18,6 +18,8 @@
 *Q：*那yuchberry服务器是怎么样的？我从哪里获得服务器？<br>
 *A：*yuchberry机制需要一台黑莓手机和邮件服务器提供方（126邮箱，hotmail）都能访问的中间服务器，所以如果是一台处于内网的机器，那么就不行。如果用户使用ADSL直接拨号上网，那么那台服务器需要配合DDNS（动态域名解析服务），来实现服务器的构架；用户可以购买VPS、独立服务器等服务器进行架设。具体的假设步骤,ADSL+DDNS[http://code.google.com/p/yuchberry/wiki/ADSL_DDNS_yuchberry 在这里]，独立服务器[http://code.google.com/p/yuchberry/wiki/Independent_Host_yuchberry 在这里]<br><br>
 
+[http://imgur.com/kZOZg.jpg]
+
 *Q：*yuchberry能够发送、接受附件么？<br>
 *A：*当然，没有问题，这是最低级高效的标准。<br><br>
 
