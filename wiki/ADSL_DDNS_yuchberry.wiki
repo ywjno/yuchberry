@@ -30,7 +30,7 @@ ADSL 方式可以让用户获得一个Internet广域网地址（如 114.113.56.8
 
 == 配置客户端 ==
 
-  * [http://code.google.com/p/yuchberry/downloads/list 下载]客户端到电脑，通过 Desktop Manager 安装。OTA 版本在这里。
+  * 去看看自己黑莓机器的[http://code.google.com/p/yuchberry/wiki/OS_Model 型号对照表]，然后去[http://code.google.com/p/yuchberry/downloads/list 下载]客户端到电脑，通过 Desktop Manager 安装。OTA 版本在这里。
 
    [http://imgur.com/rbfWJ.jpg]
 
