@@ -1,5 +1,3 @@
-#summary One-sentence summary of this page.
-
 = 错误信息介绍 =
 
 由于一些商业原因，黑莓的网络在China不是十分稳定，在yuchberry 开发、测试、使用的阶段，都遇到了很多问题，这些问题不是黑莓机器的本质问题，而是很多的Service Book 与自身使用的网络兼容问题。于是我在yuchberry主界面中加入错误信息的输出，有助于大家排查问题。
