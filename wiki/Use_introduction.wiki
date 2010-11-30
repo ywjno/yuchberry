@@ -14,28 +14,59 @@
          [http://imgur.com/dgprZ.jpg]
 
   * HTML 邮件会通过附件的形式发送过来，但是附件无法启动浏览器，于是yuchberry会把HTML的所有文本信息和链接信息都会以纯文本形式复制到这封邮件中。
+   [http://imgur.com/Vq81s.jpg]
+
    HTML 附件查看
+   
+   [http://imgur.com/pJ9wF.jpg]
+
    邮件正文中的长URL地址会被缩短为短地址，仍然是有效的，通过点击可以通过内置浏览器打开。
 
+   [http://imgur.com/wHoRE.jpg]
+
   * 附件接收。yuchberry当然是能够接受附件的，当你收到附件的时候，点击附件，选择“YuchBerry 打开附件”。这个时候需要保证你的SD卡可用，不然会出现“文件系统错误”的提示。
-   点击后yuchberry会在后台下载附件，继续点击“YuchBerry 打开附件”会告诉现在的进度。附件会默认下载SD卡下面的YuchBerry文件夹下。如果有同名附件文件，会覆盖。
-   下载完成后，会弹出对话框，通知你是否查看附件，点击确认后，可以通过yuchberry文件查看器查看到附件。
-   yuchberry文件查看器附件支持的类型有：
+
+   [http://imgur.com/UzKtS.jpg][http://imgur.com/MWNJr.jpg]
+
+  点击后yuchberry会在后台下载附件，继续点击“YuchBerry 打开附件”会告诉现在的进度。附件会默认下载SD卡下面的YuchBerry文件夹下。如果有同名附件文件，会覆盖。
+
+   [http://imgur.com/3R6dT.jpg]
+
+  下载完成后，会弹出对话框，通知你是否查看附件，点击确认后，可以通过yuchberry文件查看器查看到附件。
+
+   [http://imgur.com/spyCh.jpg]
+
+  yuchberry文件查看器附件支持的类型有：
    # 文本文件：txt log dic 格式 （查看容量为 5KB，仅仅是查看，附件文件时完整的）
    # 图像文件：jpg bmp gif png 格式
    # 视频文件：3gp mp4 格式
+
    其他格式文件可以自行打开。
 
 == 发送信件 == 
 
   * 首先要保证yuchberry是打开着的，也就是要点击过yuchberry“连接”按钮，连接状态可以是“连接成功”或者是“重连中”，到消息界面点击“编写电子邮件”。
 
+   [http://imgur.com/KH1i8.jpg][http://imgur.com/QV0W0.jpg]
+
   * 添加附件。点击菜单键，“YuchBerry 添加附件”后会进入文件选择界面，可以选择任意你想发送的附件。也可以点击“Check”进行查看。
+
+   [http://imgur.com/68FPv.jpg][http://imgur.com/TYpxk.jpg]
 
   * 查看删除附件。点击“YuchBerry 查看附件”，会有已经添加的附件，可以点击，选择“OK”，删除之。
 
+   [http://imgur.com/WKw4K.jpg]
+
   * 发送。点击“发送”后就会发送邮件，如果是不带附件的话，不久将会发送成功，图标显示下图所示。
+
+   [http://imgur.com/TIf3W.jpg][http://imgur.com/Ugsxh.jpg]
+
   如果发送带有附件的邮件，进度会比较漫长，可以渠道yuchberry主界面中查看进度。
+
+   [http://imgur.com/TKElc.jpg]
+
   打开自己的邮箱，就能查看到刚才所发送的邮件了。
+
+   [http://imgur.com/qL0rm.jpg]
 
   
