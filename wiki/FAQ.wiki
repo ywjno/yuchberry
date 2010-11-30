@@ -36,7 +36,7 @@
 *A：*嗯，是一个进程服务一个用户，在进程待机时候是占用5～15M物理内存，这样，一台2G内存的服务器可以个运行yuchberry服务端程序50～150个左右。yuchberry认为这样是值得的，同时，如果Java虚拟机运行效率增加的话，那么将会帮助yuchberry获得更高的效率和占有更少的资源。
 
 *Q：*我如何配置、使用yuchberry？<br>
-*A：*如果是个人简单用户，使用自己的ADSL，那么请看[http://code.google.com/p/yuchberry/wiki/ADSL_DDNS_yuchberry 这里]；如果是拥有独立IP主机的中小企业用户，请看[http://code.google.com/p/yuchberry/wiki/Independent_Host_yuchberry 这里]。当然这两种方式是有重叠的，个人完全可以购置独立IP的VPS或者主机，进行配置，也可以使用已有的主机配置。
+*A：*如果是个人简单用户，使用自己的ADSL，那么请看[http://code.google.com/p/yuchberry/wiki/ADSL_DDNS_yuchberry 这里]；如果是拥有独立IP主机的中小企业用户，请看[http://code.google.com/p/yuchberry/wiki/Independent_Host_yuchberry 这里]。当然这两种方式是有重叠的，个人完全可以购置独立IP的VPS或者主机，进行配置，也可以使用已有的主机配置。快速使用指南在[http://code.google.com/p/yuchberry/wiki/Use_introduction 这里]。
 
 *Q：*我遇到了问题怎么办？现在的yuchberry满足不了我的要求怎么办？<br>
 *A：*可以到[http://code.google.com/p/yuchberry/issues/list 这个页面]中找到是否有其他人问过类似的问题，或者提问，或者提出修改建议。当然也可以发邮件给我 yuchting@gmail.com 进行询问，当然，也可以[http://code.google.com/p/yuchberry/wiki/Sponsor_yuchberry 赞助]获得技术支持和二次开发。
