@@ -49,7 +49,6 @@ ADSL 方式可以让用户获得一个Internet广域网地址（如 114.113.56.8
 
   * 选择SSL。可以留空。这个需要服务器配合，在如何配置更加安全的SSL链接文章中，有解释如何使用yuchberry配置SSL。
 
-   
 
 
 == 连接测试 ==
@@ -63,3 +62,9 @@ ADSL 方式可以让用户获得一个Internet广域网地址（如 114.113.56.8
 给自己的邮箱发送一封邮件吧，看看速度有多快？
 
 如果有配置上的任何问题，如果yuchberry 有错误信息输出，那么可以到[http://code.google.com/p/yuchberry/wiki/Connect_Error_info 这个页面]查找到相关信息的解释，也可以到[http://code.google.com/p/yuchberry/issues/list 这个页面]查找这个问题是否有他人已经遇到过，也可自己提问。
+
+
+
+== 使用指南 ==
+
+在[http://code.google.com/p/yuchberry/w/Use_introduction 这个页面]。
