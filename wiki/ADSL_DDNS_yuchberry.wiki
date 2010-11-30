@@ -67,4 +67,4 @@ ADSL 方式可以让用户获得一个Internet广域网地址（如 114.113.56.8
 
 == 使用指南 ==
 
-在[http://code.google.com/p/yuchberry/w/Use_introduction 这个页面]。
+在[http://code.google.com/p/yuchberry/wiki/Use_introduction 这个页面]。
