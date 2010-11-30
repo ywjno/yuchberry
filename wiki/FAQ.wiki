@@ -2,13 +2,13 @@
 =*FAQ*=
 
 *Q：* 什么是yuchberry？<br>
-*A：*yuchberry分为客户端和服务端软件，主要功能是利用具有一般Internet访问功能的黑莓手机，和一台处于Internet广域网的个人主机，高效、快捷、安全的推送个人邮件。
+*A：*yuchberry分为客户端和服务端软件，主要功能是利用具有一般Internet访问功能的黑莓手机，和一台处于Internet广域网的个人主机，高效、快捷、安全的*推送个人邮件*。
 
 *Q：* 面对如此多的PushMail软件，yuchberry 有什么优势？<br>
-*A：* yuchberry能够保证邮件到达，而且非常迅速，最短能在10秒钟内推送到手机；保证邮箱的已读邮件和未读邮件同步；流量小，推送到手机的邮件是经过压缩的；安全，能够使用128位密钥的SSL加密进行传输，这个密钥证书是用户自己手动生成的，也绝对安全。
+*A：* yuchberry能够保证邮件到达，而且非常迅速，最短能在*10秒钟内*推送到手机；保证邮箱的已读邮件和未读*邮件同步*；*流量小*，推送到手机的邮件是经过压缩的；*安全*，能够使用128位密钥的SSL加密进行传输，这个密钥证书是用户自己手动生成的，也绝对安全。
 
 *Q：* yuchberry 是免费的么？<br>
-*A：* 对。yuchberry是一款开源免费产品，放于google code host中的资源是完全免费的。你也可以[http://code.google.com/p/yuchberry/wiki/Sponsor_yuchberry 赞助这个项目]。
+*A：* 对。yuchberry是一款开源免费产品，放于google code host中的资源是* 完全免费 *的。你也可以[http://code.google.com/p/yuchberry/wiki/Sponsor_yuchberry 赞助这个项目]。
 
 *Q：*服务端交由谁来管理？<br>
 *A：*用户个人管理（或者企业中的网络管理员），不存在第三方服务（器）提供者。
