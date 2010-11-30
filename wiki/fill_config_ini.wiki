@@ -10,7 +10,10 @@
   完整账户名称，也就是需要推送的邮箱地址，例如yuchberry@gmail.com。不能填写yuchberry，如果填写错误，比如yuchberry@gmal.com，是可以收到信件，但是发送不出去。
 
   * *protocol*
-  用于接收邮件的协议，有如下选择 pop3 pop3s imap imaps，带s的是用于 SSL 安全链接，例如 protocol=imaps
+  用于接收邮件的协议，有如下选择 pop3 pop3s imap imaps，带s的是用于 SSL 安全链接，例如 protocol=imaps   需要邮件服务器的支持，Gmail 配置如下图，其他邮箱不一而同。
+
+  [http://imgur.com/Yj4gW.jpg]
+
   * *host*
   邮件服务主机地址。例如 host=imap.gmail.com
   * *port*
