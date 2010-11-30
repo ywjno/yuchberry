@@ -25,6 +25,7 @@ ADSL 方式可以让用户获得一个Internet广域网地址（如 114.113.56.8
   * 打开config.ini文件，进行配置，具体的配置看[http://code.google.com/p/yuchberry/wiki/fill_config_ini 这里]。
    # 输入"用户密码"的时候，要记住，客户端需要用的上。
    # “yuchberry server 端口” 需要填入在前面“路由器端口映射”所分配的端口。（例如 9716）
+   # 如果是Windows ，请确保防火墙允许这些端口进行连接。具体步骤帮助，请搜索“windows防火墙例外”。
 
   * 双击runSvr.bat，运行服务器程序_（如果是linux，请将 runSvr.bat 内容复制出来，写成genkey.sh shell脚本格式运行）_，如果出现"prepare account OK"字样，祝贺你，服务器配置成功了。
 
