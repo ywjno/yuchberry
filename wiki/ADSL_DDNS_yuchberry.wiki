@@ -32,6 +32,8 @@ ADSL 方式可以让用户获得一个Internet广域网地址（如 114.113.56.8
 
   * 去看看自己黑莓机器的[http://code.google.com/p/yuchberry/wiki/OS_Model 型号对照表]，然后去[http://code.google.com/p/yuchberry/downloads/list 下载]客户端到电脑，通过 Desktop Manager 安装。OTA 版本在这里。
 
+  * 检查是否能发邮件。就是在短信界面，点击黑莓菜单键，看看是否有“编写电子邮件”一项，如果没有，那么到[http://code.google.com/p/yuchberry/wiki/Service_Book 这个页面]去详细阅读，并安装一个正确的Service Book。
+
    [http://imgur.com/rbfWJ.jpg]
 
   * 填写“主机”。
