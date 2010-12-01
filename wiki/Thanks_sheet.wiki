@@ -5,3 +5,4 @@
 名次不分前后，建议、bug、帮助也没有大小之分。
 
   * *kongzhuoshi@gmail.com* 推送邮件顺序不对的bug
+  * *spenceric@gmail.com* 繁体字推送到客户端时候的乱码问题。
