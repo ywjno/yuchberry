@@ -4,4 +4,4 @@
 
 名次不分前后，bug也没有大小之分。
 
-  * kongzhuoshi@gmail.com* 
+  * *kongzhuoshi@gmail.com* 推送邮件顺序不对的问题
