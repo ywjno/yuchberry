@@ -37,7 +37,7 @@
    [http://imgur.com/spyCh.jpg]
 
   yuchberry文件查看器附件支持的类型有：
-   # 文本文件：txt log dic 格式 （查看容量为 5KB，仅仅是查看，附件文件时完整的）
+   # 文本文件：txt log dic 格式 （查看容量为 5KB，仅仅是查看，附件文件是完整的）
    # 图像文件：jpg bmp gif png 格式
    # 视频文件：3gp mp4 格式
 
