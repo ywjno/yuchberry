@@ -61,7 +61,7 @@
 
    [http://imgur.com/TIf3W.jpg][http://imgur.com/Ugsxh.jpg]
 
-  如果发送带有附件的邮件，进度会比较漫长，可以渠道yuchberry主界面中查看进度。
+  如果发送带有附件的邮件，进度会比较漫长，也可以到yuchberry主界面中查看进度。
 
    [http://imgur.com/TKElc.jpg]
 
