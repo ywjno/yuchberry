@@ -10,3 +10,9 @@
   * *spenceric@gmail.com* 繁体字推送到客户端时候的乱码问题。
   * *maitcn@gmail.com* 服务器疯狂输出日志的问题。
   * *rabbitzhang52@gmail.com* SmartMail 可能存在不兼容问题。
+
+== 严重鸣谢 ==
+
+  * *[http://www.52blackberry.com/ 52BlackBerry]* 是你在yuchberry最弱小的时候给了她成长的空间。
+
+  * *[http://www.feelberry.com/ 感触黑莓]* 是你在yuchberyy走不稳路的时候，牵着他的手在前面引路。
