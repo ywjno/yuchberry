@@ -10,6 +10,7 @@
   * *spenceric@gmail.com* 繁体字推送到客户端时候的乱码问题。
   * *maitcn@gmail.com* 服务器疯狂输出日志的问题。
   * *rabbitzhang52@gmail.com* SmartMail 可能存在不兼容问题。
+  * *maitcn@gmail.com* 铃声在有些机器上过小，希望调整的建议。
 
 == 严重鸣谢 ==
 
