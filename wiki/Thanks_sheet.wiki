@@ -6,14 +6,20 @@
 
 == Bug及建议 ==
 
-  * *kongzhuoshi@gmail.com* 推送邮件顺序不对的bug
-  * *spenceric@gmail.com* 繁体字推送到客户端时候的乱码问题。
-  * *maitcn@gmail.com* 服务器疯狂输出日志的问题。
-  * *rabbitzhang52@gmail.com* SmartMail 可能存在不兼容问题。
-  * *maitcn@gmail.com* 铃声在有些机器上过小，希望调整的建议。
+  * kongzhuoshi@gmail.com 推送邮件顺序不对的bug
+  * spenceric@gmail.com 繁体字推送到客户端时候的乱码问题。
+  * maitcn@gmail.com 服务器疯狂输出日志的问题。
+  * rabbitzhang52@gmail.com SmartMail 可能存在不兼容问题。
+  * maitcn@gmail.com 铃声在有些机器上过小，希望调整的建议。
 
 == 严重鸣谢 ==
 
   * *[http://www.52blackberry.com/ 52BlackBerry]* 是你在yuchberry最弱小的时候给了她成长的空间。
 
   * *[http://www.feelberry.com/ 感触黑莓]* 是你在yuchberyy走不稳路的时候，牵着他的手在前面引路。
+
+== 赞助 ==
+
+  _赞助者们的娟娟溪流也帮助了yuchberry逐渐完善，感谢他们_
+
+  * maxiao022@yahoo.cn 30,
