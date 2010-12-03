@@ -11,6 +11,7 @@
   * maitcn@gmail.com 服务器疯狂输出日志的问题。
   * rabbitzhang52@gmail.com SmartMail 可能存在不兼容问题。
   * maitcn@gmail.com 铃声在有些机器上过小，希望调整的建议。
+  * irvanabird@gmail.com 英文系统可能出现问题。
 
 == 严重鸣谢 ==
 
