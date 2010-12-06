@@ -26,7 +26,7 @@
 
   * 可以先去 www.oray.com 申请一个通信证。然后如图进入花生壳控制台。
 
-[http://imgur.com/nPaV9.jpg]
+[http://imgur.com/zhEkn.jpg]
 
   * 可以看到下面的页面，一开始注册的时候免费的，会送一个域名，不能更换登录地址，而且不是十分稳定，于是我自己花了些钱，一百多吧，注册了一年的专业服务，就十分稳定了。具体的价格可以看[http://www.oray.com/peanuthull/service.php 这里]。
 
