@@ -20,6 +20,7 @@
   * maitcn@gmail.com 铃声在有些机器上过小，希望调整的建议。
   * irvanabird@gmail.com 英文系统可能出现问题。
   * hugeperson.ll 关于断网的文档及建议
+  * rabbitzhang52@gmail.com 不填写标题会发不出去信件的问题。
 
 == 严重鸣谢 ==
 
