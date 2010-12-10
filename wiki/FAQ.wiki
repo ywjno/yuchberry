@@ -40,7 +40,7 @@ yuchberry:<br>
 *A：*由于用户自己拥有服务器（或者说拥有整个中间服务器程序），所以，服务器上的yuchberry服务端程序一对一将邮件推送给黑莓手机，可以实现在30秒内推送到，如果yuchberry服务器距离邮件服务器很近的话（也就是很快能够访问邮件服务器），那么将在10秒甚至更短时间将邮件推送到手机。当然，多个用户可以使用一台物理服务器，在上面运行多个相互独立yuchberry服务端程序，在不同的端口进行推送，这是更“高效”的。还有，附件在服务器上是保存很长时间的，直到用户将其在服务器上删除。
 
 *Q：*那岂不是yuchberry要开多个进程？这样不是会浪费服务器上很多资源？<br>
-*A：*嗯，是一个进程服务一个用户，在进程待机时候是占用5～15M物理内存，这样，一台2G内存的服务器可以个运行yuchberry服务端程序50～150个左右。yuchberry认为这样是值得的，同时，如果Java虚拟机运行效率增加的话，那么将会帮助yuchberry获得更高的效率和占有更少的资源。
+*A：*嗯，是一个进程服务一个用户，在进程待机时候是占用5～15M物理内存，这样，一台2G内存的服务器可以个运行yuchberry服务端程序50～150个左右。yuchberry认为这样是值得的，同时，如果Java虚拟机运行效率增加的话，那么将会帮助yuchberry获得更高的效率和占有更少的资源。在beta测试的时候，增加的集成配置工具，将每个用户的服务器从进程级别降到了线程级别，但是同样高效，详细看[http://code.google.com/p/yuchberry/wiki/Integration_Config_tool 这里]。
 
 *Q：*我如何配置、使用yuchberry？<br>
 *A：*如果是个人简单用户，使用自己的ADSL，那么请看[http://code.google.com/p/yuchberry/wiki/ADSL_DDNS_yuchberry 这里]；如果是拥有独立IP主机的中小企业用户，请看[http://code.google.com/p/yuchberry/wiki/Independent_Host_yuchberry 这里]。当然这两种方式是有重叠的，个人完全可以购置独立IP的VPS或者主机，进行配置，也可以使用已有的主机配置。快速使用指南在[http://code.google.com/p/yuchberry/wiki/Use_introduction 这里]。
