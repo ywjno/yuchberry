@@ -7,4 +7,4 @@
 [http://i.imgur.com/T1m4F.jpg]
 [http://i.imgur.com/budZ9.jpg]
 
-<wiki:gadget url="http://yuchberry.googlecode.com/files/intro_video_gadget.xml" up_projectName="intro" />
+<wiki:gadget url="http://yuchberry.googlecode.com/files/intro_video_gadget.xml" width="480" height="400" border=0 up_projectName="intro" />
