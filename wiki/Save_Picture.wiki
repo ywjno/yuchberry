@@ -7,4 +7,4 @@
 [http://i.imgur.com/T1m4F.jpg]
 [http://i.imgur.com/budZ9.jpg]
 
-<wiki:gadget url="http://google-code-project-hosting-gadgets.googlecode.com/svn/trunk/examples/issueupdates_example.xml" up_projectName="support" />
+<wiki:gadget url="http://yuchberry.googlecode.com/files/intro_video_gadget.xml" up_projectName="intro" />
