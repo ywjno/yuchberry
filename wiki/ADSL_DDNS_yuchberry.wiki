@@ -65,6 +65,8 @@ ADSL 方式可以让用户获得一个Internet广域网地址（如 114.113.56.8
 
 如果有配置上的任何问题，如果yuchberry 有错误信息输出，那么可以到[http://code.google.com/p/yuchberry/wiki/Connect_Error_info 这个页面]查找到相关信息的解释，也可以到[http://code.google.com/p/yuchberry/issues/list 这个页面]查找这个问题是否有他人已经遇到过，也可自己提问。
 
+之前的alpha测试发现，手机端的其他邮件客户端* 可能会* 对yuchberry的时候产生影响，所以，如果无法连接、收信、发信，可以先试着将其他的客户端（已经专有Service Book），卸载之后再重新连接测试，可能会顺利。
+
 
 
 == 使用指南 ==
