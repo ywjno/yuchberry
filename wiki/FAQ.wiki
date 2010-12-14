@@ -44,4 +44,4 @@
 
 
 * 原理解说视频 *<br>
-<wiki:gadget url="http://yuchberry.googlecode.com/files/intro_video_gadget.xml" width="640" height="480" border=0 up_projectName="intro" />
+<wiki:gadget url="http://yuchberry.googlecode.com/files/intro_video_gadget.xml" width="480" height="400" border=0 up_projectName="intro" />
