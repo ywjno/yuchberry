@@ -22,17 +22,12 @@
 *Q：*那yuchberry服务器是怎么样的？和黑莓的BIS，BES有什么区别？<br>
 *A：*yuchberry机制需要一台黑莓手机和邮件服务器提供方（126邮箱，hotmail）都能访问的中间服务器，所以如果是一台处于内网的机器，那么就不行。yuchberry更类似没有专有gprs通道的BES，BES的服务器位于公司，而yuchberry的服务器位于用户自己手里。具体的差别如想面两图所示：<br>
 
-* 黑莓BIS、BES：*<br>
-[http://imgur.com/cwbWG.jpg]<br>
 
-* yuchberry 机制:* <br>
-[http://imgur.com/fh5L0.jpg]<br>
+* 解说视频 *<br>
+<wiki:gadget url="http://yuchberry.googlecode.com/files/intro_video_gadget.xml" width="480" height="400" border=0 up_projectName="intro" />
 
 *Q: *我从哪里获得yuchberry服务器？<br>
 *A: *如果用户使用ADSL直接拨号上网，那么那台服务器需要配合DDNS（动态域名解析服务），来实现服务器的构架；用户可以购买VPS、独立服务器等服务器进行架设。
-
-
-
 
 
 *Q：*yuchberry能够发送、接受附件么？<br>
