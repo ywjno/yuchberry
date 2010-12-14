@@ -31,7 +31,7 @@ ADSL 方式可以让用户获得一个Internet广域网地址（如 114.113.56.8
 
 == 配置客户端 ==
 
-  * 首先要确认自己的手机上面的Service Book是否含有 *CMIME条目* ，如果没有，需要到网上搜索一个合适的带有CMIME 的Service Book，也可以去[http://code.google.com/p/yuchberry/downloads/list 这里]下载一个网上流传已久的6项的Service Book。
+  * 首先要确认自己的手机上面的Service Book是否含有 <font color="red">*CMIME条目*</font>，如果没有，需要到网上搜索一个合适的带有CMIME 的Service Book，也可以去[http://code.google.com/p/yuchberry/downloads/list 这里]下载一个网上流传已久的6项的Service Book。
 
   * 去看看自己黑莓机器的[http://code.google.com/p/yuchberry/wiki/OS_Model 型号对照表]，然后去[http://code.google.com/p/yuchberry/downloads/list 下载]客户端到电脑，通过 Desktop Manager 安装。OTA 版本在这里。
 
