@@ -7,4 +7,4 @@
 [http://i.imgur.com/T1m4F.jpg]
 [http://i.imgur.com/budZ9.jpg]
 
-<wiki:video  quality='high' width='480' height='400' align='middle' url="http://player.youku.com/player.php/sid/XMjI5Njc3NTY0"/>
+<wiki:video  quality='high' width='480' height='400' align='middle' url="http://player.youku.com/player.php/sid/XMjI5Njc3NTY0/v.swf"/>
