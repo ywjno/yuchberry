@@ -22,6 +22,7 @@
   * hugeperson.ll 关于断网的文档及建议
   * rabbitzhang52@gmail.com 不填写标题会发不出去信件的问题。
   * tongyuyang@gmail.com(@却只是路过) @黑莓右键总管 加入开机自动启动的配置。
+  * smallbber@gmail.com 建议把配置信息放到ROM里面，这样的话就不会在插拔usb的时候出现读不出配置的现象了
 
 == 严重鸣谢 ==
 
