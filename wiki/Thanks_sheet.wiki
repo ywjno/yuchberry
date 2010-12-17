@@ -21,6 +21,7 @@
   * irvanabird@gmail.com 英文系统可能出现问题。
   * hugeperson.ll 关于断网的文档及建议
   * rabbitzhang52@gmail.com 不填写标题会发不出去信件的问题。
+  * tongyuyang@gmail.com @黑莓右键总管 加入开机自动启动的配置。
 
 == 严重鸣谢 ==
 
