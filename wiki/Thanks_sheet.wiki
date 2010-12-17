@@ -24,6 +24,7 @@
   * tongyuyang@gmail.com(@却只是路过) @黑莓右键总管 加入开机自动启动的配置。
   * smallbber@gmail.com 建议把配置信息放到ROM里面，这样的话就不会在插拔usb的时候出现读不出配置的现象了
   * tongyuyang@gmail.com(@却只是路过) 联系人界面发送右键，如果是中文的话，发送不了。
+  * hoqi33@hotmail.com JavaMail库的“no such domain”问题。
 
 == 严重鸣谢 ==
 
