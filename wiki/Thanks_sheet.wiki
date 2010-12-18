@@ -26,6 +26,7 @@
   * tongyuyang@gmail.com(@却只是路过) 联系人界面发送右键，如果是中文的话，发送不了。
   * hoqi33@hotmail.com JavaMail库的“no such domain”问题。
   * nirvanabird@gmail.com 强有力的一系列问题。
+  * spencer_lu@eutechmicro.com 服务器系统可能设置不对导致java虚拟机解码不对，导致乱码。
 
 == 严重鸣谢 ==
 
