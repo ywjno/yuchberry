@@ -33,7 +33,7 @@ _有些条目是我长时间测试所得的结论，没有官方文档，如果�
 
   * 含有 *javax.mail.* 的多行信息。例如下面的
 {{{
-   javax.mail.MessagingException: error fetching POP3 content;
+12-17 22:51:21 :javax.mail.MessagingException: error fetching POP3 content;
    nested exception is:
    java.net.SocketTimeoutException: Read timed out
 	at com.sun.mail.pop3.POP3Message.getContentStream(POP3Message.java:207)
@@ -42,4 +42,4 @@ _有些条目是我长时间测试所得的结论，没有官方文档，如果�
 	at javax.mail.internet.MimeMessage.getAddressHeader(MimeMessage.java:689)
 	at javax.mail.internet.MimeMessage.getFrom(MimeMessage.java:358)
 }}}
-   请在谷歌和百度中搜索 JavaMail + 错误信息，例如上面的内容就可以搜索 "JavaMail error fetching POP3 content" 谷歌可以搜索到[http://www.google.com.hk/search?sourceid=chrome&ie=UTF-8&q=JavaMail+error+fetching+POP3+content 这些内容] ,就可以知道邮箱有些什么问题了。
+   请在谷歌和百度中搜索 JavaMail + 错误信息，例如上面的内容就可以搜索 "JavaMail error fetching POP3 content" 谷歌可以搜索到[http://www.google.com.hk/search?sourceid=chrome&ie=UTF-8&q=JavaMail+error+fetching+POP3+content 这些内容] ,就可以知道想要推送的邮箱服务器有些什么问题了。
