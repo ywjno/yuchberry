@@ -15,6 +15,10 @@
 
     运行3天之后的情况：
   [http://i.imgur.com/FULWr.jpg]
+  
+    导致这种情况的原因有以下几点
+     # 由于我自己对于Java语言的不熟悉，可能导致了内存泄漏
+     # 由于使用了Java的扩展库JavaMail，可能没有对长时间链接POP3、IMAP进行优化，同时导致内存泄漏。
 
 
   * 网络使用情况。我得出的结论是，<font color="red">几乎不占带宽</font>，上图中上传的带宽（绿色）全部是我远程桌面所占用的带宽，也在20KB/s以下。用户在这样的数量情况下，对于邮件信箱的登录和读取，同时推送邮件，几乎不需要占用带宽。（图中的流量监控软件为[http://www.google.com.hk/search?rlz=1C1GPEA_enCN394CN394&sourceid=chrome&ie=UTF-8&q=UD+Meter+Pro UD Meter Pro]）
