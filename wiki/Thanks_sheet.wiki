@@ -29,6 +29,7 @@
   * spencer_lu@eutechmicro.com 服务器系统可能设置不对导致java虚拟机解码不对，导致乱码。
   * navidev@gmail.com 关于通知提醒的开发建议。
   * 413044770@qq.com 关于HTML图文并茂的建议。
+  * kevinele@gmail.com 关于服务器明文密码保存问题的建议。
 
 == 严重鸣谢 ==
 
