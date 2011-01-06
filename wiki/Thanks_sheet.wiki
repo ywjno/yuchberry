@@ -35,9 +35,11 @@
 
 == 严重鸣谢 ==
 
-  * *[http://www.52blackberry.com/ 52BlackBerry]* 是你在yuchberry最弱小的时候给了她成长的空间。
+  * *[http://www.52blackberry.com/ 52BlackBerry]* 提供最初的测试空间。
 
-  * *[http://www.feelberry.com/ 感触黑莓]* 是你在yuchberyy走不稳路的时候，牵着他的手在前面引路。
+  * *[http://www.feelberry.com/ 感触黑莓]* 帮助测试、宣传
+
+  * *[http://www.geekbb.net/ Geek黑莓]* 帮助测试服务器、宣传
 
 == 赞助 ==
 
