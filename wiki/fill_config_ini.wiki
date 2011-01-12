@@ -1,3 +1,4 @@
+#labels Featured
 = 填写服务器 config.ini 文件 =
 
 服务器配置需要一个简单的说明，用于填写yuchberry中间服务器访问的邮箱服务器地址、用户、密码等等。这个说明存放在config.ini 文件里面。
@@ -51,7 +52,9 @@
 
   * _*userFetchIndex*_
   这个字段是yuchberry中间服务器自己读取、写入的值，初始值为0。<font color="red">一般来说不需要手动更改，但是如果是更换邮件服务器，也就是改变了 *account* 字段，那么就需要手动填写成0，不然在第一次推送的时候，会出问题</font>
-
+<br/>
+<br/>
+<br/><br/><br/><br/><br/>
 
 
 
@@ -61,6 +64,142 @@
 
 
 
+*<font color="red">/////////////////////////////beta2文档   现在beta2还没有放出，请不要阅读下面文档////////////////////////////////////////</font>*
+= 填写服务器 config.xml 文件 =
 
+
+服务器配置需要一个简单的说明，用于填写yuchberry中间服务器访问的邮箱服务器地址、用户、密码等等。这个说明存放在config.xml 文件里面。
+
+这个配置文件是利用xml配置的，xml是一种标记语言，语法很简单，不会的自己可以google一下，例如[http://www.google.com.hk/search?rlz=1C1GPEA_enCN394CN394&sourceid=chrome&ie=UTF-8&q=xml 这样]。
+
+所有的* “是否”* 选项都是填写1为“是”，0或者其他值为否。
+
+<font color="grey">以下是初始配置，如果之后有删减，增加，可能没有及时更新，请以下载之后的服务器包中的config.xml文件为准。</font>
+
+==主配置字段说明==
+{{{
+< Yuchberry	
+        userPassword="111111"	
+        serverPort="9716"
+	pushInterval="10"
+	userSSL="0"
+	convertoSimpleChar="0"	>
+}}}
+
+  * *userPassword*
+  用户密码。这个密码不是邮箱密码，建议不要和邮箱密码一样，用于认证推送客户端。这个密码也必须和SSL生成证书的密码一样，yuchberry SSL配置请看[http://code.google.com/p/yuchberry/wiki/SSL_yuchberry 这里]。例如 userPassword=111111
+
+  * *serverPort*
+  yuchberry server 监听端口,负责与手机端通讯，推送服务器。在[http://code.google.com/p/yuchberry/wiki/ADSL_DDNS_yuchberry#配置客户端 客户端的设置]需要用到他。例如 serverPort=9716
+
+  * *pushInterval*
+  yuchBerry中间服务器到邮件服务器上取信间隔，单位为秒，间隔越小，服务器占用资源越多。但是Push 到客户端的延迟也就越小。最小值为1。 例如 pushInterval=10。<font color="red">对于有些邮箱来说，有一定的安全性，所以过短的间隔会导致邮箱锁定，IMAP/POP3方式无法访问，需要去手动解锁</font>
+
+  * *userSSL*
+  是否使用SSL进行推送。这个选项如果为1，则表示需要，为0或者其他值，表示不许要。SSL具体配置看[http://code.google.com/p/yuchberry/wiki/SSL_yuchberry 这里]。例如 userSSL=0
+
+  * *convertoSimpleChar* 
+  是否将服务器所有的字符串转换成简体。由于黑莓上的字体无法混用，所以使用简体中文的朋友显示不了繁体中文，索性，用服务器将其转换成简体，发送到手机上。  
+
+==Email账户配置说明==
+{{{
+    <EmailAccount
+		account="yuchberry@gmail.com"
+		password=""
+		
+		useFullNameSignIn="0"
+		
+		protocol="imaps"
+		host="imap.gmail.com"
+		port="993"
+		
+		protocol_send="smtp"
+		host_send="smtp.gmail.com"
+		port_send="587"
+		
+		appendHTML="0"
+	/>
+}}}
+
+ * *account*
+  完整账户名称，也就是需要推送的邮箱地址，例如yuchberry@gmail.com。不能填写yuchberry，如果填写错误，比如yuchberry@gmal.com，是可以收到信件，但是发送不出去。
+
+  * *protocol*
+  用于接收邮件的协议，有如下选择 *pop3 pop3s imap imaps* ，带s的是用于 SSL 安全链接，例如 protocol=imaps   需要邮件服务器的支持，Gmail 配置如下图，其他邮箱不一而同。
+
+  [http://imgur.com/Yj4gW.jpg]
+
+  * *host*
+  邮件服务主机地址。例如 host=imap.gmail.com
+  * *port*
+  邮件服务端口号。例如 port=993
+  * *password*
+  邮箱密码，当然这个谁都不应该忘记。 例如 password=123456
+  * *useFullNameSignIn*
+  是否利用全地址登录邮箱。有些邮箱需要用全地址xxxx@host.com 而不是xxxx作为用户名称。例如hotmail，就貌似需要全地址登录。
+  * *protocol_send*
+  发送邮件使用的协议，几乎都是smtp。例如 protocol_send=smtp
+  * *host_send*
+  发送邮件的主机地址。例如 host_send=smtp.gmail.com
+  * *port_send*
+  发送邮件的主机端口。例如 port_send=587
+
+  * *appendHTML*
+  是否将HTML 转化成纯文本，并且跟随在正文的后面。这个选项有点古怪，但是如果你邮箱订阅的有谷歌咨询，而且用手机的自带HTML查看器打不开手机浏览器的话，就会需要这个功能了。
+
+  _以上属性配置具体参考邮件系统的帮助。比如gmail的就在[http://mail.google.com/support/?hl=zh_CN&p=inbox&rd=1 这里]，具体的IMAP配置在[http://mail.google.com/support/bin/topic.py?hl=cn&topic=12913 这里]，POP3在[http://mail.google.com/support/bin/topic.py?hl=cn&topic=12912 这里]。_
+
+如果想推送多个邮箱，就填写多个 
+{{{
+     <EmailAccount /> 
+}}} 
+tag，这样就可以顺序推送了，第一个邮箱是发邮件的默认邮箱。回复邮件使用的是发送者发送的邮箱地址，而转发和新邮件发送，都是默认使用第一个邮箱发送。如果想推送两个邮箱，那么config.xml就会看起来像下面：
+
+{{{
+<Yuchberry	userPassword="520530"	serverPort="9716"	pushInterval="10"	userSSL="1"	convertoSimpleChar="1"	>
+	<EmailAccount
+		account="yuchting@gmail.com"
+		password=""
+		
+		useFullNameSignIn="0"
+		
+		protocol="imaps"
+		host="imap.gmail.com"
+		port="993"
+		
+		protocol_send="smtp"
+		host_send="smtp.gmail.com"
+		port_send="587"
+		
+		appendHTML="1"
+	/>
+	<EmailAccount
+		account="yuchberry@gmail.com"
+		password=""
+		
+		useFullNameSignIn="0"
+		
+		protocol="imaps"
+		host="imap.gmail.com"
+		port="993"
+		
+		protocol_send="smtp"
+		host_send="smtp.gmail.com"
+		port_send="587"
+		
+		appendHTML="0"
+	/>
+</Yuchberry>
+}}}
+
+
+
+ 
+
+
+
+
+
+  
 
   
