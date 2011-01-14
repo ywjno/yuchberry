@@ -1,0 +1,16 @@
+= 如何选择服务器运行方式 =
+
+在beta2的时候，服务器的运行方式作出了多样化的，很多人询问如何不显示cmd的黑窗口来运行服务器，如何在类linux上运行服务器啊等等，我就作出一些调整，增加了一下运行服务器用的快捷批处理文件。
+
+bat文件是windows平台上的批处理文件，sh文件是类Linux 系统的Shell。
+
+ * runSvr.bat  (类Linux Shell: runSvr.sh)
+ 最简单的方式运行服务器，服务器会通过控制台调用Java虚拟机（JRE），然后启动。会把所有日志写入文件的同时，也输出到控制台
+
+ * runSvr_background.bat (类Linux Shell: runSvr_SSH.sh)
+ 在运行完毕正确之后，不想看到前台有一个控制台，就可以运行一个程序到后台。shell还可以运行在Linux SSH上。
+
+ * run_frame.bat (类Linux Shell: run_frame.sh)
+ 运行集成配置工具，多人共用服务器的时候使用。具体见[http://code.google.com/p/yuchberry/wiki/Integration_Config_tool 这里]
+
+这些都是文本文件，可以用记事本打开查看。
