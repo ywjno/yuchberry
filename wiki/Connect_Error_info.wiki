@@ -95,7 +95,8 @@ _ 有些条目是我长时间测试所得的结论，没有官方文档，如果
 
 在命令行窗口的状态下也会用眼睛看到，但是复制不出来。
 
-  * * illeagel client* 用户密码填写错误。
+  * * illeagel client* 
+  用户密码填写错误，或者使用了不正确的客户端连接了服务器，yuchberry每次放出的时候，都做了版本控制，版本不一致的客户端连接，会输出这个错误。
 
   * * Cant find default namespace* 
   * * Invalid INBOX folder*
