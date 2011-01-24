@@ -41,7 +41,9 @@
 *Q：*我遇到了问题怎么办？现在的yuchberry满足不了我的要求怎么办？<br>
 *A：*可以到[http://code.google.com/p/yuchberry/issues/list 这个页面]中找到是否有其他人问过类似的问题，或者提问，或者提出修改建议。当然也可以发邮件给我 yuchting@gmail.com 进行询问，当然，也可以[http://code.google.com/p/yuchberry/wiki/Sponsor_yuchberry 赞助]获得技术支持和二次开发。
 
-
-
 * 原理解说视频 *<br>
 <wiki:gadget url="http://yuchberry.googlecode.com/files/intro_video_gadget.xml" width="480" height="400" border=0 up_projectName="intro" />
+
+== Wiki 文档列表 ==
+[http://code.google.com/p/yuchberry/wiki/Use_introduction 使用指南]  <br />[http://code.google.com/p/yuchberry/wiki/Thanks_sheet 感谢名单]   <br />[http://code.google.com/p/yuchberry/wiki/Beta_Report Beta测试报告]  <br />[http://code.google.com/p/yuchberry/wiki/Location_Mail 利用位置信息]<br />
+[http://code.google.com/p/yuchberry/wiki/fill_APN 如何填写APN等信息]<br />[http://code.google.com/p/yuchberry/wiki/Connect_Error_info 错误信息处理]<br />[http://code.google.com/p/yuchberry/wiki/ADSL_DDNS_yuchberry ADSL主机配置]<br />[pttp://code.google.com/p/yuchberry/wiki/Independent_Host_yuchberry 独立主机配置]<br />[http://code.google.com/p/yuchberry/wiki/run_server_bat 运行程序介绍]<br />[http://code.google.com/p/yuchberry/wiki/Integration_Config_tool 集成配置工具介绍]<br /> [http://code.google.com/p/yuchberry/wiki/fill_config_ini 填写config.xml文件]<br />[http://code.google.com/p/yuchberry/wiki/Sponsor_yuchberry 赞助\技术支持\二次开发]<br />[http://code.google.com/p/yuchberry/wiki/Router_DDNS_Config 配置路由器以及DDNS]<br />[http://code.google.com/p/yuchberry/wiki/SSL_yuchberry 配置SSL方式的yuchberry]<br />[http://code.google.com/p/yuchberry/wiki/Why_Open_Source 为什么选择开源]<br />[http://code.google.com/p/yuchberry/wiki/Service_Book OS配置信息]<br />[http://code.google.com/p/yuchberry/wiki/Service_Book ServiceBook简要说明]<br />
