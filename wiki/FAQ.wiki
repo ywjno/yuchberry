@@ -41,7 +41,7 @@
 *Q：*我遇到了问题怎么办？现在的yuchberry满足不了我的要求怎么办？<br>
 *A：*可以到[http://code.google.com/p/yuchberry/issues/list 这个页面]中找到是否有其他人问过类似的问题，或者提问，或者提出修改建议。当然也可以发邮件给我 yuchting@gmail.com 进行询问，当然，也可以[http://code.google.com/p/yuchberry/wiki/Sponsor_yuchberry 赞助]获得技术支持和二次开发。
 
-* 原理解说视频 *<br>
+== 原理解说视频 ==
 <wiki:gadget url="http://yuchberry.googlecode.com/files/intro_video_gadget.xml" width="480" height="400" border=0 up_projectName="intro" />
 
 == Wiki 文档列表 ==
