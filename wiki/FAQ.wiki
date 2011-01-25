@@ -41,6 +41,10 @@
 *Q：*我遇到了问题怎么办？现在的yuchberry满足不了我的要求怎么办？<br>
 *A：*可以到[http://code.google.com/p/yuchberry/issues/list 这个页面]中找到是否有其他人问过类似的问题，或者提问，或者提出修改建议。当然也可以发邮件给我 yuchting@gmail.com 进行询问，当然，也可以[http://code.google.com/p/yuchberry/wiki/Sponsor_yuchberry 赞助]获得技术支持和二次开发。
 
+*Q：*我是Java程序员，我能开发yuchberry么？<br>
+*A：*现在yuchberry纯属个人项目，暂不招募合作开发者，如果你想借此学习Java开发，J2SE，J2ME在yuchberry项目里面均有涉及，可以看看[http://code.google.com/p/yuchberry/wiki/Dev_from_Zero 从零开始编译yuchberry]这篇文档，也许可以从中学习到一些东西。
+
+
 == 原理解说视频 ==
 <wiki:gadget url="http://yuchberry.googlecode.com/files/intro_video_gadget.xml" width="480" height="400" border=0 up_projectName="intro" />
 
