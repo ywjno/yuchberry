@@ -50,7 +50,7 @@
    # 前面有生成过svr.jar，那么打开config.xml配置好自己的邮件帐户，删除无用信息。运行runsvr.bat，等待服务器启动。
    # 在Package Explorer 中选择client45，然后按F11（debug的快捷键），就可以看到一连串的编译，确认，然后客户端模拟器就运行起来了，在等待一会儿，就会出现熟悉的界面，进入yuchberry，填写上你的IP地址，* 不能是127.0.0.1* ，必须是你机器的内网IP，例如192.168.10.20 <br />[http://i.imgur.com/acJ6x.jpg]
   * 在移动设备上运行yuchberry
-  编译出来的yuchberry客户端不能直接安装到手机上，这个就是传说中黑莓代码授权，RIM解释说[http://cn.blackberry.com/developers/javaappdev/codekeys.jsp 解释说]，他们需要监控API的使用情况。于是，需要花费$20买一个授权，才能在手机上运行。此时，如果你花费了大量时间弄好了yuchberry代码，准备编译一个放到手机上运行一下，欣赏一下，这个结果可能让你十分失望吧...
+  编译出来的yuchberry客户端不能直接运行手机上，这个就是传说中黑莓代码授权，RIM[http://cn.blackberry.com/developers/javaappdev/codekeys.jsp 解释说]，他们需要监控API的使用情况。于是，我们就不得不花费$20买一个授权，才能在手机上运行。此时，如果你花费了大量时间弄好了yuchberry代码，准备编译一个myberry放到手机上运行一下，欣赏一下，这个结果可能让你十分失望吧...
    
 == Mod yuchberry客户端 ==
 
