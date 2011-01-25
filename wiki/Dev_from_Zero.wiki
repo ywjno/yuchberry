@@ -1,3 +1,21 @@
-#summary One-sentence summary of this page.
-
 = 从零开始编译yuchberry =
+
+首先这篇文档不是写给高手看的，是写给小白看的。原因有二：首先，我不是高手；其二，小白看得懂的话，高手就更不用说了。
+
+首先由个前提，你得是Windows的，因为我还不知道RIM是否有针对Linux出过SDK和模拟器，所以首先得找台WindowsXP的系统作为你的开发用机。
+
+现在，怎么把大象装进冰箱呢？
+
+ * 签出代码
+  * 安装SVN
+  你可以选择命令行的方式签出代码[http://www.sliksvn.com/en/download SlikSVN]，也可以选择 [http://tortoisesvn.net/downloads TortoiseSVN] 这个图形配置界面，如果你不知道什么是SVN，签出完代码之后请自行搜索，补充知识。
+  * 签出yuchberry住版本代码
+  点击Google Project Hosting 的Source 来到[http://code.google.com/p/yuchberry/source/checkout 这个页面] 然后找到签出的地址：<pre>        http://yuchberry.googlecode.com/svn/trunk/ yuchberry-read-only </pre>然后如图建立自己的工作目录，签出自己代码
+
+[http://i.imgur.com/yH1rz.jpg]        [http://i.imgur.com/yZ8eH.jpg]
+
+ * 准备Eclipse开发环境
+  * 下载一堆东西先
+   # 下载 [http://www.eclipse.org/downloads/packages/eclipse-ide-java-developers/heliossr1 Eclipse Java IDE] 解压到一个地方，比如E盘的eclipse文件夹。
+   # 下载 JavaMail 库，解压到eclipse的目录下面的plugins目录下面
+   # 下载 [http://www.dom4j.org/download.html Dom4J] 库，解压到eclipse的目录下面的plugins目录下面
