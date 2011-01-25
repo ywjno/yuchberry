@@ -1,12 +1,12 @@
 = 从零开始编译yuchberry =
 
-首先这篇文档不是写给高手看的，是写给小白看的。原因有二：首先，我不是高手，更不可能是高手中的高手；其二，小白看得懂的话，高手就更不用说了。
+ 首先这篇文档不是写给高手看的，是写给小白看的。原因有二：首先，我不是高手，更不可能是高手中的高手；其二，小白看得懂的话，高手就更不用说了。
 
-还有个前提，你的系统得是Windows的，因为我不知道RIM是否有针对Linux出过SDK和模拟器，所以首先得找台WindowsXP的系统作为你的开发用机。
+ 还有个前提，你的系统得是Windows的，因为我不知道RIM是否有针对Linux出过SDK和模拟器，所以首先得找台WindowsXP的系统作为你的开发用机。
 
-服务器的最新代码可能有加入更多的库，可能文档不会实时的更新。同时我有时候会把编译不过的代码签入到Google Project Hosting上面，所以如果大家编译不过的时候，请耐心等一下，我更新新的文档和代码。
+ 服务器的最新代码可能有加入更多的库，可能文档不会实时的更新。同时我有时候会把编译不过的代码签入到Google Project Hosting上面，所以如果大家编译不过的时候，请耐心等一下，我更新新的文档和代码。
 
-现在，怎么把大象装进冰箱呢？
+ 现在，怎么把大象装进冰箱呢？
 
 == 签出代码 == 
   * 安装SVN
@@ -43,16 +43,18 @@
    # 如果你的系统默认的语言是中文（有点像废话），由于RIM的一个bug，必须拷贝 eclipse\plugins\net.rim.ejde.componentpack6.0.0_6.0.0.29\components\bin\preverify.exe 到 4.5、4.6、4.7、5.0的相同位置下面覆盖相同的文件，不然会编译不过。这个方法解决 local 问题，在网上也能搜到。
   这样所有yuchberry客户端版本的开发环境就已经架设完毕。
 
-  * 编译运行yuchberry
+  * 编译并在模拟器运行yuchberry
    首先你* 非常了解yuchberry* ，使用过一段时间，知道如何填写config.xml文件，同时知道如何设置客户端。如果作为一个开发者，连自己的产品配置都不了解，那一定是不合格的。
    # 上面的添加ee文件的时候看到过一个界面：在Package Explorer 选中client45工程，然后右键菜单中选择 Propertise 然后 Run/Debugging -> client45 -> Edit...<br />[http://i.imgur.com/vvHWy.jpg]<br />然后可以变换模拟器的机器型号。
    # 如果你选择运行8310的客户端，那么就用打开 eclipse\plugins\net.rim.ejde.componentpack4.5.0_4.5.0.21\components\simulator\8310.xml 文件，在后面加上 <pre><Application>net.rim.blackberry.lang.zh_CN_Pinyin</Application></pre><pre><Application>net.rim.blackberry.lang.zh_CN.renderingSupport</Application></pre>此举是为了让模拟器能用上中文。
    # 前面有生成过svr.jar，那么打开config.xml配置好自己的邮件帐户，删除无用信息。运行runsvr.bat，等待服务器启动。
    # 在Package Explorer 中选择client45，然后按F11（debug的快捷键），就可以看到一连串的编译，确认，然后客户端模拟器就运行起来了，在等待一会儿，就会出现熟悉的界面，进入yuchberry，填写上你的IP地址，* 不能是127.0.0.1* ，必须是你机器的内网IP，例如192.168.10.20 <br />[http://i.imgur.com/acJ6x.jpg]
+  * 在移动设备上运行yuchberry
+  编译出来的yuchberry客户端不能直接安装到手机上，这个就是传说中黑莓代码授权，RIM解释说[http://cn.blackberry.com/developers/javaappdev/codekeys.jsp 解释说]，他们需要监控API的使用情况。于是，需要花费$20买一个授权，才能在手机上运行。此时，如果你花费了大量时间弄好了yuchberry代码，准备编译一个放到手机上运行一下，欣赏一下，这个结果可能让你十分失望吧...
    
 == Mod yuchberry客户端 ==
 
-看到这里，首先你要先学习Java，这个过程对任何人都是不一样的，有些人需要0天（他已经是高手了），有些人需要20天速成，有些人需要100天系统的学习。
+ 看到这里，首先你要先学习Java，这个过程对任何人都是不一样的，有些人需要0天（他已经是高手了），有些人需要20天速成，有些人需要100天系统的学习。
    
   
   
