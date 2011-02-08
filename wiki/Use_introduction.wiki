@@ -71,8 +71,6 @@
 
    [http://imgur.com/qL0rm.jpg]
 
-<br/><br/><br/><br/><br/><br/><br/>
-*<font color="red">/////////////////////////////beta2文档   现在beta2还没有放出，请不要阅读下面文档////////////////////////////////////////</font>*
 ==高级设置==
 
     [http://i.imgur.com/7CtMB.jpg]
