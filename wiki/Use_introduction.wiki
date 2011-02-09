@@ -30,7 +30,7 @@
 
    [http://imgur.com/UzKtS.jpg][http://imgur.com/MWNJr.jpg]
 
-  点击后yuchberry会在后台下载附件，继续点击“YuchBerry 打开附件”会告诉现在的进度。附件会默认下载SD卡下面的YuchBerry文件夹下。如果有同名附件文件，会覆盖。
+  点击后yuchberry会在后台下载附件，继续点击“YuchBerry 打开附件”会告诉现在的进度。附件会默认下载SD卡下面的 YuchBerry/AttDir 文件夹下。如果有同名附件文件，会覆盖。
 
    [http://imgur.com/3R6dT.jpg]
 
