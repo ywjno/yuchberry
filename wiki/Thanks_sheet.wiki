@@ -36,6 +36,7 @@
   * geekblackberry@gmail.com 帮助我测试集成管理工具，反馈很多问题、建议。
   * geekblackberry@gmail.com 自带浏览器浏览能中断连接。
   * toyining@gmail.com beta2无法正确设置心跳间隔的bug
+  * 239572278@qq.com beta2 帮助调试bug“在SDCard不存在YuchBerry目录的情况下会假死”
 
 == 严重鸣谢 ==
 
