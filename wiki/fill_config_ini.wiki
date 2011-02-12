@@ -70,7 +70,7 @@
   * *password*
   邮箱密码，当然这个谁都不应该忘记。 例如 password=123456
   * *useFullNameSignIn*
-  是否利用全地址登录邮箱。有些邮箱需要用全地址xxxx@host.com 而不是xxxx作为用户名称。例如hotmail，就貌似需要全地址登录。
+  是否利用全地址登录邮箱。有些邮箱需要用全地址xxxx@host.com 而不是xxxx作为用户名称。例如hotmail，谷歌企业邮箱，就貌似需要全地址登录。
   * *protocol_send*
   发送邮件使用的协议，几乎都是smtp。例如 protocol_send=smtp
   * *host_send*
