@@ -29,7 +29,7 @@ _有些条目是我长时间测试所得的结论，没有官方文档，如果�
 
 在命令行窗口的状态下也会用眼睛看到，但是复制不出来。
 
-  * * illeagel client* 用户密码填写错误。
+  * * illeagel client* 用户密码填写错误，或者是，yuchbery客户端，yuchberry服务器版本号对不上。
 
   * * Cant find default namespace* 
   * * Invalid INBOX folder*
