@@ -1,0 +1,7 @@
+= 兼容断续膏服务器 =
+
+beta2 版本在 UDP 19781端口上已经拥有<font color="red">断续膏服务器</font>的相同功能。
+
+无论你使用的是runSvr.bat的单用户yuchberry服务器（一个或者多个），还是使用的是runFrame.bat的多用户集成管理器，都只会有一个断续膏服务器，但这个已经足够。
+
+在断续膏客户端中填写yuchberry服务器地址，UDP端口 19781 就能修复断网，但是处于内网的yuchberry服务器需要将其端口在路由器中映射出来。配置路由器的映射方法和映射yuchberry端口的步骤一样，但是需要改成UDP的方式，具体方法参见[http://code.google.com/p/yuchberry/wiki/Router_DDNS_Config 这篇文章]。
