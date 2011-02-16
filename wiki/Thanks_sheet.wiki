@@ -2,6 +2,8 @@
 
 兔年新春到，yuchberry在大家的关注和支持下，已经挺过最为艰难的时期。在这里，我作为yuchberry的作者，祝大家新春快乐，阖家幸福！
 
+你如果很喜欢yuchberry，我需要你的帮助，[http://blackberry.csdn.net/DeveloperChallenge2011/works/showDetail/2 投我一票]，奖励资金可以帮助我继续研发，奖励机器可以帮助我拥有调试环境。
+
 = 关于 yuchberry =
 
 没错，这是一款免费、开源的黑莓PushMail软件，和其它免费开源的软件一样，需要使用者有一定的专业知识和钻研精神。当然，yuchberry 配合的有大量的使用文档，同时也有很多排查问题的文档，如果遇到问题，仔细查看这些文档是应该最先使用的方法。
