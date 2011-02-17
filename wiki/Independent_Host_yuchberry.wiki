@@ -16,7 +16,7 @@
   * 登录主机，下载[http://www.java.com/zh_CN/download/manual.jsp Java Runtime Environment 5.0(以上) （jre）]，并进行安装。如果你已经有了Jre，就不需要安装了。判断方法（Windows平台下） ：
    # 开始 -> 运行 -> 输入 cmd -> 输入 java ，如果出现的是一大串英文，而不是“不是内部文件”之类的提示，那么就已经装上了某个版本的java
    # 然后再输入 java -version 如果出现 1.5.x（或者更高版本） 的数字字样，那么就符合要求，不然就需要去重现下载安装。
-   # 如果是Linux VPS(SSH)，那么请优先选择[http://publib.boulder.ibm.com/infocenter/tivihelp/v24r1/index.jsp?topic=/com.ibm.itm.doc/itm_install133.htm IBM的jre]，因为它运行需要更少的内存。
+   # 如果是Linux VPS(SSH)，那么请优先选择[http://www.ibm.com/developerworks/java/jdk/linux/download.html IBM的jre]，因为它运行需要更少的内存。但是好像要注册才能下载。
 
   * [http://code.google.com/p/yuchberry/downloads/list 下载]yuchberry服务器程序到计算机上，解压缩到一个文件夹里面。如果有* 多个用户* 共享这台机器，可以下载 * 集成配置工具 *用于配置，集成配置工具的使用看[http://code.google.com/p/yuchberry/wiki/Integration_Config_tool 这里]。
 
