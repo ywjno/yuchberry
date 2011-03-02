@@ -1,7 +1,4 @@
 ##@##
-
-兔年新春到，yuchberry在大家的关注和支持下，已经挺过最为艰难的时期。在这里，我作为yuchberry的作者，祝大家新春快乐，阖家幸福！
-
 你如果很喜欢yuchberry，我需要你的帮助，[http://blackberry.csdn.net/DeveloperChallenge2011/works/showDetail/2 投我一票]，奖励资金可以帮助我继续研发，奖励机器可以帮助我拥有调试环境。
 
 = 关于 yuchberry =
