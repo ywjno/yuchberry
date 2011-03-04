@@ -38,6 +38,7 @@
   * 239572278@qq.com beta2 帮助调试bug“在SDCard不存在YuchBerry目录的情况下会假死”
   * kfc315@gmail.com SMTP登录的时候不是使用的“是否全名称”选项登录连接、发送的，GApps 邮箱会发送失败
   * nihongoni@gmail.com 英文提示中的一处拼写错误
+  * btworm@gmail.com 提供 4.2系统的编译方法
 
 == 严重鸣谢 ==
 
