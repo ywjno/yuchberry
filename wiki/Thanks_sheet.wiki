@@ -50,6 +50,8 @@
 
   * *RAiN* 贡献OS5.0 断网修复的代码！
 
+  * *zhangjianying666@gmail.com* 阅读yuchberry的代码，并且提出一些问题和改进方案
+
 == 赞助 ==
 
   赞助者们的娟娟溪流也帮助了yuchberry逐渐完善，感谢他们！
