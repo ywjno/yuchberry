@@ -40,12 +40,21 @@ _ 有些条目是我长时间测试所得的结论，没有官方文档，如果
 
 在命令行窗口的状态下也会用眼睛看到，但是复制不出来。
 
+  * * prepare Email account <xxxxx@xxx.com> OK*
+ 表示一个账户中的一个推送用户已经准备好，可以对其进行推送服务了。
+
+  * *some client<xxx.xxx.xxx.xxx> connecting ,waiting for auth* 
+ 一个客户端连接上来了，等待客户端的用户密码。
+
+  * *some client connect IP<xxx.xxx.xxx.xxx>*
+ 客户端发送了正确的用户密码，已经和客户端建立起了连接。
+
   * * illeagel client* 
   用户密码填写错误，或者使用了不正确的客户端连接了服务器，yuchberry每次放出的时候，都做了版本控制，版本不一致的客户端连接，会输出这个错误。
 
   * * Cant find default namespace* 
   * * Invalid INBOX folder*
-   无法打开push的邮箱地址的收件箱
+  无法打开push的邮箱地址的收件箱
 
   * 含有 *javax.mail.* 的多行信息。例如下面的
 {{{
@@ -60,4 +69,17 @@ _ 有些条目是我长时间测试所得的结论，没有官方文档，如果
 }}}
   请在谷歌和百度中搜索 JavaMail + 错误信息，例如上面的内容就可以搜索 "JavaMail error fetching POP3 content" 谷歌可以搜索到[http://www.google.com.hk/search?sourceid=chrome&ie=UTF-8&q=JavaMail+error+fetching+POP3+content 这些内容] ,就可以知道想要推送的邮箱服务器有些什么问题了。
 
-   * * 可能出现的邮件乱码问题* 需要在服务器的配置中（例如windows），吧默认语言改成中文的。具体步骤是：控制面板－区域和文字选项－区域选项－默认全选中国。linux用户请自行探索。
+  * *java.net.SocketException: Socket closed* 
+ 服务器和客户端连接的时候收到某种因素的影响，断开了链接，有可能是GPRS基站断开，也有可能是手机主动断开（断网、关闭等等），服务器所产生的输出日志，很正常，因为我们使用的不是专有的GPRS通道。
+
+  * *receive package head < 7 > length< 1 >*
+  在没有收到邮件，客户端有长期的保持连接的时候，这个服务器输出信息，就是所谓的 “心跳包” （不懂的看[http://code.google.com/p/yuchberry/wiki/Use_introduction 这里]）
+
+  * *xxxx@xxx.com send mail<xxxx : simpleHash<xxxxxxxx 邮件标题>,wait confirm...*
+  表示推送了一封邮件，等待客户端发送收到邮件的确认消息。
+
+  * *yuchting@gmail.com Mail Index< xxxx > confirmed*
+  表示服务器收到客户端收到了信件的确认消息。
+
+   * * 可能出现的邮件乱码问题* 
+ 需要在服务器的配置中（例如windows），吧默认语言改成中文的。具体步骤是：控制面板－区域和文字选项－区域选项－默认全选中国。linux用户请自行探索。
