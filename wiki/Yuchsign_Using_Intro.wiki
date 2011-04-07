@@ -2,6 +2,8 @@
 
 ==说在最前==
 
+ _ 如果你冒失的走到了这个页面，并且不知道Yuchberry是什么，如何工作，请仔细阅读[http://code.google.com/p/yuchberry/wiki/FAQ FAQ]，弄清楚这个东西是做什么的，自己可否搭建服务器等等_
+
 由于在前3次 yuchberry 的测试过程中（alpha、beta、beta2），发现除了有条件的高级用户之外，都是对集中提供中转服务的需求比较大。我前几次提供的VPS测试服务器，都需要通过Email发送申请，我手动在服务器上配置，不但效率低下，账户安全也无法保障。再者，我的测试方法，无法实现小额收费，集体租用服务器，只能靠我自己收入租用。
 
 “统一的注册机制、收费机制，然后积少成多，再将钱汇集起来租用好的服务器，让大家集中使用”便成了我急需解决的问题。
@@ -34,6 +36,16 @@
 
  [http://i.imgur.com/0ogvz.jpg]
 
- 其中有些最基本的用户信息，这些信息都是存储在注册服务器里面的，在手工同步之后，才会发送给中转服务器，中转服务器产生账户信
+ 其中有些最基本的用户信息，这些信息都是存储在注册服务器里面的，在手工同步之后，才会发送给中转服务器，中转服务器产生账户信息，等待手机连接上来，完成推送。
 
+ 在* 账户推送* 页面，用户可以根据自己的配置添加推送账户：
 
+ [http://i.imgur.com/q792n.jpg]
+
+ 可以推送的账户数量是和* 用户等级* 有关系的，设置这个属性的原因是推送越多的账户，那么消耗的流量也就越多，相应占用的资源也就越多，同时也就需要支付更多的费用。
+
+ YuchSign提供一个星期（168小时）的试用时间，最主要的原因是，到现在发现，不是每一种BB都能正常的使用yuchberry软件，可以看[http://code.google.com/p/yuchberry/issues/detail?id=95&colspec=ID%20Type%20Status%20Priority%20Stars%20Summary 这里]、[http://code.google.com/p/yuchberry/issues/detail?id=77&colspec=ID%20Type%20Status%20Priority%20Stars%20Summary 这里]、[http://code.google.com/p/yuchberry/issues/detail?id=67&colspec=ID%20Type%20Status%20Priority%20Stars%20Summary 这里]来了解细节。
+
+ 有一点需要着重说明的：<font color="red">YuchSign 不会因为你是试用、最低的等级用户，就降低服务质量。</font>换句话说，就是，<font color="red">如果你在使用期间内无法使用、推送速度慢、收不到邮件，那么你在付费之后，也是一样的无法使用、推送速度慢、收不到邮件。</font>
+
+ 
