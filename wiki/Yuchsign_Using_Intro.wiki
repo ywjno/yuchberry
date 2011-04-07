@@ -1,4 +1,4 @@
-= 邮件中转服务使用指南 =
+= 邮件中转服务(YuchSign)使用指南 =
 
 ==说在最前==
 
@@ -30,22 +30,37 @@
 
  他使用随机的中文大写数字组合图片，让人填写正确的阿拉伯数字，如果去过银行汇过款的莓友，肯定不会陌生。
 
-== 用户面板 ==
+== 用户管理面板 ==
 
- 注册、登录完成之后，会进入YuchSign的简单用户管理界面（同步之后的图片）：
+ * * 账户属性*
 
- [http://i.imgur.com/0ogvz.jpg]
+  注册、登录完成之后，会进入YuchSign的简单用户管理界面（同步之后的图片）：
 
- 其中有些最基本的用户信息，这些信息都是存储在注册服务器里面的，在手工同步之后，才会发送给中转服务器，中转服务器产生账户信息，等待手机连接上来，完成推送。
+  [http://i.imgur.com/0ogvz.jpg]
 
- 在* 账户推送* 页面，用户可以根据自己的配置添加推送账户：
+  其中有些最基本的用户信息，这些信息都是存储在注册服务器里面的，在手工同步之后，才会发送给中转服务器，中转服务器产生账户信息，等待手机连接上来，完成推送。
 
- [http://i.imgur.com/q792n.jpg]
+ * * 推送列表*
 
- 可以推送的账户数量是和* 用户等级* 有关系的，设置这个属性的原因是推送越多的账户，那么消耗的流量也就越多，相应占用的资源也就越多，同时也就需要支付更多的费用。
+  在推送列表页面，用户可以根据自己的配置添加推送账户：
 
- YuchSign提供一个星期（168小时）的试用时间，最主要的原因是，到现在发现，不是每一种BB都能正常的使用yuchberry软件，可以看[http://code.google.com/p/yuchberry/issues/detail?id=95&colspec=ID%20Type%20Status%20Priority%20Stars%20Summary 这里]、[http://code.google.com/p/yuchberry/issues/detail?id=77&colspec=ID%20Type%20Status%20Priority%20Stars%20Summary 这里]、[http://code.google.com/p/yuchberry/issues/detail?id=67&colspec=ID%20Type%20Status%20Priority%20Stars%20Summary 这里]来了解细节。
+  [http://i.imgur.com/q792n.jpg]
 
- 有一点需要着重说明的：<font color="red">YuchSign 不会因为你是试用、最低的等级用户，就降低服务质量。</font>换句话说，就是，<font color="red">如果你在使用期间内无法使用、推送速度慢、收不到邮件，那么你在付费之后，也是一样的无法使用、推送速度慢、收不到邮件。</font>
+  可以推送的账户数量是和* 用户等级* 有关系的，设置这个属性的原因是推送越多的账户，那么消耗的流量也就越多，相应占用的资源也就越多，同时也就需要支付更多的费用。
+
+  YuchSign提供一个星期（168小时）的试用时间，最主要的原因是，到现在发现，不是每一种BB都能正常的使用yuchberry软件，可以看[http://code.google.com/p/yuchberry/issues/detail?id=95&colspec=ID%20Type%20Status%20Priority%20Stars%20Summary 这里]、[http://code.google.com/p/yuchberry/issues/detail?id=77&colspec=ID%20Type%20Status%20Priority%20Stars%20Summary 这里]、[http://code.google.com/p/yuchberry/issues/detail?id=67&colspec=ID%20Type%20Status%20Priority%20Stars%20Summary 这里]来了解细节。
+
+  有一点需要着重说明的：<font color="red">YuchSign 不会因为你是试用、最低的等级用户，就降低服务质量，反之亦然。</font>换句话说，就是，如果你在使用期间内无法使用、推送速度慢、收不到邮件，那么你在付费之后，也是一样的无法使用、推送速度慢、收不到邮件。
+
+ * * 查询日志*
+
+  在 查询日志 面板中，可以获取账户所在的中转服务器上的日志，这些日志信息不是全部的，最多只有4096个字节长。
+
+  [http://i.imgur.com/D1UjH.jpg]
+
+== 同步中转服务器 ==
+
+  当用户在YuchSign上面注册了之后，是无法获取正确中转服务器的信息来配置客户端的，需要使用到一个*
+
 
  
