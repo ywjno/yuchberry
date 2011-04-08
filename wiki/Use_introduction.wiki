@@ -73,7 +73,7 @@
 
 ==高级设置==
 
-    [http://i.imgur.com/YQdm1.png]
+    [http://i.imgur.com/FpKPe.png]
 
   * 访问点APN 
   * 链接后缀 
@@ -86,8 +86,8 @@
   所以基于专有GPRS通道的BES、BIS，做到既省电又能保证邮件即时到达的根本原因便在于此。
   * 使用SSL
   详细见[http://code.google.com/p/yuchberry/wiki/SSL_yuchberry 这里]
-  * 强制使用TCP（完全忽略MDS）
-  默认是不选择的，在MDS存在的情况下走MDS网络，如果没有MDS，就选择TCP直接连接。如果勾选上了，就强制使用TCP，不选择MDS。[http://www.google.com.hk/search?hl=zh-CN&newwindow=1&safe=strict&q=MDS+Blackberry&aq=f&aqi=g10&aql=&oq= 什么是MDS]
+  * 考虑使用MDS
+  默认是不选择的，只使用TCP，不选择MDS；如果选择，就会在MDS存在的情况下走MDS网络，当然，系统会判断，如果没有MDS，就选择TCP直接连接。[http://www.google.com.hk/search?hl=zh-CN&newwindow=1&safe=strict&q=MDS+Blackberry&aq=f&aqi=g10&aql=&oq= 什么是MDS]
   * 使用WIFI
   由于本人只有8310，所以wifi是测试不到了，但是按照开发文档的说明，我加上了功能。上天保佑，它能用。
   * 开机自动连接
