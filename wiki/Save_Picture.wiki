@@ -8,3 +8,5 @@
 [http://i.imgur.com/budZ9.jpg]
 [http://i.imgur.com/RIlfZ.jpg]
 [http://i.imgur.com/LN2Sa.jpg]
+
+<wiki:gadget url="http://yuchberry.googlecode.com/files/yuchsign_embed.xml" height="800" width="600" border="0" /> 
