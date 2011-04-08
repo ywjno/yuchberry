@@ -2,11 +2,11 @@
 
 ==说在最前==
 
- _ 如果你冒失的走到了这个页面，并且不知道Yuchberry是什么，如何工作，请仔细阅读[http://code.google.com/p/yuchberry/wiki/FAQ FAQ]，弄清楚这个东西是做什么的，自己可否搭建服务器等等_
+ _ 如果你不小心的走到了这个页面，并且不知道Yuchberry是什么、如何工作，请仔细阅读[http://code.google.com/p/yuchberry/wiki/FAQ FAQ]，弄清楚这个东东是做什么的。_
 
-由于在前3次 yuchberry 的测试过程中（alpha、beta、beta2），发现除了有条件的高级用户之外，都是对集中提供中转服务的需求比较大。我前几次提供的VPS测试服务器，都需要通过Email发送申请，我手动在服务器上配置，不但效率低下，账户安全也无法保障。再者，我的测试方法，无法实现小额收费，集体租用服务器，只能靠我自己收入租用。
+由于在前3次 yuchberry 的测试过程中（alpha、beta、beta2），发现除了有条件的高级用户之外，都是对集中提供中转服务的需求比较大。我前几次提供的VPS测试服务器，都需要通过Email发送申请，我手动在服务器上配置，不但效率低下，账户安全也无法保障。再者，我的测试方法，无法实现小额收费，集体租用服务器，只能靠我自己的其他收入租用。
 
-“统一的注册机制、收费机制，然后积少成多，再将钱汇集起来租用好的服务器，让大家集中使用”便成了我急需解决的问题。
+“统一的注册机制、收费机制，然后积少成多，再将钱汇集起来租用好的服务器，让朋友们集中使用” 便成了我急需解决的问题。
 
 乍一听，的确很像商业化，但是事实上我并未接受过除了[http://code.google.com/p/yuchberry/wiki/Thanks_sheet#赞助 赞助]以外的任何商业化资本，更没有[http://code.google.com/p/yuchberry/wiki/Sponsor_yuchberry 技术支持、二次开发]等方式的付费，有段时间我的确山穷水尽，想放弃yuchberry的后续开发。
 
@@ -20,9 +20,11 @@
 
  [http://i.imgur.com/uDF0t.jpg]
 
- 用户名需要使用唯一的电子邮件地址，虽然没有硬性的邮件地址确认，但是最好使用有效的邮箱地址，因为密码忘记了，还可以通过邮箱找回。密码使用大于6位的数字和字母组合而成。
+ 用户名需要使用唯一有效的电子邮件地址，注册成功之后，系统会发送一封注册激活邮件，点击里面的链接，可以激活当前注册用户，只有激活用户才能继续使用正常的同步功能。
+
+ 密码使用大于6位的数字和字母组合而成。当密码忘记后，可以通知系统并且发送邮件找回密码。
  
- 有一点说明的是我会定期的删除一批没有活动的帐号，以减少数据的容量。（租用的空间也是要钱的）
+ 有一点说明的是：系统会定期的删除一批没有活动的帐号，以减少数据的容量。（租用的空间也是要钱的）
 
  为了防止机器人注册，YuchSign有自己的特殊的验证码机制：
 
@@ -48,9 +50,25 @@
 
   可以推送的账户数量是和* 用户等级* 有关系的，设置这个属性的原因是推送越多的账户，那么消耗的流量也就越多，相应占用的资源也就越多，同时也就需要支付更多的费用。
 
-  YuchSign提供一个星期（168小时）的试用时间，最主要的原因是，到现在发现，不是每一种BB都能正常的使用yuchberry软件，可以看[http://code.google.com/p/yuchberry/issues/detail?id=95&colspec=ID%20Type%20Status%20Priority%20Stars%20Summary 这里]、[http://code.google.com/p/yuchberry/issues/detail?id=77&colspec=ID%20Type%20Status%20Priority%20Stars%20Summary 这里]、[http://code.google.com/p/yuchberry/issues/detail?id=67&colspec=ID%20Type%20Status%20Priority%20Stars%20Summary 这里]来了解细节。
+  YuchSign提供五天（120小时）的试用时间，最主要的原因是，到现在发现，不是每一种BB都能正常的使用yuchberry软件，可以看[http://code.google.com/p/yuchberry/issues/detail?id=95&colspec=ID%20Type%20Status%20Priority%20Stars%20Summary 这里]、[http://code.google.com/p/yuchberry/issues/detail?id=77&colspec=ID%20Type%20Status%20Priority%20Stars%20Summary 这里]、[http://code.google.com/p/yuchberry/issues/detail?id=67&colspec=ID%20Type%20Status%20Priority%20Stars%20Summary 这里]来了解细节。
 
-  有一点需要着重说明的：<font color="red">YuchSign 不会因为你是试用、最低的等级用户，就降低服务质量，反之亦然。</font>换句话说，就是，如果你在使用期间内无法使用、推送速度慢、收不到邮件，那么你在付费之后，也是一样的无法使用、推送速度慢、收不到邮件。
+  有一点需要着重说明的：<font color="red">YuchSign 不会因为你是试用、最低的等级用户，就降低服务质量，反之亦然。</font>换句话说就是，如果你在试用期间内无法使用、推送速度慢、收不到邮件，那么你在付费之后，也是一样的无法使用、推送速度慢、收不到邮件。这也是YuchSign和其他第三方付费邮件系统不一样的地方。
+
+  现在yuchberry只提供邮件一种推送服务，自动配置POP3/IMAP 的邮箱如下：
+{{{
+		"Gmail IMAP SSL,imaps,imap.gmail.com,993,smtp.gmail.com,587"
+		"163邮箱IMAP,imap,imap.163.com,143,smtp.163.com,25"
+		"126邮箱IMAP,imap,imap.126.com,143,smtp.126.com,25"
+		"QQ 邮箱 POP3,pop3,pop.qq.com,110,smtp.qq.com,25"),
+		"雅虎邮箱 POP3,pop3,pop.alibaba.com.cn,110,smtp.alibaba.com.cn,25"
+		"Hotmail POP3 SSL,pop3s,pop3.live.com,995,smtp.live.com,587"
+		"新浪邮箱 POP3,pop3,pop.sina.com,110,smtp.sina.com,25"
+		"139 邮箱 POP3,pop3,pop.139.com,110,smtp.139.com,25"
+		"TOM 邮箱 POP3,pop3,pop.tom.com,110,smtp.tom.com,25"
+		"21CN 邮箱 POP3,pop3,pop.21cn.com,110,smtp.21cn.com,25"
+		"Foxmail POP3,pop3,pop.foxmail.com,110,smtp.foxmail.com,25"
+}}}
+ 推荐使用163、126、gmail的邮箱进行推送。其他地址需要自己手动配置。
 
  * * 查询日志*
 
@@ -60,11 +78,39 @@
 
 == 同步中转服务器 ==
 
+ _ 同步机制在以后的时间里面可能会更改，我会尽量保证机制和说明一直，让大家放心使用。 _
+
  当用户在YuchSign上面注册了之后，是无法获取正确中转服务器的信息来配置客户端的，需要使用到一个* 同步账户* 的功能，将用户在YuchSign账户服务器的信息通知Yuchberry中转服务器群，并且从中间找到一台最合适的主机进行本地化。
 
- 如果同步的账户信息没有问题，那么中转服务器就会返回一个可以使用的端口和地址，通知YuchSign服务器，进而通知用户，用此时才可以使用手持设备，设置yuchberry客户端，链接相应的中转服务器。 过程示意图如下：
+ 如果同步的账户信息没有问题，那么中转服务器就会返回一个可以使用的端口和地址，通知YuchSign服务器，进而通知用户，用此时才可以使用手持设备设置yuchberry客户端，链接相应的中转服务器。 过程示意图如下：
 
  [http://i.imgur.com/CTXDz.jpg]
+
+ 中转服务器群没有任何账户的注册信息，仅仅会在YuchSign 服务器通知他的时候，会将账户的推送列表中的邮箱地址进行测试、添加，最后返回给YuchSign服务器，最后反馈给用户。
+
+ 中转服务器群探测本地账户的链接信息（用户使用手持设备链接），如果在<font color="red">3天（72小时）内</font>，没有任何有效的yuchberry客户端链接，就会删除本地的账户信息，以维持自己的资源被有效利用。
+
+ 下图是正在同步的时候：
+
+ [http://i.imgur.com/LzKeL.jpg]
+
+ 同步成功后会把中转主机地址、端口返回给用户：
+
+ [http://i.imgur.com/gE1VJ.jpg]
+
+== 配置客户端 ==
+
+ 按照上面最后一张图上的用户信息：
+
+ [http://i.imgur.com/TBMku.jpg]
+
+ 便可以在客户端配置相应的主机地址、端口和用户密码，然后进行连接测试。如果连接遇到问题，可以打开 客户端的“诊断信息”查看错误信息，同时可以在 YuchSign的* 检查日志* 面板里面查看服务器的日志，在[http://code.google.com/p/yuchberry/wiki/Connect_Error_info 这里]可以找到对应的问题，以及解决方法。
+
+== 账户充值时间、等级 ==
+
+ 在5天的免费试用期到了之后，如果发现用户仍然在使用，系统以推送账户的名义发送一封提醒邮件，提醒用户，同时暂停用户的账户推送，直到用户充值时间，一旦充值时间成功，大多数情况下，YuchSign会通知中转服务器，开启用户推送，但是某些情况下，需要用户手动同步一下。
+
+ 充值时间的费用和用户等级有关，如果
 
 
  
