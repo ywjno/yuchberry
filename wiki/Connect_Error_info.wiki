@@ -73,7 +73,7 @@ _ 有些条目是我长时间测试所得的结论，没有官方文档，如果
   请在谷歌和百度中搜索 JavaMail + 错误信息，例如上面的内容就可以搜索 "JavaMail error fetching POP3 content" 谷歌可以搜索到[http://www.google.com.hk/search?sourceid=chrome&ie=UTF-8&q=JavaMail+error+fetching+POP3+content 这些内容] ,就可以知道想要推送的邮箱服务器有些什么问题了。
 
   * *java.net.SocketException: Socket closed* 
- 服务器和客户端连接的时候收到某种因素的影响，断开了链接，有可能是GPRS基站断开，也有可能是手机主动断开（断网、关闭等等），服务器所产生的输出日志，很正常，因为我们使用的不是专有的GPRS通道。
+   服务器和客户端连接的时候收到某种因素的影响，断开了链接，有可能是GPRS基站断开，也有可能是手机主动断开（断网、关闭等等），服务器所产生的输出日志，很正常，因为我们使用的不是专有的GPRS通道。
 
   * *receive package head < 7 > length< 1 >*
   在没有收到邮件，客户端有长期的保持连接的时候，这个服务器输出信息，就是所谓的 “心跳包” （不懂的看[http://code.google.com/p/yuchberry/wiki/Use_introduction 这里]）
@@ -83,6 +83,16 @@ _ 有些条目是我长时间测试所得的结论，没有官方文档，如果
 
   * *yuchting@gmail.com Mail Index< xxxx > confirmed*
   表示服务器收到客户端收到了信件的确认消息。
+
+  * * xxxx@xxx.com Mail <时间戳> send Succ/Failed*
+  服务器收到客户端将要发送的信件，并且发送完毕（后面如果是Succ就是成功，Failed就是失败）
+
+  * *send msgMailAttach mailIndex:(全局邮件索引) attachIndex:(附件索引) startIndex:(附件文件块索引) size:512 first:113*
+  服务器收到客户端的请求，向客户端发送的文件块日志，服务器会飞快的发送很多个文件块，GPRS中转可能会变慢，不同步是正常的。
+
+  * *recv msgMailAttach time:(时间戳) beginIndex:（文件块索引）size:(大小)*
+  服务器收到客户端发送的附件的文件块信息。
+  
 
    * * 可能出现的邮件乱码问题* 
  需要在服务器的配置中（例如windows），吧默认语言改成中文的。具体步骤是：控制面板－区域和文字选项－区域选项－默认全选中国。linux用户请自行探索。
