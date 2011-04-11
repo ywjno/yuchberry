@@ -45,16 +45,19 @@ _ 有些条目是我长时间测试所得的结论，没有官方文档，如果
  表示你配置的端口已经有一个程序正在使用了，重新配置一下推送端口；或者找到使用这个端口的程序，停止它。
 
   * * prepare Email account <xxxxx@xxx.com> OK*
- 表示一个账户中的一个推送用户已经准备好，可以对其进行推送服务了。
+  表示一个账户中的一个推送用户已经准备好，可以对其进行推送服务了。
 
   * *some client<xxx.xxx.xxx.xxx> connecting ,waiting for auth* 
- 一个客户端连接上来了，等待客户端的用户密码。
+  一个客户端连接上来了，等待客户端的用户密码。
 
   * *some client connect IP<xxx.xxx.xxx.xxx>*
- 客户端发送了正确的用户密码，已经和客户端建立起了连接。
+  客户端发送了正确的用户密码，已经和客户端建立起了连接。
 
   * * illeagel client* 
   用户密码填写错误，或者使用了不正确的客户端连接了服务器，yuchberry每次放出的时候，都做了版本控制，版本不一致的客户端连接，会输出这个错误。
+
+  * * error version client*
+  错误版本的客户端连接上来了，需要更新一下正确的客户端。
 
   * * Cant find default namespace* 
   * * Invalid INBOX folder*
