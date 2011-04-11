@@ -9,4 +9,19 @@
 [http://i.imgur.com/RIlfZ.jpg]
 [http://i.imgur.com/LN2Sa.jpg]
 
+
+=免费推送黑莓个人邮件=
+
+现在最新的版本为 1.0.xxx <font color="red">正式版</font>。Bug修复、功能改进参见[http://code.google.com/p/yuchberry/wiki/Promote_list 这里]。
+
+==概括==
+
+<font color="red">强烈建议先看这个</font>:快速[http://code.google.com/p/yuchberry/wiki/FAQ 问与答FAQ]，帮助你了解yuchberry是如何推送邮件的，如何配置的。注册机制是如何和yuchberry配合使用的。
+
+[http://code.google.com/p/yuchberry/downloads/list 下载]yuchberry客户端、服务器程序
+
+[http://code.google.com/p/yuchberry/wiki/Thanks_sheet 感谢名单]、[http://code.google.com/p/yuchberry/wiki/Sponsor_yuchberry 赞助yuchberry]
+
+==YuchSign注册系统==
+下面是YuchSign注册系统，新手强力建议先看[http://code.google.com/p/yuchberry/wiki/Yuchsign_Using_Intro 使用说明]，看不到下面的朋友请访问[http://yuchberrysign.yuchberry.info 这里]。
 <wiki:gadget url="http://yuchberry.googlecode.com/files/yuchsign_embed.xml" height="800" width="600" border="0" /> 
