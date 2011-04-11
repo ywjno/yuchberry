@@ -23,5 +23,5 @@
 [http://code.google.com/p/yuchberry/wiki/Thanks_sheet 感谢名单]、[http://code.google.com/p/yuchberry/wiki/Sponsor_yuchberry 赞助yuchberry]
 
 ==YuchSign注册系统==
-下面是YuchSign注册系统，新手强力建议先看[http://code.google.com/p/yuchberry/wiki/Yuchsign_Using_Intro 使用说明]，看不到下面的朋友请访问[http://yuchberrysign.yuchberry.info 这里]。
+下面是YuchSign注册系统，新手强力建议先看[http://code.google.com/p/yuchberry/wiki/Yuchsign_Using_Intro 使用说明]，看不到下面的朋友请访问<a href="http://yuchberrysign.yuchberry.info" target=_blank> 这里</a>。
 <wiki:gadget url="http://yuchberry.googlecode.com/files/yuchsign_embed.xml" height="800" width="600" border="0" /> 
