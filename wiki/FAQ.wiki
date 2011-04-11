@@ -1,7 +1,8 @@
 #labels Featured
 =*FAQ*=
+<wiki:toc max_depth="2" /> 
 
- ==YuchBerry==
+==YuchBerryFAQ==
 
 *Q：* 什么是yuchberry？<br>
 *A：*yuchberry分为客户端和服务端软件，主要功能是利用具有一般Internet访问功能的黑莓手机，和一台处于Internet广域网的个人主机，高效、快捷、安全的*推送个人邮件*。
@@ -46,7 +47,7 @@
 *Q：*我是Java程序员，我能开发yuchberry么？<br>
 *A：*现在yuchberry纯属个人项目，暂不招募合作开发者，如果你想借此学习Java开发，J2SE，J2ME在yuchberry项目里面均有涉及，可以看看[http://code.google.com/p/yuchberry/wiki/Dev_from_Zero 从零开始编译yuchberry]这篇文档，也许可以从中学习到一些东西。
 
- ==YuchSign==
+==YuchSignFAQ==
 
 *Q：*YuchSign 是什么？是独立的软件么？<br>
 *A：*YuchSign是一个是基于Java servlet的网页程序，它的单独存在什么有任何意义的，它需要和YuchBerry服务器（多账户配置工具）结合起来使用，完成服务。它提供账户的注册，信息保存，和YuchBerry服务器通讯，生成可以连接的主机信息。具体介绍可以看[http://code.google.com/p/yuchberry/wiki/Yuchsign_Using_Intro 这里]
@@ -66,7 +67,9 @@
 
 
 == Wiki 文档列表 ==
-[http://code.google.com/p/yuchberry/wiki/Use_introduction 使用指南]  <br />[http://code.google.com/p/yuchberry/wiki/Thanks_sheet 感谢名单]   <br />[http://code.google.com/p/yuchberry/wiki/Beta_Report Beta测试报告]  <br />[http://code.google.com/p/yuchberry/wiki/Location_Mail 利用位置信息]<br />
-[http://code.google.com/p/yuchberry/wiki/fill_APN 如何填写APN等信息]<br />[http://code.google.com/p/yuchberry/wiki/Connect_Error_info 错误信息处理]<br />[http://code.google.com/p/yuchberry/wiki/ADSL_DDNS_yuchberry ADSL主机配置]<br />[http://code.google.com/p/yuchberry/wiki/Independent_Host_yuchberry 独立主机配置]<br />[http://code.google.com/p/yuchberry/wiki/run_server_bat 运行程序介绍]<br />[http://code.google.com/p/yuchberry/wiki/Integration_Config_tool 集成配置工具介绍]<br /> [http://code.google.com/p/yuchberry/wiki/fill_config_ini 填写config.xml文件]<br />[http://code.google.com/p/yuchberry/wiki/Sponsor_yuchberry 赞助\技术支持\二次开发]<br />[http://code.google.com/p/yuchberry/wiki/Router_DDNS_Config 配置路由器以及DDNS]<br />[http://code.google.com/p/yuchberry/wiki/SSL_yuchberry 配置SSL方式的yuchberry]<br />[http://code.google.com/p/yuchberry/wiki/Why_Open_Source 为什么选择开源]<br />[http://code.google.com/p/yuchberry/wiki/Service_Book OS配置信息]<br />[http://code.google.com/p/yuchberry/wiki/Service_Book ServiceBook简要说明]<br />
+[http://code.google.com/p/yuchberry/wiki/Use_introduction 使用指南]<br />
+[http://code.google.com/p/yuchberry/wiki/Thanks_sheet 感谢名单]<br />
+[http://code.google.com/p/yuchberry/wiki/Beta_Report Beta测试报告]  <br />[http://code.google.com/p/yuchberry/wiki/Location_Mail 利用位置信息]<br />
+[http://code.google.com/p/yuchberry/wiki/fill_APN 如何填写APN等信息]<br />[http://code.google.com/p/yuchberry/wiki/Connect_Error_info 错误信息处理]<br />[http://code.google.com/p/yuchberry/wiki/ADSL_DDNS_yuchberry ADSL主机配置]<br />[http://code.google.com/p/yuchberry/wiki/Independent_Host_yuchberry 独立主机配置]<br />[http://code.google.com/p/yuchberry/wiki/Use_introduction 客户端使用介绍]<br />[http://code.google.com/p/yuchberry/wiki/run_server_bat 运行程序介绍]<br />[http://code.google.com/p/yuchberry/wiki/Integration_Config_tool 集成配置工具介绍]<br /> [http://code.google.com/p/yuchberry/wiki/fill_config_ini 填写config.xml文件]<br />[http://code.google.com/p/yuchberry/wiki/Sponsor_yuchberry 赞助\技术支持\二次开发]<br />[http://code.google.com/p/yuchberry/wiki/Router_DDNS_Config 配置路由器以及DDNS]<br />[http://code.google.com/p/yuchberry/wiki/SSL_yuchberry 配置SSL方式的yuchberry]<br />[http://code.google.com/p/yuchberry/wiki/Why_Open_Source 为什么选择开源]<br />[http://code.google.com/p/yuchberry/wiki/Service_Book OS配置信息]<br />[http://code.google.com/p/yuchberry/wiki/Service_Book ServiceBook简要说明]<br />
 [http://code.google.com/p/yuchberry/wiki/Dev_from_Zero 从零开始编译yuchberry]<br />
 [http://code.google.com/p/yuchberry/wiki/User_Agreement_YuchberrySign YuchSign用户使用协议]<br />[http://code.google.com/p/yuchberry/wiki/Yuchsign_Using_Intro YuchSign使用说明]
