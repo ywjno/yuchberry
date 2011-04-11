@@ -88,6 +88,9 @@ _ 有些条目是我长时间测试所得的结论，没有官方文档，如果
   * * xxxx@xxx.com Mail <时间戳> send Succ/Failed*
   服务器收到客户端将要发送的信件，并且发送完毕（后面如果是Succ就是成功，Failed就是失败）
 
+  * * start download attachFile:xxxx_x_att *
+   开始下载附件文件，第几封邮件的第几个附件。
+
   * *send msgMailAttach mailIndex:(全局邮件索引) attachIndex:(附件索引) startIndex:(附件文件块索引) size:512 first:113*
   服务器收到客户端的请求，向客户端发送的文件块日志，服务器会飞快的发送很多个文件块，GPRS中转可能会变慢，不同步是正常的。
 
