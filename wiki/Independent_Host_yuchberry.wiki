@@ -1,5 +1,6 @@
 #labels Phase-Deploy
 = 独立主机配置 =
+<wiki:toc max_depth="2" />
 
 *这个方法对实时性要求更高的中小企业用户。*
 
@@ -26,6 +27,8 @@
    # 如果是Windows ，请确保防火墙允许这些端口进行连接。具体步骤帮助，请搜索“windows防火墙例外”。
 
   * 运行服务器程序，如果出现"prepare account OK"字样，祝贺你，服务器配置成功了。
+
+  * 如果出现问题，请到[http://code.google.com/p/yuchberry/wiki/Connect_Error_info#服务器条目 这里]排查问题所在。
 
 == 配置客户端 ==
 
