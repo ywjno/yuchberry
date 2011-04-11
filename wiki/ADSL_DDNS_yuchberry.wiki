@@ -1,6 +1,6 @@
 #labels Phase-Deploy
 = 配置 ADSL + DDNS 方式的 yuchberry =
-<wiki:toc max_depth="2">
+<wiki:toc max_depth="2" />
 
 *该方法适用于拥有ADSL拨号上网方式的个人用户使用。*
 
