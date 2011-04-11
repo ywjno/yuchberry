@@ -4,6 +4,8 @@
 
 == beta 之后 ==
 
+  具体的beta测试报告在[http://code.google.com/p/yuchberry/wiki/Beta_Report 这里]
+
    # ~~ 加上启动快捷键Y ~~
    # ~~ 服务器需要加上“到期时间提醒邮件”发送功能 ~~
    # ~~ 客户端加入开机启动的选项 ~~
