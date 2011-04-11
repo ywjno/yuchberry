@@ -1,10 +1,10 @@
 #labels Phase-Deploy
 = 配置 ADSL + DDNS 方式的 yuchberry =
+<wiki:toc max_depth="2">
 
 *该方法适用于拥有ADSL拨号上网方式的个人用户使用。*
 
 ADSL 方式可以让用户获得一个Internet广域网地址（如 114.113.56.82 ），但是这个地址经常变动，用户拨号一次，基本上就会变动一次，所以需要配合DDNS（Dynamic Domain Name System 动态域名解析）来保证客户端始终能找的到服务器，并与其维持链接，从而实现邮件的推送。
-
 
 = 步骤 =
 
@@ -28,6 +28,8 @@ ADSL 方式可以让用户获得一个Internet广域网地址（如 114.113.56.8
    # 如果是Windows ，请确保防火墙允许这些端口进行连接。具体步骤帮助，请搜索“windows防火墙例外”。
 
   * 双击runSvr.bat，运行服务器程序，如果出现"prepare account OK"字样，祝贺你，服务器配置成功了。其他运行方式请看[http://code.google.com/p/yuchberry/wiki/run_server_bat 这里]
+  
+  * 如果出现问题，请到[http://code.google.com/p/yuchberry/wiki/Connect_Error_info#服务器条目 这里]排查问题所在。
 
 == 配置客户端 ==
 
