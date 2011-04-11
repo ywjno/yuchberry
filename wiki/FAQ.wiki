@@ -67,7 +67,6 @@
 
 
 == Wiki 文档列表 ==
-[http://code.google.com/p/yuchberry/wiki/Use_introduction 使用指南]<br />
 [http://code.google.com/p/yuchberry/wiki/Thanks_sheet 感谢名单]<br />
 [http://code.google.com/p/yuchberry/wiki/Beta_Report Beta测试报告]  <br />[http://code.google.com/p/yuchberry/wiki/Location_Mail 利用位置信息]<br />
 [http://code.google.com/p/yuchberry/wiki/fill_APN 如何填写APN等信息]<br />[http://code.google.com/p/yuchberry/wiki/Connect_Error_info 错误信息处理]<br />[http://code.google.com/p/yuchberry/wiki/ADSL_DDNS_yuchberry ADSL主机配置]<br />[http://code.google.com/p/yuchberry/wiki/Independent_Host_yuchberry 独立主机配置]<br />[http://code.google.com/p/yuchberry/wiki/Use_introduction 客户端使用介绍]<br />[http://code.google.com/p/yuchberry/wiki/run_server_bat 运行程序介绍]<br />[http://code.google.com/p/yuchberry/wiki/Integration_Config_tool 集成配置工具介绍]<br /> [http://code.google.com/p/yuchberry/wiki/fill_config_ini 填写config.xml文件]<br />[http://code.google.com/p/yuchberry/wiki/Sponsor_yuchberry 赞助\技术支持\二次开发]<br />[http://code.google.com/p/yuchberry/wiki/Router_DDNS_Config 配置路由器以及DDNS]<br />[http://code.google.com/p/yuchberry/wiki/SSL_yuchberry 配置SSL方式的yuchberry]<br />[http://code.google.com/p/yuchberry/wiki/Why_Open_Source 为什么选择开源]<br />[http://code.google.com/p/yuchberry/wiki/Service_Book OS配置信息]<br />[http://code.google.com/p/yuchberry/wiki/Service_Book ServiceBook简要说明]<br />
