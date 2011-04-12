@@ -29,6 +29,8 @@ ADSL 方式可以让用户获得一个Internet广域网地址（如 114.113.56.8
 
   * 双击runSvr.bat，运行服务器程序，如果出现"prepare account OK"字样，祝贺你，服务器配置成功了。其他运行方式请看[http://code.google.com/p/yuchberry/wiki/run_server_bat 这里]
   
+  * 检查端口是否打开。到[http://www.t1shopper.com/tools/port-scan/ 这里]输入你的IP地址(如果你是花生壳域名，需要用ping命令解析一下域名)和配置的端口，检查是否打开，如果没有打开，检查之前的步骤是否有问题。
+
   * 如果出现问题，请到[http://code.google.com/p/yuchberry/wiki/Connect_Error_info#服务器条目 这里]排查问题所在。
 
 == 配置客户端 ==
