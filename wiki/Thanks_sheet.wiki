@@ -1,5 +1,6 @@
 ##@##
-你如果很喜欢yuchberry，我需要你的帮助，[http://blackberry.csdn.net/DeveloperChallenge2011/works/showDetail/2 投我一票]，奖励资金可以帮助我继续研发，奖励机器可以帮助我拥有调试环境。
+YuchBerry 1.0.584 正式版发布了！
+伴随的还有YuchSign注册机制的测试版发布，去主页上就能看到。
 
 = 关于 yuchberry =
 
@@ -40,6 +41,7 @@
   * nihongoni@gmail.com 英文提示中的一处拼写错误
   * btworm@gmail.com 提供 4.2系统的编译方法
   * bruceliu496@gmail.com 帮助解决 CDMA等手机的 Bad Parameter 问题
+  * 37middle@gmail.com 发现流量统计在重连的时候会算错的bug
 
 == 严重鸣谢 ==
 
