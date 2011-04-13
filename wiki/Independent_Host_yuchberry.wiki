@@ -1,4 +1,5 @@
 #labels Phase-Deploy
+#sidebar Sidebar
 = 独立主机配置 =
 <wiki:toc max_depth="2" />
 
