@@ -1,3 +1,4 @@
+#sidebar Sidebar
 = 改进列表 =
 <wiki:toc max_depth="2"/>
 
