@@ -1,3 +1,4 @@
+#sidebar Sidebar
 = 邮件中转服务(YuchSign)使用指南 =
 <wiki:toc max_depth="3" />
 ==说在最前==
