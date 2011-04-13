@@ -1,4 +1,5 @@
 #labels Phase-Deploy
+#sidebar Sidebar
 = 配置 ADSL + DDNS 方式的 yuchberry =
 <wiki:toc max_depth="2" />
 
