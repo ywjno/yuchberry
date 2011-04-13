@@ -1,18 +1,17 @@
 = 邮件中转服务(YuchSign)使用指南 =
-
+<wiki:toc max_depth="3" />
 ==说在最前==
-
  _ 如果你不小心的走到了这个页面，并且不知道Yuchberry是什么、如何工作，请仔细阅读[http://code.google.com/p/yuchberry/wiki/FAQ FAQ]，弄清楚这个东东是做什么的。_
 
-由于在前3次 yuchberry 的测试过程中（alpha、beta、beta2），发现除了有条件的高级用户之外，对集中提供中转服务的需求比较大。我前几次提供的VPS测试服务器，都需要通过Email发送申请，我手动在服务器上配置，不但效率低下，账户安全也无法保障。再者，我的测试方法，无法实现小额收费，集体租用服务器，只能靠我自己的其他收入租用。
+   由于在前3次 yuchberry 的测试过程中（alpha、beta、beta2），发现除了有条件的高级用户之外，对集中提供中转服务的需求比较大。我前几次提供的VPS测试服务器，都需要通过Email发送申请，我手动在服务器上配置，不但效率低下，账户安全也无法保障。再者，我的测试方法，无法实现小额收费，集体租用服务器，只能靠我自己的其他收入租用。
 
-“统一的注册机制、收费机制，然后积少成多，再将钱汇集起来租用好的服务器，让朋友们集中使用” 便成了我急需解决的问题。
+   “统一的注册机制、收费机制，然后积少成多，再将钱汇集起来租用好的服务器，让朋友们集中使用” 便成了我急需解决的问题。
 
-乍一听，的确很像商业化，但是事实上我并未接受过除了[http://code.google.com/p/yuchberry/wiki/Thanks_sheet#赞助 赞助]以外的任何商业化资本，更没有[http://code.google.com/p/yuchberry/wiki/Sponsor_yuchberry 技术支持、二次开发]等方式的付费，有段时间我的确山穷水尽，想放弃yuchberry的后续开发。
+    乍一听，的确很像商业化，但是事实上我并未接受过除了[http://code.google.com/p/yuchberry/wiki/Thanks_sheet#赞助 赞助]以外的任何商业化资本，更没有[http://code.google.com/p/yuchberry/wiki/Sponsor_yuchberry 技术支持、二次开发]等方式的付费，有段时间我的确山穷水尽，想放弃yuchberry的后续开发。
 
-但是，很多BBer，鼓励我，支持我，我这才反应过来，为什么不自己学习Web编程，让yuchberry能够为更广大的BBer服务？
+     但是，很多BBer，鼓励我，支持我，我这才反应过来，为什么不自己学习Web编程，让yuchberry能够为更广大的BBer服务？
 
-不知道多久以后...
+     不知道多久以后...
 
 == 注册 ==
  
@@ -34,23 +33,21 @@
 
 == 用户管理面板 ==
 
- * * 账户属性*
-
-  注册、登录完成之后，会进入YuchSign的简单用户管理界面（同步之后的图片）：
+ === 账户属性===
+     注册、登录完成之后，会进入YuchSign的简单用户管理界面（同步之后的图片）：
 
   [http://i.imgur.com/0ogvz.jpg]
 
-  其中有些最基本的用户信息，这些信息都是存储在注册服务器（YuchSign）里面的，在手工同步之后，才会发送给中转服务器，中转服务器产生账户信息，等待手机连接上来，完成推送。
+     其中有些最基本的用户信息，这些信息都是存储在注册服务器（YuchSign）里面的，在手工同步之后，才会发送给中转服务器，中转服务器产生账户信息，等待手机连接上来，完成推送。
 
- * * 推送列表*
-
-  在推送列表页面，用户可以根据自己的配置添加推送账户：
+ === 推送列表 ===
+    在推送列表页面，用户可以根据自己的配置添加推送账户：
 
   [http://i.imgur.com/q792n.jpg]
 
-  可以推送的账户数量是和* 用户等级* 有关系的，设置这个属性的原因是推送越多的账户，那么消耗的流量也就越多，相应占用的资源也就越多，同时也就需要支付更多的费用。（下面会说到）
+    可以推送的账户数量是和* 用户等级* 有关系的，设置这个属性的原因是推送越多的账户，那么消耗的流量也就越多，相应占用的资源也就越多，同时也就需要支付更多的费用。（下面会说到）
 
-  YuchSign提供五天（120小时）的试用时间，最主要的原因是，到现在发现，不是每一种BB都能正常的使用yuchberry软件，可以看[http://code.google.com/p/yuchberry/issues/detail?id=95&colspec=ID%20Type%20Status%20Priority%20Stars%20Summary 这里]、[http://code.google.com/p/yuchberry/issues/detail?id=77&colspec=ID%20Type%20Status%20Priority%20Stars%20Summary 这里]、[http://code.google.com/p/yuchberry/issues/detail?id=67&colspec=ID%20Type%20Status%20Priority%20Stars%20Summary 这里]来了解细节。我一直在努力是大多数BB都能使用Yuchberry的服务器，但是总是不能达到100%的。
+    YuchSign提供五天（120小时）的试用时间，最主要的原因是，到现在发现，不是每一种BB都能正常的使用yuchberry软件，可以看[http://code.google.com/p/yuchberry/issues/detail?id=95&colspec=ID%20Type%20Status%20Priority%20Stars%20Summary 这里]、[http://code.google.com/p/yuchberry/issues/detail?id=77&colspec=ID%20Type%20Status%20Priority%20Stars%20Summary 这里]、[http://code.google.com/p/yuchberry/issues/detail?id=67&colspec=ID%20Type%20Status%20Priority%20Stars%20Summary 这里]来了解细节。我一直在努力是大多数BB都能使用Yuchberry的服务器，但是总是不能达到100%的。
 
   有一点需要着重说明的是：<font color="red">YuchSign 不会因为你是试用、最低的等级用户，就降低服务质量，反之亦然。</font>换句话说就是，如果你在试用期间内无法使用、推送速度慢、收不到邮件，那么你在付费之后，也是一样的无法使用、推送速度慢、收不到邮件。这也是YuchSign和其他第三方付费邮件系统不一样的地方。
 
@@ -70,7 +67,7 @@
 }}}
  推荐使用163、126、gmail的邮箱进行推送。其他地址需要自己手动配置。
 
- * * 查询日志*
+ === 查询日志===
 
   在 查询日志 面板中，可以获取账户所在的中转服务器上最近的日志，这些日志信息不是全部的，最多只有4096个字节长。
 
@@ -84,7 +81,9 @@
 
  如果同步的账户信息没有问题，那么中转服务器就会返回一个分配好，并且可以使用的端口和地址，通知YuchSign服务器，进而通知用户，用此时才可以使用手持设备设置yuchberry客户端，链接相应的中转服务器。 过程示意图如下：
 
- [http://i.imgur.com/CTXDz.jpg]
+ _下图有 [http://www.gliffy.com Gliffy] 提供_
+
+ [http://www.gliffy.com/pubdoc/2598712/L.png]
 
  中转服务器群没有任何账户的注册信息，仅仅会在YuchSign 服务器通知他的时候，会将账户的推送列表中的邮箱地址进行测试、添加，最后返回给YuchSign服务器，最后反馈给用户。
 
