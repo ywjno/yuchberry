@@ -1,3 +1,4 @@
+#sidebar Sidebar
 = 兼容断续膏服务器 =
 
 beta2 版本在 UDP 19781端口上已经拥有<font color="red">断续膏服务器</font>的相同功能。
