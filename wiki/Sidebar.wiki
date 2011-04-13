@@ -14,7 +14,6 @@
     * [Promote_list 改进列表]
     * [Beta_Report beta测试报告]
   * [Yuchsign_Using_Intro 注册机制YuchSign]
-    * [User_Agreement_YuchberrySign 用户使用协议]
   * [Thanks_sheet 感谢]
   * [Sponsor_yuchberry 赞助YuchBerry]
   * [Why_Open_Source 为什么选择开源]
