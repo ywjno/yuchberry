@@ -1,8 +1,10 @@
 = 错误信息介绍 =
+<wiki:toc max_depth="3" />
 
-由于一些商业原因，黑莓的网络在China不是十分稳定，在yuchberry 开发、测试、使用的阶段，都遇到了很多问题，这些问题不是黑莓机器的本质问题，而是很多的Service Book 与自身使用的网络兼容问题。于是我在yuchberry主界面中加入错误信息的输出，有助于大家排查问题。
+==前言==
+  由于一些商业原因，黑莓的网络在China不是十分稳定，在yuchberry 开发、测试、使用的阶段，都遇到了很多问题，这些问题不是黑莓机器的本质问题，而是很多的Service Book 与自身使用的网络兼容问题。于是我在yuchberry主界面中加入错误信息的输出，有助于大家排查问题。
 
-在黑莓yuchberry状态界面中点击菜单：诊断信息，就会出现如下界面：
+  在黑莓yuchberry状态界面中点击菜单：诊断信息，就会出现如下界面：
 
 http://i.imgur.com/BnOtt.gif
 
@@ -10,60 +12,62 @@ _ 有些条目是我长时间测试所得的结论，没有官方文档，如果
 
 == 客户端条目 ==
 
-  * *Connection closed*
-  网络关闭。这个比较正常，就是无线通讯运营商切换了手机的IP，或者切断了服务器的联系。这个时候手机可能还有信号。
-  * *Time out*
-  服务器地址不存在，链接超时，看看是不是写错了IP地址。如果说是使用的DDNS（花生壳之类的），可能是域名解析有问题，可以使用ping命令查看是否把域名解析成了正确的IP。同时如果主机、路由器存在防火墙功能，无法从外网访问yuchberry打开的端口，也是会出现这个提示。
-  * *Peer refused the connection*
-  服务器地址存在，但是端口错了，比如服务器config.ini中的*serverPort* 字段写的是9000，但是手机端填写的端口确实9001，那么就会受到这条错误消息。
-  * *Tunnel Down*
-  * *Tunnel failed*
-  * *Tunnel time out*
-  * *Bad tunnel id*
-  以上几种错误全是APN兼容错误，我的China Unicom网络十分常见。由于某种原因，在某些时候cmnet是有效的APN，但是有时候确是uniwap，解决这个问题的办法就是如何有效的填写APN，yuchberry内置了自动切换APN的算法，具体设置看[http://code.google.com/p/yuchberry/wiki/fill_APN 这篇文章]。<br>
-  <font color="red">如果长时间收到这类消息</font>，无法连通，尝试重新刷一下另外通用，带Email版本的Service Book，我的8310有时候打死都连不上，也上不了网，于是重新刷了一遍Service Book，就可以连通了，具体什么原因我也不太清楚。
-  * *DNS Error*
-  * *Failed Open UDP socket*
-  如果使用的是DDNS方式架设的服务器（或者其他以域名为主机地址的方式），在yuchberry客户端填写主机地址的时候，会写上域名，类似yuchberry.gicp.net，而不是IP地址，那么连接的时候就会先发送DNS解析协议，但是这个解析数据包的发出，会出现下面两种情况，但是都会返回这个错误：
-   # 服务器超时，域名无效，需要查看自己的DDNS服务，是否已经开通，是否已经解析，方法可以去百度、谷歌问。
-   # APN问题，这个和上面的那个Tunnel 问题是一个，都是没有反应，但是如果是域名的话，黑莓系统会报告这个*DNS Error*，而是不是Tunnel相关的问题。
-  判断这两种情况的方法就是用确定的IP地址先试一下，如果返回Tunnel相关错误，那么就是第二种，如果是连接成功，那么就是DDNS服务有问题，从那个地方查起，就会解决问题。
-  * *Bad parameter*
-  如果你正好是黑莓OS5.0，那么恭喜你，你很用可能出现了传说中的“黑莓断网”，yuchberry现在还无法解决这个问题，正在努力研究之中。
-  * *permission denied*
-  如果手机上有防火墙，或者其他组织yuchberry自由访问网络和存储区的软件，那么就会受到这个提示，我本人没有遇到过，但是网友放映可以关闭防火墙，或者信任yuchberry，就可以解决这个问题。
-  * *null java.lang.NullPointerException*
-  偶尔出现这个情况是正常的（具体原因不明）。但是一直连接不上，就有可能是手机系统中没有给yuchberry授权，或者是有防火墙功能，无法使yuchberry正确获得网络访问权限，就会一直弹出这个问题。某些其他情况也会出现这个问题，暂时还不明确。
+  ===Connection closed===
+     网络关闭。这个比较正常，就是无线通讯运营商切换了手机的IP，或者切断了服务器的联系。这个时候手机可能还有信号。
+  ===Time out===
+     服务器地址不存在，链接超时，看看是不是写错了IP地址。如果说是使用的DDNS（花生壳之类的），可能是域名解析有问题，可以使用ping命令查看是否把域名解析成了正确的IP。同时如果主机、路由器存在防火墙功能，无法从外网访问yuchberry打开的端口，也是会出现这个提示。
+  ===Peer refused the connection===
+     服务器地址存在，但是端口错了，比如服务器config.ini中的*serverPort* 字段写的是9000，但是手机端填写的端口确实9001，那么就会受到这条错误消息。
+  ===Tunnel Down===
+  ===Tunnel failed===
+  ===Tunnel time out===
+  ===Bad tunnel id===
+     以上几种错误全是APN兼容错误，我的China Unicom网络十分常见。由于某种原因，在某些时候cmnet是有效的APN，但是有时候确是uniwap，解决这个问题的办法就是如何有效的填写APN，yuchberry内置了自动切换APN的算法，具体设置看[http://code.google.com/p/yuchberry/wiki/fill_APN 这篇文章]。<br /><font color="red">如果长时间收到这类消息</font>，无法连通，尝试重新刷一下另外通用，带Email版本的Service Book，我的8310有时候打死都连不上，也上不了网，于是重新刷了一遍Service Book，就可以连通了，具体什么原因我也不太清楚。
+  ===DNS Error===
+  ===Failed Open UDP socket===
+    如果使用的是DDNS方式架设的服务器（或者其他以域名为主机地址的方式），在yuchberry客户端填写主机地址的时候，会写上域名，类似yuchberry.gicp.net，而不是IP地址，那么连接的时候就会先发送DNS解析协议，但是这个解析数据包的发出，会出现下面两种情况，但是都会返回这个错误：
+     # 服务器超时，域名无效，需要查看自己的DDNS服务，是否已经开通，是否已经解析，方法可以去百度、谷歌问。
+     # APN问题，这个和上面的那个Tunnel 问题是一个，都是没有反应，但是如果是域名的话，黑莓系统会报告这个*DNS Error*，而是不是Tunnel相关的问题。<br />
+    判断这两种情况的方法就是用确定的IP地址先试一下，如果返回Tunnel相关错误，那么就是第二种，如果是连接成功，那么就是DDNS服务有问题，从那个地方查起，就会解决问题。
+  ===Bad parameter===
+     如果你正好是黑莓OS5.0，那么恭喜你，你很用可能出现了传说中的“黑莓断网”，yuchberry现在还无法解决这个问题，正在努力研究之中。
+  ===permission denied===
+     如果手机上有防火墙，或者其他组织yuchberry自由访问网络和存储区的软件，那么就会受到这个提示，我本人没有遇到过，但是网友放映可以关闭防火墙，或者信任yuchberry，就可以解决这个问题。
+  ===null java.lang.NullPointerException===
+     偶尔出现这个情况是正常的（具体原因不明）。但是一直连接不上，就有可能是手机系统中没有给yuchberry授权，或者是有防火墙功能，无法使yuchberry正确获得网络访问权限，就会一直弹出这个问题。某些其他情况也会出现这个问题，暂时还不明确。
+  === General Socket error===
+     最后的Boss出来了。当RIM系统不知道什么原因，就是连接不上socket网络的时候，就会蹦出这个异常。我现在知道的一种情况是真正使用wap协议上网的手机，无法连接socket就会出这个，而一旦出现，无法解决。
 
 == 服务器条目 ==
+  在服务器运行的时候，都会有一个log目录动态生成，同时里面就会有若干个带有启动时间为名字的文本log，用记事本打开后就可以看到出错的信息是什么了。
 
-在服务器运行的时候，都会有一个log目录动态生成，同时里面就会有若干个带有启动时间为名字的文本log，用记事本打开后就可以看到出错的信息是什么了。
+  在命令行窗口的状态下也会用眼睛看到，但是复制不出来。
 
-在命令行窗口的状态下也会用眼睛看到，但是复制不出来。
+  使用YuchSign的朋友，可以
 
-  * * Address already in use: JVM_Bind*
- 表示你配置的端口已经有一个程序正在使用了，重新配置一下推送端口；或者找到使用这个端口的程序，停止它。
+  === Address already in use: JVM_Bind===
+    表示你配置的端口已经有一个程序正在使用了，重新配置一下推送端口；或者找到使用这个端口的程序，停止它。
 
-  * * prepare Email account <xxxxx@xxx.com> OK*
-  表示一个账户中的一个推送用户已经准备好，可以对其进行推送服务了。
+  === prepare Email account <xxxxx@xxx.com> OK===
+    表示一个账户中的一个推送用户已经准备好，可以对其进行推送服务了。
 
-  * *some client<xxx.xxx.xxx.xxx> connecting ,waiting for auth* 
-  一个客户端连接上来了，等待客户端的用户密码。
+  ===some client<xxx.xxx.xxx.xxx> connecting ,waiting for auth===
+    一个客户端连接上来了，等待客户端的用户密码。
 
-  * *some client connect IP<xxx.xxx.xxx.xxx>*
-  客户端发送了正确的用户密码，已经和客户端建立起了连接。
+  ===some client connect IP<xxx.xxx.xxx.xxx>===
+    客户端发送了正确的用户密码，已经和客户端建立起了连接。
 
-  * * illeagel client* 
-  用户密码填写错误，或者使用了不正确的客户端连接了服务器，yuchberry每次放出的时候，都做了版本控制，版本不一致的客户端连接，会输出这个错误。
+  === illeagel client===
+    用户密码填写错误，或者使用了不正确的客户端连接了服务器，yuchberry每次放出的时候，都做了版本控制，版本不一致的客户端连接，会输出这个错误。
 
-  * * error version client*
-  错误版本的客户端连接上来了，需要更新一下正确的客户端。
+  === error version client===
+    错误版本的客户端连接上来了，需要更新一下正确的客户端。
 
-  * * Cant find default namespace* 
-  * * Invalid INBOX folder*
-  无法打开push的邮箱地址的收件箱
+  === Cant find default namespace===
+  === Invalid INBOX folder===
+    无法打开push的邮箱地址的收件箱
 
-  * 含有 *javax.mail.* 的多行信息。例如下面的
+  === 含有 javax.mail. 的多行信息。例如下面的===
 {{{
 12-17 22:51:21 :javax.mail.MessagingException: error fetching POP3 content;
    nested exception is:
@@ -74,35 +78,35 @@ _ 有些条目是我长时间测试所得的结论，没有官方文档，如果
 	at javax.mail.internet.MimeMessage.getAddressHeader(MimeMessage.java:689)
 	at javax.mail.internet.MimeMessage.getFrom(MimeMessage.java:358)
 }}}
-  请在谷歌和百度中搜索 JavaMail + 错误信息，例如上面的内容就可以搜索 "JavaMail error fetching POP3 content" 谷歌可以搜索到[http://www.google.com.hk/search?sourceid=chrome&ie=UTF-8&q=JavaMail+error+fetching+POP3+content 这些内容] ,就可以知道想要推送的邮箱服务器有些什么问题了。
+     请在谷歌和百度中搜索 JavaMail + 错误信息，例如上面的内容就可以搜索 "JavaMail error fetching POP3 content" 谷歌可以搜索到[http://www.google.com.hk/search?sourceid=chrome&ie=UTF-8&q=JavaMail+error+fetching+POP3+content 这些内容] ,就可以知道想要推送的邮箱服务器有些什么问题了。
 
-  * *java.net.SocketException: Socket closed* 
-   服务器和客户端连接的时候收到某种因素的影响，断开了链接，有可能是GPRS基站断开，也有可能是手机主动断开（断网、关闭等等），服务器所产生的输出日志，很正常，因为我们使用的不是专有的GPRS通道。
+  ===java.net.SocketException: Socket closed===
+     服务器和客户端连接的时候收到某种因素的影响，断开了链接，有可能是GPRS基站断开，也有可能是手机主动断开（断网、关闭等等），服务器所产生的输出日志，很正常，因为我们使用的不是专有的GPRS通道。
 
-  * *receive package head < 7 > length< 1 >*
-  在没有收到邮件，客户端有长期的保持连接的时候，这个服务器输出信息，就是所谓的 “心跳包” （不懂的看[http://code.google.com/p/yuchberry/wiki/Use_introduction 这里]）
+  ===receive package head < 7 > length< 1 >===
+     在没有收到邮件，客户端有长期的保持连接的时候，这个服务器输出信息，就是所谓的 “心跳包” （不懂的看[http://code.google.com/p/yuchberry/wiki/Use_introduction 这里]）
 
-  * *xxxx@xxx.com send mail<xxxx : simpleHash<xxxxxxxx 邮件标题>,wait confirm...*
-  表示推送了一封邮件，等待客户端发送收到邮件的确认消息。
+  ===xxxx@xxx.com send mail<xxxx : simpleHash<xxxxxxxx 邮件标题>,wait confirm...===
+     表示推送了一封邮件，等待客户端发送收到邮件的确认消息。
 
-  * *yuchting@gmail.com Mail Index< xxxx > confirmed*
-  表示服务器收到客户端收到了信件的确认消息。
+  ===yuchting@gmail.com Mail Index< xxxx > confirmed===
+     表示服务器收到客户端收到了信件的确认消息。
 
-  * * xxxx@xxx.com Mail <时间戳> send Succ/Failed*
-  服务器收到客户端将要发送的信件，并且发送完毕（后面如果是Succ就是成功，Failed就是失败）
+  === xxxx@xxx.com Mail <时间戳> send Succ/Failed===
+     服务器收到客户端将要发送的信件，并且发送完毕（后面如果是Succ就是成功，Failed就是失败）
 
-  * * start download attachFile:xxxx_x_att *
-   开始下载附件文件，第几封邮件的第几个附件。
+  === start download attachFile:xxxx_x_att ===
+     开始下载附件文件，第几封邮件的第几个附件。
 
-  * *send msgMailAttach mailIndex:(全局邮件索引) attachIndex:(附件索引) startIndex:(附件文件块索引) size:512 first:113*
-  服务器收到客户端的请求，向客户端发送的文件块日志，服务器会飞快的发送很多个文件块，GPRS中转可能会变慢，不同步是正常的。
+  ===send msgMailAttach mailIndex:(全局邮件索引) attachIndex:(附件索引) startIndex:(附件文件块索引) size:512 first:113===
+     服务器收到客户端的请求，向客户端发送的文件块日志，服务器会飞快的发送很多个文件块，GPRS中转可能会变慢，不同步是正常的。
 
-  * *recv msgMailAttach time:(时间戳) beginIndex:（文件块索引）size:(大小)*
-  服务器收到客户端发送的附件的文件块信息。
+  ===recv msgMailAttach time:(时间戳) beginIndex:（文件块索引）size:(大小)===
+     服务器收到客户端发送的附件的文件块信息。
 
-  * *java.io.IOException: Not in GZIP format*
-  客户端的Serivce Book配置出错，无法使用压缩数据，可能是刚刚安装Service Book没有重启导致的，可以重启机器试试。
+  ===java.io.IOException: Not in GZIP format===
+     客户端的Serivce Book配置出错，无法使用压缩数据，可能是刚刚安装Service Book没有重启导致的，可以重启机器试试。
   
 
-   * * 可能出现的邮件乱码问题* 
- 需要在服务器的配置中（例如windows），吧默认语言改成中文的。具体步骤是：控制面板－区域和文字选项－区域选项－默认全选中国。linux用户请自行探索。
+   === 可能出现的邮件乱码问题=== 
+     需要在服务器的配置中（例如windows），吧默认语言改成中文的。具体步骤是：控制面板－区域和文字选项－区域选项－默认全选中国。linux用户请自行探索。
