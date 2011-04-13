@@ -1,3 +1,4 @@
+#sidebar Sidebar
 = 错误信息介绍 =
 <wiki:toc max_depth="3" />
 
