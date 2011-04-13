@@ -99,6 +99,9 @@ _ 有些条目是我长时间测试所得的结论，没有官方文档，如果
 
   * *recv msgMailAttach time:(时间戳) beginIndex:（文件块索引）size:(大小)*
   服务器收到客户端发送的附件的文件块信息。
+
+  * *java.io.IOException: Not in GZIP format*
+  客户端的Serivce Book配置出错，无法使用压缩数据，可能是刚刚安装Service Book没有重启导致的，可以重启机器试试。
   
 
    * * 可能出现的邮件乱码问题* 
