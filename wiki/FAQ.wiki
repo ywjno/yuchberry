@@ -26,7 +26,7 @@
 *Q：*那yuchberry服务器是怎么样的？和黑莓的BIS，BES有什么区别？<br>
 *A：*yuchberry机制需要一台黑莓手机和邮件服务器提供方（126邮箱，hotmail）都能访问的中间服务器，所以如果是一台处于内网的机器，那么就不行，由于服务器使用Java语言编写的，所以他能运行在几乎所有PC操作系统下面，例如Windows *Linux* *MacOS* 等。yuchberry更类似没有专有gprs通道的BES，BES的服务器位于公司，而yuchberry的服务器位于用户自己手里。<br>
 
-*Q: *yuchberry如何满足个人、企业的安全需要？
+*Q: *yuchberry如何满足个人、企业的安全需要？<br>
 *A: *当然，在一开始就考虑到了这个问题。yuchberry能够生成个人、企业的SSL私有证书，使用企业自己的域名（或其他名称）作为证书的颁发者，在客户端连接服务器的时候使用，再者，普通数据也经过了加密和压缩。具体的流程在[SSL_yuchberry 这里]。
 
 *Q: *我从哪里获得yuchberry服务器？<br>
