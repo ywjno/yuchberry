@@ -1,6 +1,7 @@
 #labels Phase-Support
+#sidebar Sidebar
 = 赞助及付费二次开发 =
-
+<wiki:toc max_depth="2" />
 钱不是万能的，但是它可以帮助我完成更多的工作。感谢你的赞助！
 
 == 赞助 ==
