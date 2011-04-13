@@ -55,7 +55,7 @@ _ 有些条目是我长时间测试所得的结论，没有官方文档，如果
     一个客户端连接上来了，等待客户端的用户密码。
 
   ===java.net.SocketTimeoutException: Read timed out===
-    如果在上面的 waiting for auth 信息提示之后出现这个提示，那么很有可能是在服务器没有配置SSL，但是在手机上的“高级设置”里面选中了SSL连接所导致的，关闭手机上的SSL即可（或者配置 [#SSL_yuchberry SSL yuchberry]）。
+    如果在上面的 waiting for auth 信息提示之后出现这个提示，那么很有可能是在服务器没有配置SSL，但是在手机上的“高级设置”里面选中了SSL连接所导致的，关闭手机上的SSL即可（或者配置 [http://code.google.com/p/yuchberry/wiki/SSL_yuchberry SSL yuchberry]）。
 
   ===some client connect IP<xxx.xxx.xxx.xxx>===
     客户端发送了正确的用户密码，已经和客户端建立起了连接。
