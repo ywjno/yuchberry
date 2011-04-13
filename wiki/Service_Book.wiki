@@ -1,3 +1,4 @@
+#sidebar Sidebar
 = 关于 Service Book =
 
 由于大多数朋友使用的都是较为便宜的黑莓服务（你懂得），所以不可能有正式的、官方的ServiceBook，所以需要弄清楚一下，自己在网上搜索的Service Book安装教程，已经自己安装的Service Book是一个什么版本。
