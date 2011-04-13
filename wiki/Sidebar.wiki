@@ -5,7 +5,7 @@
       * [SSL_yuchberry 配置SSL客户端]
       * [fill_APN 填写客户端APN]
     * [Independent_Host_yuchberry 配置独立主机SSL]
-      * [Integration_Config_tool 集成配置工具
+      * [Integration_Config_tool 集成配置工具]
     * [Use_introduction 使用YuchBerry]
       * [Location_Mail 使用位置信息]
       * [Service_Book Service Book]
