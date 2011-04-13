@@ -1,5 +1,6 @@
+#sidebar Sidebar
 = 从零开始编译yuchberry =
-
+<wiki:toc max_depth="3" />
  首先这篇文档不是写给高手看的，是写给小白看的。原因有二：首先，我不是高手，更不可能是高手中的高手；其二，小白看得懂的话，高手就更不用说了。
 
  还有个前提，你的系统得是Windows的，因为我不知道RIM是否有针对Linux出过SDK和模拟器，所以首先得找台WindowsXP的系统作为你的开发用机。
@@ -9,22 +10,23 @@
  现在，怎么把大象装进冰箱呢？
 
 == 签出代码 == 
-  * 安装SVN
-  你可以选择命令行的方式签出代码[http://www.sliksvn.com/en/download SlikSVN]，也可以选择 [http://tortoisesvn.net/downloads TortoiseSVN] 这个图形配置界面（推荐），如果你不知道什么是SVN，签出完代码之后请自行搜索，补充知识。
-  * 签出yuchberry主版本代码
-  点击Google Project Hosting 的Source 来到[http://code.google.com/p/yuchberry/source/checkout 这个页面] 然后找到签出的地址：<pre>        http://yuchberry.googlecode.com/svn/trunk/ yuchberry-read-only </pre>然后如图建立自己的工作目录，签出自己代码。<font color="red">建议放在D盘</font>，图片上的不对，因为我的配置文件会提交同步到google code上面，如果目录不同，会导致代码编译不过。如果你知道为什么编译不过，那么就可以随意设置，同时自己排查原因了。
+  === 安装SVN ===
+     你可以选择命令行的方式签出代码[http://www.sliksvn.com/en/download SlikSVN]，也可以选择 [http://tortoisesvn.net/downloads TortoiseSVN] 这个图形配置界面（推荐），如果你不知道什么是SVN，签出完代码之后请自行搜索，补充知识。
+
+  === 签出yuchberry主版本代码===
+     点击Google Project Hosting 的Source 来到[http://code.google.com/p/yuchberry/source/checkout 这个页面] 然后找到签出的地址：<pre>        http://yuchberry.googlecode.com/svn/trunk/ yuchberry-read-only </pre>然后如图建立自己的工作目录，签出自己代码。<font color="red">建议放在D盘</font>，图片上的不对，因为我的配置文件会提交同步到google code上面，如果目录不同，会导致代码编译不过。如果你知道为什么编译不过，那么就可以随意设置，同时自己排查原因了。
 
   [http://i.imgur.com/yH1rz.jpg]        [http://i.imgur.com/yZ8eH.jpg]
 
 == 准备Eclipse开发环境 ==
-  * 下载一堆东西先
+  === 下载一堆东西先===
    # 下载 [http://www.eclipse.org/downloads/packages/eclipse-ide-java-developers/heliossr1 Eclipse Java IDE] 解压到一个地方，比如D盘的eclipse文件夹。
    # 下载 [http://www.oracle.com/technetwork/java/index-138643.html JavaMail]  [http://www.dom4j.org/download.html Dom4J]  [http://sourceforge.net/projects/htmlparser/files/Integration-Builds/2.0-20060923/HTMLParser-2.0-SNAPSHOT-bin.zip/download HTMLParser]三个库，解压到eclipse的目录下面的plugins目录下面
    # 下载 [http://60.28.113.74:8000/weibo4j-2010-09-07.zip weibo4j]，解压放到签出的目录下面的 server\src 下面，例如 D:\Java_Project\yuchberry\server\src\weibo4j 
    # 下载 [http://bbsdk.csdn.net/BlackBerry_JDE_PluginFull_1.1.2.201004161203-16.exe Blackberry Java Development for Eclipse Plugin1.1] 这个只有黑莓5.0系统的开发包。
    # 继续下载 [http://downloads.blackberry.com/upr/developers/javadev/net.rim.ejde.componentpack4.5.0_4.5.0.21.jar 4.5]   [http://downloads.blackberry.com/upr/developers/javadev/net.rim.ejde.componentpack4.6.0_4.6.0.21.jar 4.6]    [http://downloads.blackberry.com/upr/developers/javadev/net.rim.ejde.componentpack4.7.0_4.7.0.53.jar 4.7]     [http://downloads.blackberry.com/upr/developers/javadev/net.rim.ejde.componentpack6.0.0_6.0.0.29.jar 6.0] 的开发包。统统下完之后，用解压缩工具（7zip 或者WinRAR）打开，解压到 eclipse\plugins 目录底下。
   _ 一段很长的下载时间过去之后。。。_
-  * 配置Eclipse开发环境及yuchberry服务器工程
+  === 配置Eclipse开发环境及yuchberry服务器工程===
    # 运行之前下载好的 Blackberry Java Development for Eclipse Plugin1.1，然后指定你的Eclipse目录作为安装路径，进行安装（图就不截了，相当简单）。
    # 打开Eclipse，点击 File -> Switch Workspace -> Ohter... 指定工作空间到你签出代码的地方，比如D:\Java_Project\yuchberry\ 
    # 点击 File -> New -> Java Project 然后如下图设置，配置好yuchberry server工程（我的截图的路径可能有些出入）<br />[http://i.imgur.com/K8N7S.jpg] <br />
@@ -35,7 +37,7 @@
     # htmlParser 解压目录 lib 中的 htmlparser.jar 和 htmllexer.jar 文件。
    # 点击 File -> Export -> Java -> Runnable JAR file 然后如下图配置<br />[http://i.imgur.com/KEUM2.jpg]<br />点击Finish按钮，就能生成传说中的svr.jar文件了。
 
-  * 配置yuchberry客户端
+  === 配置yuchberry客户端===
    # 点击 File -> New -> Java Project 然后如下图配置安装5.0OS工程<br />[http://i.imgur.com/vfZf5.jpg]<br />
    # 在Package Explorer 界面中<br />[http://i.imgur.com/zfmNy.jpg]<br />选中client，右键，然后依次点击 Propertise -> Run/Debugging -> client -> Edit... ->JRE -> Installed JREs，配置其他Blackberry系统的开发包<br />[http://i.imgur.com/iv5nT.jpg]<br />然后点击Add 添加ee类型的文件<br />[http://i.imgur.com/xLjRE.jpg]<br />[http://i.imgur.com/f8acG.jpg]<br />在之前下载并解压的4.5jar文件目录，例如：D:\eclipse\plugins\net.rim.ejde.componentpack4.5.0_4.5.0.21\components 下面找到 BlackBerry.ee 文件，并添加上。
    # 依次添加其他系统平台的ee文件，配置好4.6 4.7 6.0 的开发环境（5.0的在 Blackberry Java Development for Eclipse Plugin 安装的时候就已经添加）。
@@ -43,13 +45,13 @@
    # 如果你的系统默认的语言是中文（有点像废话），由于RIM的一个bug，必须拷贝 eclipse\plugins\net.rim.ejde.componentpack6.0.0_6.0.0.29\components\bin\preverify.exe 到 4.5、4.6、4.7、5.0的相同位置下面覆盖相同的文件，不然会编译不过。这个方法解决 local 问题，在网上也能搜到。
   这样所有yuchberry客户端版本的开发环境就已经架设完毕。
 
-  * 编译并在模拟器运行yuchberry
+  === 编译并在模拟器运行yuchberry===
    首先你* 非常了解yuchberry* ，使用过一段时间，知道如何填写config.xml文件，同时知道如何设置客户端。如果作为一个开发者，连自己的产品配置都不了解，那一定是不合格的。
    # 上面的添加ee文件的时候看到过一个界面：在Package Explorer 选中client45工程，然后右键菜单中选择 Propertise 然后 Run/Debugging -> client45 -> Edit...<br />[http://i.imgur.com/vvHWy.jpg]<br />然后可以变换模拟器的机器型号。
    # 如果你选择运行8310的客户端，那么就用打开 eclipse\plugins\net.rim.ejde.componentpack4.5.0_4.5.0.21\components\simulator\8310.xml 文件，在后面加上 <pre><Application>net.rim.blackberry.lang.zh_CN_Pinyin</Application></pre><pre><Application>net.rim.blackberry.lang.zh_CN.renderingSupport</Application></pre>此举是为了让模拟器能用上中文。
    # 前面有生成过svr.jar，那么打开config.xml配置好自己的邮件帐户，删除无用信息。运行runsvr.bat，等待服务器启动。
    # 在Package Explorer 中选择client45，然后按F11（debug的快捷键），就可以看到一连串的编译，确认，然后客户端模拟器就运行起来了，在等待一会儿，就会出现熟悉的界面，进入yuchberry，填写上你的IP地址，* 不能是127.0.0.1* ，必须是你机器的内网IP，例如192.168.10.20 <br />[http://i.imgur.com/acJ6x.jpg]
-  * 在移动设备上运行yuchberry
+  === 在移动设备上运行yuchberry===
   编译出来的yuchberry客户端不能直接运行手机上，这个就是传说中黑莓代码授权，RIM[http://cn.blackberry.com/developers/javaappdev/codekeys.jsp 解释说]，他们需要监控API的使用情况。于是，我们就不得不花费$20买一个授权，才能在手机上运行。此时，如果你花费了大量时间弄好了yuchberry代码，准备编译一个myberry放到手机上运行一下，欣赏一下，这个结果可能让你十分失望吧...
    
 == Mod yuchberry客户端 ==
