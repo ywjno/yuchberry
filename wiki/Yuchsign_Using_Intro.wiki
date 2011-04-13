@@ -82,7 +82,7 @@
 
  如果同步的账户信息没有问题，那么中转服务器就会返回一个分配好，并且可以使用的端口和地址，通知YuchSign服务器，进而通知用户，用此时才可以使用手持设备设置yuchberry客户端，链接相应的中转服务器。 过程示意图如下：
 
- _下图有 [http://www.gliffy.com Gliffy] 提供_
+ _下图由 [http://www.gliffy.com Gliffy] 提供_
 
  [http://www.gliffy.com/pubdoc/2598712/L.png]
 
