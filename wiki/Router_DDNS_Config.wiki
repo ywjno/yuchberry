@@ -1,10 +1,11 @@
+#sidebar Sidebar
 = 路由器端口映射、DDNS配置 =
+<wiki:toc max_depth="3" />
+   有些朋友可能对路由器的设置不是特别懂，在这里我想图文并茂的解释说明一下配置。方便大家可以顺利假设好服务器。
 
-有些朋友可能对路由器的设置不是特别懂，在这里我想图文并茂的解释说明一下配置。方便大家可以顺利假设好服务器。
+   下面的路由器配置例子是 TP_LINK 系列的，这个系列的家庭路由器应该是使用人数最多了吧？DDNS是以花生壳 为介绍，其他的DDNS服务器我相信也不会太难。
 
-下面的路由器配置例子是 TP_LINK 系列的，这个系列的家庭路由器应该是使用人数最多了吧？DDNS是以花生壳 为介绍，其他的DDNS服务器我相信也不会太难。
-
-如果是其他型号的路由器或者是带路由功能的猫，请自行搜索。比如 型号为 “中兴ZXV10 H608B”的路由器，就可以搜索“[http://www.google.com.hk/search?sourceid=chrome&ie=UTF-8&q=%E4%B8%AD%E5%85%B4ZXV10+H608B+%E7%AB%AF%E5%8F%A3%E6%98%A0%E5%B0%84 中兴ZXV10 H608B DDNS 花生壳]”或者“[http://www.google.com.hk/search?sourceid=chrome&ie=UTF-8&q=%E4%B8%AD%E5%85%B4ZXV10+H608B+%E7%AB%AF%E5%8F%A3%E6%98%A0%E5%B0%84 中兴ZXV10 H608B 端口映射]”。端口映射的例子一般都是BT、电驴下载的例子，但是没有关系，他们的端口开放的意义和yuchberry的意义差不多，我的默认端口是9716，开放它既可。
+   如果是其他型号的路由器或者是带路由功能的猫，请自行搜索。比如 型号为 “中兴ZXV10 H608B”的路由器，就可以搜索“[http://www.google.com.hk/search?sourceid=chrome&ie=UTF-8&q=%E4%B8%AD%E5%85%B4ZXV10+H608B+%E7%AB%AF%E5%8F%A3%E6%98%A0%E5%B0%84 中兴ZXV10 H608B DDNS 花生壳]”或者“[http://www.google.com.hk/search?sourceid=chrome&ie=UTF-8&q=%E4%B8%AD%E5%85%B4ZXV10+H608B+%E7%AB%AF%E5%8F%A3%E6%98%A0%E5%B0%84 中兴ZXV10 H608B 端口映射]”。端口映射的例子一般都是BT、电驴下载的例子，但是没有关系，他们的端口开放的意义和yuchberry的意义差不多，我的默认端口是9716，开放它既可。
 
 == 路由器端口映射配置 ==
 
@@ -41,4 +42,4 @@
 [http://imgur.com/vC6Vb.jpg]
 
 
-遇到其他的问题，先问问百度、谷歌，如果不行，那么就去[http://code.google.com/p/yuchberry/issues/list 这里]看看有没有人遇到和你一样的问题，或者提出你自己的问题。
+   遇到其他的问题，先问问百度、谷歌，如果不行，那么就去[http://code.google.com/p/yuchberry/issues/list 这里]看看有没有人遇到和你一样的问题，或者提出你自己的问题。
