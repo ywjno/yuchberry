@@ -4,6 +4,8 @@
 
    _ 如果你不小心的走到了这个页面，并且不知道Yuchberry是什么、如何工作，请仔细阅读[http://code.google.com/p/yuchberry/wiki/FAQ FAQ]，弄清楚这个东东是做什么的。_
 
+   [http://www.gliffy.com/pubdoc/2618775/L.png]
+
    遇到任何问题，都可以到[http://code.google.com/p/yuchberry/issues/list Issue]留下你的问题，我会及时回复。还可以发送邮件到 yuchberry@gmail.com，我也会及时答复。
 
 == 注册 ==
