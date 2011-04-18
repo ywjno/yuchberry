@@ -12,6 +12,27 @@
 
 =使用个人服务器，免费推送邮件=
 
+<script type="text/javascript" charset="utf-8">
+(function(){
+  var _w = 86 , _h = 50;
+  var param = {
+    url:location.href,
+    type:'6',
+    count:'1', /**是否显示分享数，1显示(可选)*/
+    appkey:'1290385296', /**您申请的应用appkey,显示分享来源(可选)*/
+    title:'', /**分享的文字内容(可选，默认为所在页面的title)*/
+    pic:'', /**分享图片的路径(可选)*/
+    ralateUid:'1894359415', /**关联用户的UID，分享微博会@该用户(可选)*/
+    rnd:new Date().valueOf()
+  }
+  var temp = [];
+  for( var p in param ){
+    temp.push(p + '=' + encodeURIComponent( param[p] || '' ) )
+  }
+  document.write('<iframe allowTransparency="true" frameborder="0" scrolling="no" src="http://hits.sinajs.cn/A1/weiboshare.html?' + temp.join('&') + '" width="'+ _w+'" height="'+_h+'"></iframe>')
+})()
+</script>
+
    ==介绍==
      yuchberry新手<font color="red">强烈建议先看这个</font>:快速[http://code.google.com/p/yuchberry/wiki/FAQ 问与答FAQ]，帮助你了解它是如何配置、推送邮件的的。<br />
      [http://code.google.com/p/yuchberry/wiki/Promote_list 改进列表]、[http://code.google.com/p/yuchberry/wiki/Thanks_sheet 感谢名单]、[http://code.google.com/p/yuchberry/wiki/Sponsor_yuchberry 赞助yuchberry]
@@ -30,5 +51,3 @@
 
       _ 建议使用Chrome浏览器，其他使用IE等浏览器看不到的朋友请访问[http://yuchberrysign.yuchberry.info 独立页面]。_
 <wiki:gadget url="http://yuchberry.googlecode.com/files/yuchsign_embed.xml" height="800" width="800" border="0" /> 
-
-
