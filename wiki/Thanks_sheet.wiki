@@ -44,6 +44,7 @@ YuchBerry 1.0.584 正式版发布了！
   * bruceliu496@gmail.com 帮助解决 CDMA等手机的 Bad Parameter 问题
   * 37middle@gmail.com 发现流量统计在重连的时候会算错的bug
   * zuola.com@gmail.com 生成SSL证书会有3个月的使用期限，要加上一个参数可以生成10年的期限
+  * seven204@gmail.com（@没注册s sina Weibo）帮助测试自动切换wifi和gprs的功能
 
 == 严重鸣谢 ==
 
@@ -56,6 +57,8 @@ YuchBerry 1.0.584 正式版发布了！
   * *RAiN* 贡献OS5.0 断网修复的代码！
 
   * *zhangjianying666@gmail.com* 阅读yuchberry的代码，并且提出一些问题和改进方案
+
+  * *[http://bbs.bbercn.com/ 中国莓论坛]* 帮助发布测试和支持我的开发
 
 == 赞助 ==
 
