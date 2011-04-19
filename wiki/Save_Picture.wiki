@@ -1,21 +1,10 @@
-存图链接的wiki
-
-
-[http://i.imgur.com/6l58G.jpg]
-[http://i.imgur.com/VssPI.jpg]
-[http://i.imgur.com/1jQZq.jpg]
-[http://i.imgur.com/T1m4F.jpg]
-[http://i.imgur.com/budZ9.jpg]
-[http://i.imgur.com/RIlfZ.jpg]
-[http://i.imgur.com/LN2Sa.jpg]
-
-
 =使用个人服务器，免费推送邮件=
-
 
    ==介绍==
      yuchberry新手<font color="red">强烈建议先看这个</font>:快速[http://code.google.com/p/yuchberry/wiki/FAQ 问与答FAQ]，帮助你了解它是如何配置、推送邮件的的。<br />
      [http://code.google.com/p/yuchberry/wiki/Promote_list 改进列表]、[http://code.google.com/p/yuchberry/wiki/Thanks_sheet 感谢名单]、[http://code.google.com/p/yuchberry/wiki/Sponsor_yuchberry 赞助yuchberry]
+
+     <a href="http://t.sina.com.cn/1894359415?s=6uyXnP" target="_blank"><img border="0" src="http://service.t.sina.com.cn/widget/qmd/1894359415/6ee1d15c/4.png"/></a>
 
    ==下载==
 ||[http://yuchberry.googlecode.com/files/yuchberry_server_1.0.584.zip Yuchberry服务器 1.0.584]||支持Windows、GNU/Linux、MacOS||
@@ -26,8 +15,9 @@
 ||[http://yuchberry.googlecode.com/files/yuchberry_client_1.0.584_for_5.0.zip Yuchberry客户端 1.0.584]|| 黑莓5.0系统||
 ||[http://yuchberry.googlecode.com/files/yuchberry_client_1.0.584_for_6.0.zip Yuchberry客户端 1.0.584]|| 黑莓6.0系统||
 
-   ==注册==
-     配置简单，无需架设服务器，体验极限推送！
+   ==注册免费试用（无需自架服务器）==
+     配置简单，免费试用，无需架设服务器，体验极限推送！<br />
+     建议使用Chrome浏览器，其他使用IE等浏览器看不到 注册页面 的朋友，请点击下面图片访问[http://yuchberrysign.yuchberry.info 独立页面]。
 
-      _ 建议使用Chrome浏览器，其他使用IE等浏览器看不到的朋友请访问[http://yuchberrysign.yuchberry.info 独立页面]。_
+     [http://yuchberrysign.yuchberry.info/ http://www.gliffy.com/pubdoc/2618775/L.png]
 <wiki:gadget url="http://yuchberry.googlecode.com/files/yuchsign_embed.xml" height="800" width="800" border="0" /> 
