@@ -68,3 +68,4 @@
    # 发送一封邮件，就可以更改服务器的签名
    # 增加“集成配置工具”可以手动更改到期时间
    # 增加 最多接受多少字节的邮件的功能。
+   # 修改一下这个[http://code.google.com/p/yuchberry/issues/detail?id=124&colspec=ID%20Type%20Status%20Priority%20Stars%20Summary Issue]。
