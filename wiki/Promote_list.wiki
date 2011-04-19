@@ -69,3 +69,4 @@
    # 增加“集成配置工具”可以手动更改到期时间
    # 增加 最多接受多少字节的邮件的功能。
    # 修改一下这个[http://code.google.com/p/yuchberry/issues/detail?id=124&colspec=ID%20Type%20Status%20Priority%20Stars%20Summary Issue]。
+   # 有时间做一下local化，中英文并存的提示（就是在收取到非标准信件时的异常提示）
