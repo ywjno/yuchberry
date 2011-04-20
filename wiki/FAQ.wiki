@@ -11,15 +11,15 @@
    <b>A：</b>  yuchberry能够保证邮件到达，而且非常迅速，最短能在*10秒钟内*推送到手机；保证邮箱的已读邮件和未读*邮件同步*；*流量小*，推送到手机的邮件是经过压缩的；*安全*，能够使用128位密钥的SSL加密进行传输，这个密钥证书是用户自己手动生成的，也绝对安全。
 
    <b>Q：</b> yuchberry 是免费的么？<br>
-   <b>A：</b>  对。yuchberry是一款开源免费产品，放于[http://code.google.com/projecthosting/ Google Project Hosting]中的资源是* 完全免费 *的。你也可以[http://code.google.com/p/yuchberry/wiki/Sponsor_yuchberry 赞助这个项目]，也可以弄清楚[http://code.google.com/p/yuchberry/wiki/Why_Open_Source 为什么选择开源]。
+   <b>A：</b>  对。yuchberry是一款开源免费产品，放于[http://code.google.com/projecthosting/ Google Project Hosting]中的资源是* 完全免费 *的。你也可以[Sponsor_yuchberry 赞助这个项目]，也可以弄清楚[Why_Open_Source 为什么选择开源]。
 
    <b>Q：</b> 服务端交由谁来管理？<br>
-   <b>A：</b> 用户个人管理（或者企业中的网络管理员），不存在第三方服务（器）提供者。
+   <b>A：</b> 用户个人管理（或者企业中的网络管理员，或者你所信任的服务器提供者），不存在第三方服务（器）提供者。
 
    <b>Q：</b> 为什么这么做？<br>
    <b>A：</b> yuchberry认为安全的第三方邮件转发者不存在，只要注册第三方服务，用户的账户和密码都会交由第三方管理，这是不安全的。
 
-   <b>Q：</b> 那为什么不直接通过手机访问邮箱？<br>
+   <b>Q：</b> 那为什么不直接通过手机访问邮箱？就像现在很多软件那样。<br>
    <b>A：</b> 带宽和效率决定了这个问题的答案，如果通过gprs等移动网络直接访问邮箱，那么没有压缩的数据格式将会导致手机流量暴增；同时不能保证邮件的绝对到达（gprs的丢包率很高，实验证明上层的TCP协议不能保证服务器发送的数据绝对到达手机端）。
 
    <b>Q：</b> 那yuchberry服务器是怎么样的？和黑莓的BIS，BES有什么区别？<br>
@@ -29,31 +29,33 @@
    <b>Q：</b> 当然，在一开始就考虑到了这个问题。yuchberry能够生成个人、企业的SSL私有证书，使用企业自己的域名（或其他名称）作为证书的颁发者，在客户端连接服务器的时候使用，再者，普通数据也经过了加密和压缩。具体的流程在[SSL_yuchberry 这里]。
 
    <b>Q：</b> 我从哪里获得yuchberry服务器？<br>
-   <b>Q：</b> 如果用户使用ADSL直接拨号上网，那么那台服务器需要配合DDNS（动态域名解析服务），来实现服务器的构架；用户可以购买VPS、独立服务器等服务器进行架设。* 不能使用GAE架设服务器* ，因为GAE不能运行Java Application的程序。
+   <b>Q：</b> 如果用户使用ADSL直接拨号上网，那么那台服务器需要配合DDNS（动态域名解析服务），来实现服务器的构架；用户可以购买VPS、独立服务器等服务器进行架设。你还可以通过[Yuchsign_Using_Intro YuchSign注册机制]使用YuchBerry作者提供的服务器。另外，* 不能使用GAE架设服务器* ，因为GAE不能运行Java Application的程序。
 
-
-   <b>Q：</b> yuchberry能够发送、接受附件么？<br>
+   <b>Q：</b> yuchberry能够发送、接收附件么？<br>
    <b>A：</b> 当然，没有问题，这是最低级高效的标准。
 
    <b>Q：</b> 那yuchberry最高的“高效”标准是什么？“快捷”又是怎么样的？<br>
    <b>A：</b> 由于用户自己拥有服务器（或者说拥有整个中间服务器程序），所以，服务器上的yuchberry服务端程序一对一将邮件推送给黑莓手机，可以实现在30秒内推送到，如果yuchberry服务器距离邮件服务器很近的话（也就是很快能够访问邮件服务器），那么将在10秒甚至更短时间将邮件推送到手机。当然，多个用户可以使用一台物理服务器，在上面运行多个相互独立yuchberry服务端程序，在不同的端口进行推送，这是更“高效”的。还有，附件在服务器上是保存很长时间的，直到用户将其在服务器上删除。
 
    <b>Q：</b> 那岂不是yuchberry要开多个进程？这样不是会浪费服务器上很多资源？<br>
-   <b>A：</b> 嗯，是一个进程服务一个用户，在进程待机时候是占用5～15M物理内存，这样，一台2G内存的服务器可以个运行yuchberry服务端程序50～150个左右。yuchberry认为这样是值得的，同时，如果Java虚拟机运行效率增加的话，那么将会帮助yuchberry获得更高的效率和占有更少的资源。在beta测试的时候，增加的集成配置工具，将每个用户的服务器从进程级别降到了线程级别，但是同样高效，详细看[http://code.google.com/p/yuchberry/wiki/Integration_Config_tool 这里]。
+   <b>A：</b> 嗯，是一个进程服务一个用户，在进程待机时候是占用5～15M物理内存，这样，一台2G内存的服务器可以个运行yuchberry服务端程序50～150个左右。yuchberry认为这样是值得的，同时，如果Java虚拟机运行效率增加的话，那么将会帮助yuchberry获得更高的效率和占有更少的资源。在beta测试的时候，增加的集成配置工具，将每个用户的服务器从进程级别降到了线程级别，但是同样高效，详细看[Integration_Config_tool 这里]。
 
    <b>Q：</b> 我如何配置、使用yuchberry？<br>
-   <b>A：</b> 如果是个人简单用户，使用自己的ADSL，那么请看[http://code.google.com/p/yuchberry/wiki/ADSL_DDNS_yuchberry 这里]；如果是拥有独立IP主机的中小企业用户，请看[http://code.google.com/p/yuchberry/wiki/Independent_Host_yuchberry 这里]。当然这两种方式是有重叠的，个人完全可以购置独立IP的VPS或者主机，进行配置，也可以使用已有的主机配置。快速使用指南在[http://code.google.com/p/yuchberry/wiki/Use_introduction 这里]。
+   <b>A：</b> 如果是个人简单用户，使用自己的ADSL，那么请看[ADSL_DDNS_yuchberry 这里]；如果是拥有独立IP主机的中小企业用户，请看[Independent_Host_yuchberry 这里]。当然这两种方式是有重叠的，个人完全可以购置独立IP的VPS或者主机，进行配置，也可以使用已有的主机配置。快速使用指南在[Use_introduction 这里]。
 
    <b>Q：</b> 我遇到了问题怎么办？现在的yuchberry满足不了我的要求怎么办？<br>
-   <b>A：</b> 可以到[http://code.google.com/p/yuchberry/issues/list 这个页面]中找到是否有其他人问过类似的问题，或者提问，或者提出修改建议。当然也可以发邮件给我 yuchting@gmail.com 进行询问，当然，也可以[http://code.google.com/p/yuchberry/wiki/Sponsor_yuchberry 赞助]获得技术支持和二次开发。
+   <b>A：</b> 可以到[http://code.google.com/p/yuchberry/issues/list 这个页面]中找到是否有其他人问过类似的问题，或者提问，或者提出修改建议。当然也可以发邮件给我 yuchting@gmail.com 进行询问，当然，也可以[Sponsor_yuchberry 赞助]获得技术支持和二次开发。
+
+   <b>Q：</b> 为什么yuchberry客户端要做成有后台图标的，而不像其他邮件客户端一样做成内嵌的？<br>
+   <b>A：</b> 这其实是一个设计问题。内嵌客户端虽然没有后台图标，但是无法真正释放内存，无法查看连接服务器状况（如果是Pull轮询机制，是否连接服务器并不重要），更无法关闭释放内存，使系统的消息程序恢复成正常状态（除非卸载，重启系统）。所以，yuchberry一开始就设计成外挂的，可以随时查看链接情况（就像查看手机信号的强弱程度），随时可以关闭、释放内存，并没有考虑到后台图标的问题。
 
    <b>Q：</b> 我是Java程序员，我能开发yuchberry么？<br>
-   <b>A：</b> 现在yuchberry纯属个人项目，暂不招募合作开发者，如果你想借此学习Java开发，J2SE，J2ME在yuchberry项目里面均有涉及，可以看看[http://code.google.com/p/yuchberry/wiki/Dev_from_Zero 从零开始编译yuchberry]这篇文档，也许可以从中学习到一些东西。
+   <b>A：</b> 现在yuchberry纯属个人项目，暂不招募合作开发者，如果你想借此学习Java开发，J2SE，J2ME在yuchberry项目里面均有涉及，可以看看[Dev_from_Zero 从零开始编译yuchberry]这篇文档，也许可以从中学习到一些东西。
 
 ==YuchSignFAQ==
 
    <b>Q：</b> YuchSign 是什么？是独立的软件么？<br>
-   <b>A：</b> YuchSign是一个是基于Java servlet的网页程序，它的单独存在什么有任何意义的，它需要和YuchBerry服务器（多账户配置工具）结合起来使用，完成服务。它提供账户的注册，信息保存，和YuchBerry服务器通讯，生成可以连接的主机信息。具体介绍可以看[http://code.google.com/p/yuchberry/wiki/Yuchsign_Using_Intro 这里]
+   <b>A：</b> YuchSign是一个是基于Java servlet的网页程序，它的单独存在什么有任何意义的，它需要和YuchBerry服务器（多账户配置工具）结合起来使用，完成服务。它提供账户的注册，信息保存，和YuchBerry服务器通讯，生成可以连接的主机信息。具体介绍可以看[Yuchsign_Using_Intro 这里]
 
    <b>Q：</b> YuchSign 是免费的么？<br>
    <b>A：</b> YuchSign 就是依附YuchBerry存在的，YuchBerry是免费的，那么YuchSign也是免费的。不会因为注册账户就产生费用。
