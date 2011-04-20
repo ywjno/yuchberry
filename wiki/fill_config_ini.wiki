@@ -21,19 +21,19 @@
 	convertoSimpleChar="0"	>
 }}}
 
-  ===userPassword===
+  ===userPassword（用户密码 YuchSign登录密码）===
   用户密码。这个密码不是邮箱密码，建议不要和邮箱密码一样，用于认证推送客户端。这个密码也必须和SSL生成证书的密码一样，yuchberry SSL配置请看[http://code.google.com/p/yuchberry/wiki/SSL_yuchberry 这里]。例如 userPassword=111111
 
-  ===serverPort===
+  ===serverPort（主机端口）===
   yuchberry server 监听端口,负责与手机端通讯，推送服务器。在[http://code.google.com/p/yuchberry/wiki/ADSL_DDNS_yuchberry#配置客户端 客户端的设置]需要用到他。例如 serverPort=9716
 
-  ===pushInterval===
+  ===pushInterval（推送间隔）===
   yuchBerry中间服务器到邮件服务器上取信间隔，单位为秒，间隔越小，服务器占用资源越多。但是Push 到客户端的延迟也就越小。最小值为1。 例如 pushInterval=10。<font color="red">对于有些邮箱来说，有一定的安全性，所以过短的间隔会导致邮箱锁定，IMAP/POP3方式无法访问，需要去手动解锁</font>
 
-  ===userSSL===
+  ===userSSL（YuchBerry客户端是否使用SSL来连接服务器）===
   是否使用SSL进行推送。这个选项如果为1，则表示需要，为0或者其他值，表示不许要。SSL具体配置看[http://code.google.com/p/yuchberry/wiki/SSL_yuchberry 这里]。例如 userSSL=0
 
-  ===convertoSimpleChar=== 
+  ===convertoSimpleChar（简体转换繁体）=== 
   是否将服务器所有的字符串转换成简体。由于黑莓上的字体无法混用，所以使用简体中文的朋友显示不了繁体中文，索性，用服务器将其转换成简体，发送到手机上。  
 
 ==Email账户配置说明==
@@ -56,30 +56,30 @@
 	/>
 }}}
 
-  ===account===
+  ===account（帐户名称）===
   完整账户名称，也就是需要推送的邮箱地址，例如yuchberry@gmail.com。不能填写yuchberry，如果填写错误，比如yuchberry@gmal.com，是可以收到信件，但是发送不出去。
 
-  ===protocol===
+  ===protocol（邮局连接协议）===
   用于接收邮件的协议，有如下选择 *pop3 pop3s imap imaps* ，带s的是用于 SSL 安全链接，例如 protocol=imaps   需要邮件服务器的支持，Gmail 配置如下图，其他邮箱不一而同。
 
   [http://imgur.com/Yj4gW.jpg]
 
-  ===host===
+  ===host（邮局取信主机地址）===
   邮件服务主机地址。例如 host=imap.gmail.com
-  ===port===
+  ===port（邮局取信主机端口）===
   邮件服务端口号。例如 port=993
-  ===password===
+  ===password（帐户密码）===
   邮箱密码，当然这个谁都不应该忘记。 例如 password=123456
-  ===useFullNameSignIn===
-  是否利用全地址登录邮箱。有些邮箱需要用全地址xxxx@host.com 而不是xxxx作为用户名称。例如hotmail，谷歌企业邮箱，就貌似需要全地址登录。
-  ===protocol_send===
+  ===useFullNameSignIn（是否使用全地址登录）===
+  是否利用全地址登录邮箱。有些邮箱需要用全地址xxxx@host.com 而不是xxxx作为用户名称。例如hotmail，谷歌企业邮箱、foxmail（因为使用的是pop.qq.com）、vip.qq.com等等，就貌似需要全地址登录。
+  ===protocol_send（发送邮件协议）===
   发送邮件使用的协议，几乎都是smtp。例如 protocol_send=smtp
-  ===host_send===
+  ===host_send（发送邮件连接的邮局主机）===
   发送邮件的主机地址。例如 host_send=smtp.gmail.com
-  ===port_send===
+  ===port_send（发送邮件连接的邮局主机端口）===
   发送邮件的主机端口。例如 port_send=587
 
-  ===appendHTML===
+  ===appendHTML（是否将HTML邮件转化成纯文本，附加在正文后面）===
   是否将HTML 转化成纯文本，并且跟随在正文的后面。这个选项有点古怪，但是如果你邮箱订阅的有谷歌咨询，而且用手机的自带HTML查看器打不开手机浏览器的话，就会需要这个功能了。
 
   _以上属性配置具体参考邮件系统的帮助。比如gmail的就在[http://mail.google.com/support/?hl=zh_CN&p=inbox&rd=1 这里]，具体的IMAP配置在[http://mail.google.com/support/bin/topic.py?hl=cn&topic=12913 这里]，POP3在[http://mail.google.com/support/bin/topic.py?hl=cn&topic=12912 这里]。_
