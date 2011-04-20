@@ -21,7 +21,7 @@
 	convertoSimpleChar="0"	>
 }}}
 
-  ===userPassword（用户密码 YuchSign登录密码）===
+  ===userPassword（用户密码）===
   用户密码。这个密码不是邮箱密码，建议不要和邮箱密码一样，用于认证推送客户端。这个密码也必须和SSL生成证书的密码一样，yuchberry SSL配置请看[http://code.google.com/p/yuchberry/wiki/SSL_yuchberry 这里]。例如 userPassword=111111
 
   ===serverPort（主机端口）===
