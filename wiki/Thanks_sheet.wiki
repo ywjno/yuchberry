@@ -45,6 +45,7 @@ YuchBerry 1.0.584 正式版发布了！
   * 37middle@gmail.com 发现流量统计在重连的时候会算错的bug
   * zuola.com@gmail.com 生成SSL证书会有3个月的使用期限，要加上一个参数可以生成10年的期限
   * seven204@gmail.com（@没注册s sina Weibo）帮助测试自动切换wifi和gprs的功能
+  * ffxkim@gmail.com 帮助发现、测试、修正转发邮件无法回复的bug
 
 == 严重鸣谢 ==
 
