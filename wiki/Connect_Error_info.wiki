@@ -113,6 +113,9 @@ _ 有些条目是我长时间测试所得的结论，没有官方文档，如果
 
   ===java.io.IOException: Not in GZIP format===
      客户端的Serivce Book配置出错，无法使用压缩数据，可能是刚刚安装Service Book没有重启导致的，可以重启机器试试。
+
+  ===xxx@xxx.xx  delete mail Index: xx ===
+     服务器收到客户端要删除某个邮件的消息，删除了一封邮件。在客户端的“高级设置”里面可以配置“同步删除邮箱邮件”。
   
 
    === 可能出现的邮件乱码问题=== 
