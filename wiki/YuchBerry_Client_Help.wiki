@@ -1,10 +1,8 @@
-= Introduction =
-
-Add your content here.
-
-= Details =
-
-Add your content here.  Format your content with:
-  * Text in *bold* or _italic_
-  * Headings, paragraphs, and lists
-  * Automatic links to other wiki pages
+ # 如何获得主机？<br>自己架设或者租用YuchBerry官方的中转服务。
+ # 自己怎么架设？<br>最简单的是ADSL+DDNS，如果没有条件的可以租用便宜的Linux VPS（$2-$6一个月不等），可以合伙租用。ADSL+DDNS教程在[ADSL_DDNS_yuchberry 这里] ,Linux VPS购买教程在[http://www.vpsma.com/ 这里]，使用教程在[http://www.geektu.com/?p=680 这里]。
+ # 如何租用YuchBerry官方的中转服务？<br>可以访问[http://yuchberrysign.yuchberry.info/ 这里]，注册一个帐号，然后添加推送账户，同步即可。如果你是黑莓6.0的系统，可以直接用手机浏览器同步，否则，需要使用桌面浏览器同步。
+ # 租用要钱么？<br> 它有5天的免费使用时间（完全的功能），之后你在考虑如何继续使用YuchBerry。
+ # 连接不上怎么办？<br>打开YuchBerry客户端，进入 *诊断信息* ，可以看到错误的提示；看服务器的日志（自己架设的服务器在log目录下面，使用YuchBerry官方的中转服务可以登录之后查看）。然后到[Connect_Error_info 这里]查找出现的错误，以及解决的办法。
+ # 我还是连接不上？<br>直接发信到 *yuchberry@gmail.com* ，我会及时回信解答你的问题。我也是用的YuchBerry，呵呵。
+ # 我想深入了解一下YuchBerry，怎么开始？<br>最好从[FAQ FAQ]开始，里面的介绍和链接，足够让你深入的了解YuchBerry，以及它是如何快速的推送邮件的。
+ 
