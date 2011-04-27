@@ -11,6 +11,7 @@
     # 打开旧的config.xml，在 *EmailAccount* tag 中添加如下在两个字段（具体说明在[http://code.google.com/p/yuchberry/wiki/fill_config_ini 这里]）：
      * sendName="" _ 发送邮件的名字_
      * pushHistoryMsg="0" _ 是否推送历史邮件_
+    # 如果使用SSL方式的Yuchberry，覆盖旧版本的genkey.bat，重新生成一下密钥，不然之前生成的会在3个月内过期。
     # 完成更新
     
     
