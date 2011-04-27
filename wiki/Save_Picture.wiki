@@ -87,6 +87,6 @@
 
 好了，还有[http://code.google.com/p/yuchberry/wiki/Use_introduction 详细使用说明]。关于其他具体的使用可以去作者的[http://code.google.com/p/yuchberry/ 官方网站看看]。
 
-
+需要再次强调的是，不是所有的机型、系统都能用上YuchBerry，所以这个注册系统有5天的免费时间，让大家去试用，去折腾，一些莓友折腾了很久才能用上，如果有任何问题，都可以发送邮件到 yuchberry@gmail.com ，作者一般很快就能答复。
 
 
