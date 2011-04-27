@@ -1,12 +1,14 @@
 =使用个人服务器，免费推送邮件=
 
    ==介绍==
-     yuchberry新手<font color="red">强烈建议先看这个</font>:快速[http://code.google.com/p/yuchberry/wiki/FAQ 问与答FAQ]，帮助你了解它是如何配置、推送邮件的的。<br />
-     [http://code.google.com/p/yuchberry/wiki/Promote_list 改进列表]、[http://code.google.com/p/yuchberry/wiki/Thanks_sheet 感谢名单]、[http://code.google.com/p/yuchberry/wiki/Sponsor_yuchberry 赞助yuchberry]
+     [http://code.google.com/p/yuchberry/wiki/FAQ 快速问与答FAQ]，帮助你了解它是如何配置、推送邮件的的。<br />
+     [http://code.google.com/p/yuchberry/wiki/Promote_list 改进列表]、[http://code.google.com/p/yuchberry/wiki/Thanks_sheet 感谢名单]、[http://code.google.com/p/yuchberry/wiki/Sponsor_yuchberry 赞助yuchberry]<br />
+     可以发送邮件到 yuchberry@gmail.com 联系我<br/>
+     自驾服务器互助QQ群：148913654 <br/>
+     <a href="http://t.sina.com.cn/1894359415?s=6uyXnP" target="_blank"><img border="0" src="http://service.t.sina.com.cn/widget/qmd/1894359415/6ee1d15c/4.png"/></a><br />
+     
 
-     <a href="http://t.sina.com.cn/1894359415?s=6uyXnP" target="_blank"><img border="0" src="http://service.t.sina.com.cn/widget/qmd/1894359415/6ee1d15c/4.png"/></a>
-
-   ==下载==
+   ==下载客户端、服务器==
 ||[http://yuchberry.googlecode.com/files/yuchberry_server_1.0.584.zip Yuchberry服务器 1.0.584]||支持Windows、GNU/Linux、MacOS||
 ||[http://yuchberry.googlecode.com/files/yuchberry_client_1.0.584_for_4.2.zip Yuchberry客户端 1.0.584]|| 黑莓4.2系统（不支持HTML附件）||
 ||[http://yuchberry.googlecode.com/files/yuchberry_client_1.0.584_for_4.5.zip Yuchberry客户端 1.0.584]|| 黑莓4.5系统||
@@ -20,4 +22,71 @@
      建议使用Chrome浏览器，其他使用IE等浏览器看不到 注册页面 的朋友，请点击下面图片访问[http://yuchberrysign.yuchberry.info 独立页面]。
 
      [http://yuchberrysign.yuchberry.info/ http://www.gliffy.com/pubdoc/2618775/L.png]
-<wiki:gadget url="http://yuchberry.googlecode.com/files/yuchsign_embed.xml" height="800" width="800" border="0" /> 
+
+<br /><br /><br /><br />
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+     [http://i.imgur.com/6l58G.jpg]
+
+今天测试、介绍的软件YuchBerry，是一款黑莓第三方邮件客户端，和其它的邮件客户端软件不同的是，这款软件是开放源代码、免费的，甚至<font color="red">开放服务器下载</font>，自己可以搭建邮件中转服务器。所以相对于其他邮件推送软件，的确是一个不错的选择。
+
+想详细了解YuchBerry的朋友，可以到[http://code.google.com/p/yuchberry/ 作者的官网]去看看[http://code.google.com/p/yuchberry/wiki/FAQ YuchBerry的FAQ]，和视频讲解，其中有详细的搭建服务器的方法。
+
+已经使用过YuchBerry的莓友可能已经体验到它的快捷和省电，这次作者开放了注册，那些没有独立服务器的朋友也可以使用到YuchBerry了，今天主要测试、介绍一下这个注册机制——
+
+    [http://yuchberrysign.yuchberry.info/ YuchSign] （点击可以进入注册页面）
+
+首先需要注册一个帐号，因为要激活，所以必须使用信箱作为地址名：
+
+     [http://i.imgur.com/dACo2.jpg]
+
+输入验证码（很xx的验证码，看着我眼疼，据说是作者独创的）
+
+     [http://i.imgur.com/8eKAK.jpg]
+
+之后你会收到一封邮件，里面有验证链接，点击之后就激活成功了。当然只能激活一次，第二次就会失败。
+
+     [http://i.imgur.com/IToNZ.jpg]
+
+激活成功！
+
+     [http://i.imgur.com/VO5kU.jpg]
+
+接下来就需要添加账户了，填写上你想要推送的邮箱和密码，点击添加即可：
+
+     [http://i.imgur.com/I2KTp.jpg]
+
+需要说明的是，YuchSign账户的用户名虽然是邮箱地址，但是和推送邮箱一点关系也没有，需要自己再重新添加推送账户。
+
+现在是进行同步的时候了，回到 帐户属性 页，点击同步。
+
+     [http://i.imgur.com/4ghaQ.jpg]
+
+一会儿，就会同步成功。
+
+     [http://i.imgur.com/dmipC.jpg]
+
+之前写 没有同步 的地方，都有了相应的信息，这个就说明已经在YuchSign中转服务器上面开启了真正的推送端口和服务，可以使用客户端连接了。
+
+如果<font color="red">在3天的时间</font>没有发现任何YuchBerry客户端链接到这个对口，就会在中转服务器上关闭推送端口，如果想要重新打开，就需要再次同步一下。
+
+接下来，[http://code.google.com/p/yuchberry/downloads/list 到这里下载客户端]，安装。
+
+填写上相应的信息，点击链接，一般来说没有什么问题的话，就会成功。
+
+     [http://i.imgur.com/2xgke.png]
+
+接下来测试一下，发送一封邮件（给作者发一封）：
+
+     [http://i.imgur.com/olYAm.png]
+     [http://i.imgur.com/0UvN6.png]
+
+发送成功了，一会儿就收到作者的回信：
+
+     [http://i.imgur.com/DF8Jn.png]
+
+好了，还有[http://code.google.com/p/yuchberry/wiki/Use_introduction 详细使用说明]。关于其他具体的使用可以去作者的[http://code.google.com/p/yuchberry/ 官方网站看看]。
+
+
+
+
