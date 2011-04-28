@@ -13,6 +13,8 @@
     * [AntiNetBroken_server 兼容断续膏服务器]
     * [Promote_list 改进列表]
     * [Beta_Report beta测试报告]
+    * [Update_Method 更新方法]
+    * [YuchBerry_Client_Help YB简短帮助说明]
   * [Yuchsign_Using_Intro 注册机制YuchSign]
   * [Thanks_sheet 感谢]
   * [Sponsor_yuchberry 赞助YuchBerry]
