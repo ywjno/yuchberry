@@ -48,6 +48,7 @@ http://code.google.com/p/yuchberry/wiki/Promote_list
   * seven204@gmail.com（@没注册s sina Weibo）帮助测试自动切换wifi和gprs的功能
   * ffxkim@gmail.com 帮助发现、测试、修正转发邮件无法回复的bug
 
+
 == 严重鸣谢 ==
 
   * *[http://www.52blackberry.com/ 52BlackBerry]* 提供最初的测试空间。
@@ -61,6 +62,8 @@ http://code.google.com/p/yuchberry/wiki/Promote_list
   * *zhangjianying666@gmail.com* 阅读yuchberry的代码，并且提出一些问题和改进方案
 
   * *[http://bbs.bbercn.com/ 中国莓论坛]* 帮助发布测试和支持我的开发
+
+  * *zhantongcai@gmail.com* 帮助开启 YuchBerry 自驾互助QQ群，并一直维护它
 
 == 赞助 ==
 
