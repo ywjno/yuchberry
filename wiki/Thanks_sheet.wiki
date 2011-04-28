@@ -1,7 +1,8 @@
 #sidebar Sidebar
 ##@##
-YuchBerry 1.0.584 正式版发布了！
-伴随的还有YuchSign注册机制的测试版发布，去主页上就能看到。
+YuchBerry 1.1.715 正式版发布了！
+更新内容在：
+http://code.google.com/p/yuchberry/wiki/Promote_list
 
 = 关于 yuchberry =
 
