@@ -1,4 +1,5 @@
   * [FAQ 什么是YuchBerry]
+    * [YuchBerry_Client_Help YB简短帮助说明]
     * [ADSL_DDNS_yuchberry 配置ADSL+DDNS服务器]
       * [Router_DDNS_Config 路由器配置]
       * [fill_config_ini 填写Config文件]
@@ -14,7 +15,7 @@
     * [Promote_list 改进列表]
     * [Beta_Report beta测试报告]
     * [Update_Method 更新方法]
-    * [YuchBerry_Client_Help YB简短帮助说明]
+    
   * [Yuchsign_Using_Intro 注册机制YuchSign]
   * [Thanks_sheet 感谢]
   * [Sponsor_yuchberry 赞助YuchBerry]
