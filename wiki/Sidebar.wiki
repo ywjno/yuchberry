@@ -15,7 +15,6 @@
     * [Promote_list 改进列表]
     * [Beta_Report beta测试报告]
     * [Update_Method 更新方法]
-    
   * [Yuchsign_Using_Intro 注册机制YuchSign]
   * [Thanks_sheet 感谢]
   * [Sponsor_yuchberry 赞助YuchBerry]
