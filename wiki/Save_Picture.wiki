@@ -32,7 +32,7 @@
 
    想详细了解YuchBerry的朋友，可以到[http://code.google.com/p/yuchberry/ 作者的官网]去看看[http://code.google.com/p/yuchberry/wiki/FAQ YuchBerry的FAQ]，和视频讲解，其中有详细的搭建服务器的方法。
 
-   已经使用过YuchBerry的莓友可能已经体验到它的快捷和省电，这次作者开放了注册，那些没有独立服务器的朋友也可以使用到YuchBerry了，今天主要测试、介绍一下这个注册机制——
+   已经使用过YuchBerry的莓友可能已经体验到它的快捷和省电，这次作者开放了注册，那些没有独立服务器的朋友也可以使用到YuchBerry了，这次主要测试、介绍一下这个注册机制——
 
     [http://yuchberrysign.yuchberry.info/ YuchSign] （点击可以进入注册页面）
 
