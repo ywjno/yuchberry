@@ -28,65 +28,69 @@
 
      [http://i.imgur.com/6l58G.jpg]
 
-今天测试、介绍的软件YuchBerry，是一款黑莓第三方邮件客户端，和其它的邮件客户端软件不同的是，这款软件是开放源代码、免费的，甚至<font color="red">开放服务器下载</font>，自己可以搭建邮件中转服务器。所以相对于其他邮件推送软件，的确是一个不错的选择。
+   今天测试、介绍的软件YuchBerry，是一款黑莓第三方邮件客户端，和其它的邮件客户端软件不同的是，这款软件是开放源代码、免费的，甚至<font color="red">开放服务器下载</font>，自己可以搭建邮件中转服务器。所以相对于其他邮件推送软件，的确是一个不错的选择。
 
-想详细了解YuchBerry的朋友，可以到[http://code.google.com/p/yuchberry/ 作者的官网]去看看[http://code.google.com/p/yuchberry/wiki/FAQ YuchBerry的FAQ]，和视频讲解，其中有详细的搭建服务器的方法。
+   想详细了解YuchBerry的朋友，可以到[http://code.google.com/p/yuchberry/ 作者的官网]去看看[http://code.google.com/p/yuchberry/wiki/FAQ YuchBerry的FAQ]，和视频讲解，其中有详细的搭建服务器的方法。
 
-已经使用过YuchBerry的莓友可能已经体验到它的快捷和省电，这次作者开放了注册，那些没有独立服务器的朋友也可以使用到YuchBerry了，今天主要测试、介绍一下这个注册机制——
+   已经使用过YuchBerry的莓友可能已经体验到它的快捷和省电，这次作者开放了注册，那些没有独立服务器的朋友也可以使用到YuchBerry了，今天主要测试、介绍一下这个注册机制——
 
     [http://yuchberrysign.yuchberry.info/ YuchSign] （点击可以进入注册页面）
 
-首先需要注册一个帐号，因为要激活，所以必须使用信箱作为地址名：
+   首先需要注册一个帐号，因为要激活，所以必须使用信箱作为地址名：
 
      [http://i.imgur.com/dACo2.jpg]
 
-输入验证码（很xx的验证码，看着我眼疼，据说是作者独创的）
+   输入验证码（很xx的验证码，看着我眼疼，据说是作者独创的）
 
      [http://i.imgur.com/8eKAK.jpg]
 
-之后你会收到一封邮件，里面有验证链接，点击之后就激活成功了。当然只能激活一次，第二次就会失败。
+   之后你会收到一封邮件，里面有验证链接，点击之后就激活成功了。当然只能激活一次，第二次就会失败。
 
      [http://i.imgur.com/IToNZ.jpg]
 
-激活成功！
+   激活成功！
 
      [http://i.imgur.com/VO5kU.jpg]
 
-接下来就需要添加账户了，填写上你想要推送的邮箱和密码，点击添加即可：
+   接下来就需要添加账户了，填写上你想要推送的邮箱和密码，点击添加即可：
 
      [http://i.imgur.com/I2KTp.jpg]
 
-需要说明的是，YuchSign账户的用户名虽然是邮箱地址，但是和推送邮箱一点关系也没有，需要自己再重新添加推送账户。
+   需要说明的是，YuchSign账户的用户名虽然是邮箱地址，但是和推送邮箱一点关系也没有，需要自己再重新添加推送账户。
 
-现在是进行同步的时候了，回到 帐户属性 页，点击同步。
+   现在是进行同步的时候了，回到 帐户属性 页，点击同步。
 
      [http://i.imgur.com/4ghaQ.jpg]
 
-一会儿，就会同步成功。
+   一会儿，就会同步成功。
 
      [http://i.imgur.com/dmipC.jpg]
 
-之前写 没有同步 的地方，都有了相应的信息，这个就说明已经在YuchSign中转服务器上面开启了真正的推送端口和服务，可以使用客户端连接了。
+   之前写 没有同步 的地方，都有了相应的信息，这个就说明已经在YuchSign中转服务器上面开启了真正的推送端口和服务，可以使用客户端连接了。
 
-如果<font color="red">在3天的时间</font>没有发现任何YuchBerry客户端链接到这个对口，就会在中转服务器上关闭推送端口，如果想要重新打开，就需要再次同步一下。
+   如果<font color="red">在3天的时间</font>没有发现任何YuchBerry客户端链接到这个对口，就会在中转服务器上关闭推送端口，如果想要重新打开，就需要再次同步一下。
 
-接下来，[http://code.google.com/p/yuchberry/downloads/list 到这里下载客户端]，安装。
+   接下来，[http://code.google.com/p/yuchberry/downloads/list 到这里下载客户端]，安装。
 
-填写上相应的信息，点击链接，一般来说没有什么问题的话，就会成功。
+   填写上相应的信息，点击链接，一般来说没有什么问题的话，就会成功。
 
      [http://i.imgur.com/2xgke.png]
 
-接下来测试一下，发送一封邮件（给作者发一封）：
+   接下来测试一下，发送一封邮件（给作者发一封）：
 
      [http://i.imgur.com/olYAm.png]
      [http://i.imgur.com/0UvN6.png]
 
-发送成功了，一会儿就收到作者的回信：
+   发送成功了，一会儿就收到作者的回信：
 
      [http://i.imgur.com/DF8Jn.png]
 
-好了，还有[http://code.google.com/p/yuchberry/wiki/Use_introduction 详细使用说明]。关于其他具体的使用可以去作者的[http://code.google.com/p/yuchberry/ 官方网站看看]。
+   如果遇到一些问题，或者发信出现异常，YuchSign提供良好的错误、信息日志查询系统：
 
-需要再次强调的是，不是所有的机型、系统都能用上YuchBerry，所以这个注册系统有5天的免费时间，让大家去试用，去折腾，一些莓友折腾了很久才能用上，如果有任何问题，都可以发送邮件到 yuchberry@gmail.com ，作者一般很快就能答复。
+     [http://i.imgur.com/dSOBA.jpg]
 
+   点击 查找帮助 按钮，就会去到作者wiki文档，查找相应的错误信息，和错误解决方案，如果发现链接不上，这个方法是排查问题的首选。
 
+   好了，还有[http://code.google.com/p/yuchberry/wiki/Use_introduction 详细使用说明]。关于其他具体的使用可以去作者的[http://code.google.com/p/yuchberry/ 官方网站看看]。
+
+   需要再次强调的是，不是所有的机型、系统都能用上YuchBerry，所以这个注册系统有5天的免费时间，让大家去试用，去折腾，一些莓友折腾了很久才能用上，如果有任何问题，都可以发送邮件到 yuchberry@gmail.com ，作者一般很快就能答复。
