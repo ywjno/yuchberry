@@ -85,5 +85,6 @@
    # ~~ 使用“答复时丢弃原文”的时候，不替换“答复：”等前缀了。 ~~
    # 解决自驾服务器时config.xml明文密码的问题！
    # 试图解决：Server chose unsupported or disabled protocol: SSLv3 （zhxu@neusoft.com）其实就是增加STL的支持。区分一下smtp，smtps(sl),smtpt(ls)
+   # POP3 不支持复制已发送邮件到文件夹（javax.mail.MethodNotSupportedException: Append not supported）
    # yuchweibo
    
