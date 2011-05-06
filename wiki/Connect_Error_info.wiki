@@ -90,7 +90,7 @@ _ 有些条目是我长时间测试所得的结论，没有官方文档，如果
 }}}
      请在谷歌和百度中搜索 JavaMail + 错误信息，例如上面的内容就可以搜索 "JavaMail error fetching POP3 content" 谷歌可以搜索到[http://www.google.com.hk/search?sourceid=chrome&ie=UTF-8&q=JavaMail+error+fetching+POP3+content 这些内容] ,就可以知道想要推送的邮箱服务器有些什么问题了。
 
-  ===java.net.SocketException: Socket closed===
+  ===java.net.SocketException: Socket closed (sockect ReadInt failed) ===
      服务器和客户端连接的时候收到某种因素的影响，断开了链接，有可能是GPRS基站断开，也有可能是手机主动断开（断网、关闭等等），服务器所产生的输出日志，很正常，因为我们使用的不是专有的GPRS通道。
 
   ===receive package head < 7 > length< 1 >===
