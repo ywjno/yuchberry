@@ -1,7 +1,7 @@
 #labels Phase-Deploy
 #sidebar Sidebar
 = 独立主机配置 =
-<wiki:toc max_depth="2" />
+<wiki:toc max_depth="3" />
 
 *这个方法对实时性要求更高的中小企业用户。*
 
@@ -12,33 +12,96 @@
 上面是alpha测试的历史了，多人使用的集成配置工具在beta测试的时候投入测试使用。
 
 == 配置服务器 ==
+   购置一台独立IP的主机。可使用便宜的VPS，也可以使用性能更好的独立服务器。具体的购置帮助，请搜索“独立主机”，“VPS独立主机”。
 
-  * 购置一台独立IP的主机。可使用便宜的VPS（我就是使用的168元一个月的VPS服务），也可以使用性能更好的独立服务器。具体的购置帮助，请搜索“独立主机”，“VPS独立主机”。
+ ===Windows 平台===
+    * 登录主机，下载[http://www.java.com/zh_CN/download/manual.jsp Java Runtime Environment 5.0(以上) （jre）]，并进行安装。如果你已经有了Jre，就不需要安装了。判断方法（Windows平台下） ：
+      # 开始 -> 运行 -> 输入 cmd -> 输入 java ，如果出现的是一大串英文，而不是“不是内部文件”之类的提示，那么就已经装上了某个版本的java
+      # 然后再输入 java -version 如果出现 1.5.x（或者更高版本） 的数字字样，那么就符合要求，不然就需要去重现下载安装。<br />
+    * [http://code.google.com/p/yuchberry/downloads/list 下载]yuchberry服务器程序到计算机上，解压缩到一个文件夹里面。如果有* 多个用户* 共享这台机器，可以下载 * 集成配置工具 *用于配置，集成配置工具的使用看[/Integration_Config_tool 这里]。<br />
+    * 打开config.ini文件，进行配置，具体的配置看[fill_config_ini 这里]。
+      # 输入"用户密码"的时候，要记住，客户端需要用的上。
+      # “yuchberry server 端口” 需要填入分配的端口。（例如 9716）
+      # 如果是Windows ，请确保防火墙允许这些端口进行连接。具体步骤帮助，请搜索“windows防火墙例外”。<br />
+    * 运行服务器程序，如果出现"prepare account OK"字样，祝贺你，服务器配置初步成功了。
 
-  * 登录主机，下载[http://www.java.com/zh_CN/download/manual.jsp Java Runtime Environment 5.0(以上) （jre）]，并进行安装。如果你已经有了Jre，就不需要安装了。判断方法（Windows平台下） ：
-   # 开始 -> 运行 -> 输入 cmd -> 输入 java ，如果出现的是一大串英文，而不是“不是内部文件”之类的提示，那么就已经装上了某个版本的java
-   # 然后再输入 java -version 如果出现 1.5.x（或者更高版本） 的数字字样，那么就符合要求，不然就需要去重现下载安装。
-   # 如果是Linux VPS(SSH)，那么请优先选择[http://www.ibm.com/developerworks/java/jdk/linux/download.html IBM的jre6.0]，因为它运行需要更少的内存。但是好像要注册才能下载。
-
-  * [http://code.google.com/p/yuchberry/downloads/list 下载]yuchberry服务器程序到计算机上，解压缩到一个文件夹里面。如果有* 多个用户* 共享这台机器，可以下载 * 集成配置工具 *用于配置，集成配置工具的使用看[http://code.google.com/p/yuchberry/wiki/Integration_Config_tool 这里]。
-
-  * 打开config.ini文件，进行配置，具体的配置看[http://code.google.com/p/yuchberry/wiki/fill_config_ini 这里]。
-   # 输入"用户密码"的时候，要记住，客户端需要用的上。
-   # “yuchberry server 端口” 需要填入分配的端口。（例如 9716）
-   # 如果是Windows ，请确保防火墙允许这些端口进行连接。具体步骤帮助，请搜索“windows防火墙例外”。
-
-  * 运行服务器程序，如果出现"prepare account OK"字样，祝贺你，服务器配置初步成功了。
-
-  * 检查端口是否打开。到[http://www.t1shopper.com/tools/port-scan/ 这里]输入你的IP地址(如果你是花生壳域名，需要用ping命令解析一下域名)和配置的端口，检查是否打开，如果没有打开，检查之前的步骤是否有问题。<font color="red">很多问题都是端口没有打开导致的。</font>
-
-  * 如果出现问题，请到[http://code.google.com/p/yuchberry/wiki/Connect_Error_info#服务器条目 这里]排查问题所在。
+  === 类Linux 平台 ===
+    需要自己懂得最基本的Linux命令操作方式，如何登录服务器等等，请自行谷歌百度。<br />_ 感谢莓友 joyoner 的亲情投稿 _
+    * 设置 Locale，主要解决乱码问题
+{{{
+    echo export LC_ALL=\"zh_CN.utf8\" >> /etc/profile
+    echo export LC_CTYPE=\"zh_CN.utf8\" >> /etc/profile
+    echo export LANG=\"zh_CN.utf8\" >> /etc/profile
+    echo "" >> /etc/profile
+    echo export LC_ALL=\"zh_CN.utf8\" >> /etc/bashrc
+    echo export LC_CTYPE=\"zh_CN.utf8\" >> /etc/bashrc
+    echo export LANG=\"zh_CN.utf8\" >> /etc/bashrc
+    echo "" >> /etc/bashrc
+}}}
+    * 解决包依赖关系，安装IBM JRE，如果你已经有了java 运行环境就可以不需要在安装了。
+{{{
+    yum install -y compat-libstdc++* libXp*
+    wget http://dl.dropbox.com/u/182853/ibm-java-i386-jre-6.0-9.0.i386.rpm
+    rpm -ivh ibm-java-i386-jre-6.0-9.0.i386.rpm
+    rm -f ibm-java-i386-jre-6.0-9.0.i386.rpm
+}}}
+    _ 使用 java –version 查看是否安装成功。_
+    * 设置PATH：
+{{{
+    echo "export PATH=/opt/ibm/java-i386-60/jre/bin:\$PATH" >> /etc/profile
+    echo "export PATH=/opt/ibm/java-i386-60/jre/bin:\$PATH" >> /etc/bashrc
+    echo "" >> /etc/bashrc
+}}}
+    * (可选步骤)关闭iptables允许用户连接：
+{{{
+    service iptables stop
+}}}
+    * 下载客户端，运行yuchberry(这里是1.1.716 的服务器版本)
+{{{
+    wget http://yuchberry.googlecode.com/files/yuchberry_server_1.1.716.zip
+    mv yuchberry_server_1.1.716.zip /usr/
+    cd /usr/
+    unzip yuch.zip
+}}}
+     _ 如果运行 unzip的时候出现命令找不到请用 yam install unzip 解决 _
+    * 配置邮箱信息，具体的配置看[fill_config_ini 这里]
+{{{
+    cd /usr/yuchberry_server_1.1.716
+    vim config.xml
+}}}
+    _ Windows 控制远程SSH linux，建议使用 notepad++ _
+    * 测试运行，查看config.xml是否填写错误。
+{{{
+    cd /usr/yuchberry_server_1.1.716
+    java –jar svr.jar
+}}}
+    如果出现 “prepare OK”的字样表示账户准备成功。否则就需要到[Connect_Error_info 这里]查找问题出现在那里了。 
+    * 按 Ctrl+C 终止上面的程序，在yuchberry当前目录执行
+{{{
+    nohup java –jar svr.jar &
+}}}
+    让服务器程序永远运行在后台。可以使用
+{{{
+    top
+    SHIFT+M 
+}}}
+    查看进程中是否有 Java
+    * (可选 )制作开机自启的脚本 runsvr.sh ，得懂shell吧
+{{{
+    #!/bin/bash
+    cd /usr/yuch/
+    nohup /opt/ibm/java-i386-60/jre/bin/java -jar svr.jar &
+}}}
+ === 测试服务器 ===
+   * 检查端口是否打开。到[http://www.t1shopper.com/tools/port-scan/ 这里]输入你的IP地址(如果你是花生壳域名，需要用ping命令解析一下域名)和配置的端口，检查是否打开，如果没有打开，检查之前的步骤是否有问题。<font color="red">很多问题都是端口没有打开导致的。</font>
+   * 如果出现问题，请到[http://code.google.com/p/yuchberry/wiki/Connect_Error_info#服务器条目 这里]排查问题所在。
 
 == 配置客户端 ==
 
   * 首先要确认自己的手机上面的Service Book是否含有 *CMIME条目* ，如果没有，需要到网上搜索一个合适的带有CMIME 的Service Book，也可以去[http://code.google.com/p/yuchberry/downloads/list 这里]下载一个网上流传已久的6项的Service Book。
 
   * [http://code.google.com/p/yuchberry/downloads/list 下载]客户端到电脑，通过 Desktop Manager 安装。OTA 版本在这里。
-  
+
   * 检查是否能发邮件。就是在短信界面，点击黑莓菜单键，看看是否有“编写电子邮件”一项，如果没有，那么到[http://code.google.com/p/yuchberry/wiki/Service_Book 这个页面]去详细阅读，并安装一个正确的Service Book。
 
   * 填写“主机”。需要询问配置yuchberry的服务器网管，询问其配置主机的IP。
