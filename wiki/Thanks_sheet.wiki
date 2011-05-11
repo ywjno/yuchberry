@@ -47,6 +47,7 @@ http://code.google.com/p/yuchberry/wiki/Promote_list
   * zuola.com@gmail.com 生成SSL证书会有3个月的使用期限，要加上一个参数可以生成10年的期限
   * seven204@gmail.com（@没注册s sina Weibo）帮助测试自动切换wifi和gprs的功能
   * ffxkim@gmail.com 帮助发现、测试、修正转发邮件无法回复的bug
+  * linjuncpu@gmail.com 帮助发现发送邮件时，联系人为中文时会出现乱码的问题
 
 
 == 严重鸣谢 ==
