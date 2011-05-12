@@ -87,7 +87,7 @@
    # 试图解决：Server chose unsupported or disabled protocol: SSLv3 （zhxu@neusoft.com）其实就是增加STL的支持。区分一下smtp，smtps(sl),smtpt(ls)
    # POP3 不支持复制已发送邮件到文件夹（javax.mail.MethodNotSupportedException: Append not supported）
    # 英文版的 YuchSign 验证码。
-   # 同一个邮件中有相同名字的附件，会出现问题。
+   # ~~ 同一个邮件中有相同名字的附件，会出现问题。 ~~
    # 看一下能不能加入在程序里面设置工作目录的选项，方便linux用户。
    # ~~ 中文名+邮件地址 发送邮件时，会出现乱码的问题~~
    # yuchweibo
