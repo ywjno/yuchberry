@@ -15,7 +15,9 @@
     点击 *生产令牌* 按钮，出现授权码，如下：<br />
     [http://i.imgur.com/YhUpF.jpg]<br />
 
+
   === 填写config.xml配置文件 ===
+   * <b>配置Tag</b>
     通过上面获得 *访问令牌* 之后，就可以填写 config.xml 配置文件了，新加了一组以   *WeiboAccount* 结尾的Tag，比如 *SinaWeiboAccount ，TWeiboAccount* ，之后可能会加入更多的Weibo Tag。上面获得的令牌（Token）填写如下：
     {{{
 <?xml version="1.0" encoding="UTF-8"?>
@@ -37,10 +39,14 @@
        ...
 />
     }}}
-    config.xml 主要属性配置，和PushMail配置在[fill_config_ini 这里]。需要 *极度注意* 这里的从理论上来讲，YuchBerry支持多个相同的 *SinaWeiboAccount* 标签（也就是说推送多个SinaWeibo账户），但是在真正使用的时候，比如回复、转发、评论等等会有一些意想不到的误解，所以不建议使用多个相同 *WeiboAccount* 标签。<br />
+    config.xml 主要属性配置（推送端口、轮训间隔等等），和PushMail配置在[fill_config_ini 这里]。<br />
+    <b>极度注意:</b> 这里的从理论上来讲，YuchBerry支持多个相同的 *SinaWeiboAccount* 标签（也就是说推送多个SinaWeibo账户），但是在真正使用的时候，比如回复、转发、评论等等会有一些意想不到的误解，所以不建议使用多个相同 *WeiboAccount* 标签。<br />
+   * <b>配置Tag 属性</b>
     解释一下标签里面的属性的含义：<br>
-    * *timelineSum*      主页
-    * *directMessageSum* 私信
-    * *atMeSum*          @到我的
-    * *commentSum*       评论到我的
-    YuchBerry的机制永远不会改变：服务器轮训，及时推送到客户端。原理视频在[/FAQ#原理解说视频 这里]。但是由于Weibo数量
+     * *timelineSum*      主页
+     * *directMessageSum* 私信
+     * *atMeSum*          @到我的
+     * *commentSum*       评论到我的
+    YuchBerry的机制永远不会改变：服务器轮训，及时推送到客户端（原理视频在[http://code.google.com/p/yuchberry/wiki/FAQ#原理解说视频 这里]）。但是由于Weibo的特殊性：主页Weibo数量较多，回复、评论到我的Weibo对于每一个人来说又不一样，又要保证手机端达到省电、省流量的目的，还要保证Weibo快捷的推送到，于是使用一种算法来实施这个特殊的Weibo推送：<br>
+     <b>推送时机 ：轮训次数 + Weibo数量 >= Sum属性的值</b><br>
+    举个例子，如果设置 timelineSum="20"，当前已经轮训3次，只有累计Weibo达到或者超过 17个的时候，才能触发一次推送，把17个Weibo集中起来，压缩，一次性推送给客户端；否则，继续轮训，直到它们的和超过指定的 Sum 值。
