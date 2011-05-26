@@ -6,7 +6,7 @@
      可以发送邮件到 yuchberry@gmail.com 联系我<br/>
      自驾服务器互助QQ群：148913654 <br/>
      <a href="http://t.sina.com.cn/1894359415?s=6uyXnP" target="_blank"><img border="0" src="http://service.t.sina.com.cn/widget/qmd/1894359415/6ee1d15c/4.png"/></a><br />
-     
+     <a href="http://t.qq.com/yuchting" target="_blank"><img src="http://v.t.qq.com/cgi-bin/signature?name=yuchting&sign=0506902fc53c71ae3240bb352d8b597036a0bba1&type=1" width="380" height="100" /></a>
 
    ==下载客户端、服务器==
 ||[http://yuchberry.googlecode.com/files/yuchberry_server_1.0.584.zip Yuchberry服务器 1.0.584]||支持Windows、GNU/Linux、MacOS||
