@@ -94,5 +94,6 @@
    # ~~ 6.0 系统转发邮件没有原文 ~~
    # 客户端主机地址中的空格需要去掉，或者提示
    # 发送带有附件的邮件的时候，会在手机本地将内容重复一遍。
+   # 解决一下[http://code.google.com/p/yuchberry/issues/detail?id=158 这个Issue]
    # yuchweibo
    
