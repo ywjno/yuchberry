@@ -8,7 +8,39 @@
   === 获得授权码 ===
     在服务器发行版本里面有一个名为 weiboTool_sina.bat 的文件，双击它，会出现下面的界面。GNU/Linux下面需要有 XWindow 的支持。<br />
     [http://i.imgur.com/lJ3xr.jpg]<br />
-    点击 请求授权 按钮，会使用系统默认浏览器打开一个页面，就是Weibo的应用授权页面，如下所示<br />
+    点击 * 请求授权* 按钮，会使用系统默认浏览器打开一个页面，就是Weibo的应用授权页面，如下所示<br />
     [http://i.imgur.com/zMTMb.jpg]<br />
-    测试需要登陆相应的帐号，就能获得一个授权PIN码，并把这个授权PIN码，把这个PIN码复制到工具的相应位置上如图：<br />
+    此时需要登陆相应的帐号，就能获得一个授权PIN码，并把这个授权PIN码，把这个PIN码复制到工具的相应位置上如图：注意，如果之前有登录过Weibo帐号，并且有缓存，可能需要 *先退出一下之前的帐号，清空一下cookies才行* <br />
     [http://i.imgur.com/RS3aj.jpg]<br />
+    点击 *生产令牌* 按钮，出现授权码，如下：<br />
+    [http://i.imgur.com/YhUpF.jpg]<br />
+
+  === 填写config.xml配置文件 ===
+    通过上面获得 *访问令牌* 之后，就可以填写 config.xml 配置文件了，新加了一组以   *WeiboAccount* 结尾的Tag，比如 *SinaWeiboAccount ，TWeiboAccount* ，之后可能会加入更多的Weibo Tag。上面获得的令牌（Token）填写如下：
+    {{{
+<?xml version="1.0" encoding="UTF-8"?>
+<Yuchberry userPassword="111111" serverPort="9716" pushInterval="10" userSSL="0" convertoSimpleChar="0" >
+
+       ...
+
+      <SinaWeiboAccount
+		account="yuchberry_test"
+		accessToken="8a2bf4e5a97194a1eb73740b44******"
+		secretToken="7529265879f3c97af609c694064bbc59"
+		
+		
+		timelineSum="20"
+		directMessageSum="5"
+		atMeSum="5"
+		commentSum="5"
+	/>
+       ...
+/>
+    }}}
+    config.xml 主要属性配置，和PushMail配置在[fill_config_ini 这里]。需要 *极度注意* 这里的从理论上来讲，YuchBerry支持多个相同的 *SinaWeiboAccount* 标签（也就是说推送多个SinaWeibo账户），但是在真正使用的时候，比如回复、转发、评论等等会有一些意想不到的误解，所以不建议使用多个相同 *WeiboAccount* 标签。<br />
+    解释一下标签里面的属性的含义：<br>
+    * *timelineSum*      主页
+    * *directMessageSum* 私信
+    * *atMeSum*          @到我的
+    * *commentSum*       评论到我的
+    YuchBerry的机制永远不会改变：服务器轮训，及时推送到客户端。原理视频在[/FAQ#原理解说视频 这里]。但是由于Weibo数量
