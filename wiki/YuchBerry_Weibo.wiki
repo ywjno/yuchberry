@@ -1,13 +1,14 @@
-#summary One-sentence summary of this page.
+= Weibo模块的配置和使用 =
+   在1.1.715（不含）之后的YuchBerry版本中，除了改进之前的PushMail功能之外，还集中开发了统一Weibo的模块。原因没什么，只是想做，不为别的。
 
-= Introduction =
+   现在写这篇文档的时候YuchWeibo还没有发布，即便是过阵子发布了，这篇文档也有可能在今后的修复开发中，和实际的产品不一致——要知道，我只有一双手，十个指头，难免会有偏差，敬请谅解。
 
-Add your content here.
-
-
-= Details =
-
-Add your content here.  Format your content with:
-  * Text in *bold* or _italic_
-  * Headings, paragraphs, and lists
-  * Automatic links to other wiki pages
+ == 服务端配置 ==
+   直到我写这篇文档的时候，仅仅集成了 Sina Weibo 和 T Weibo，今后可能会加入更多的Weibo进来，但是配置几乎是相同的，正所谓“天下武功出少林”，这个道理在Weibo界也是相同的——大家都是使用的xAuth来授权，所以只介绍Sina Weibo的配置。
+  === 获得授权码 ===
+    在服务器发行版本里面有一个名为 weiboTool_sina.bat 的文件，双击它，会出现下面的界面。GNU/Linux下面需要有 XWindow 的支持。<br />
+    [http://i.imgur.com/lJ3xr.jpg]<br />
+    点击 请求授权 按钮，会使用系统默认浏览器打开一个页面，就是Weibo的应用授权页面，如下所示<br />
+    [http://i.imgur.com/zMTMb.jpg]<br />
+    测试需要登陆相应的帐号，就能获得一个授权PIN码，并把这个授权PIN码，把这个PIN码复制到工具的相应位置上如图：<br />
+    [http://i.imgur.com/RS3aj.jpg]<br />
