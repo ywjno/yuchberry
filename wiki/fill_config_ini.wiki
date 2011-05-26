@@ -132,3 +132,5 @@
 	/>
 </Yuchberry>
 }}}
+==配置Weibo模块== 
+  请查看[YuchBerry_Weibo 这个文档]，获得详细配置步骤。
