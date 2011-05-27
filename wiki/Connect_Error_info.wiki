@@ -63,6 +63,9 @@ _ 有些条目是我长时间测试所得的结论，没有官方文档，如果
   ===some client<xxx.xxx.xxx.xxx> connecting ,waiting for auth===
     一个客户端连接上来了，等待客户端的用户密码。
 
+  === Connection Reset ===
+    远端客户端使用GPRS（或其他网络连接）后，中间路由器主动断开的提示。
+
   ===java.net.SocketTimeoutException: Read timed out===
     如果在上面的 waiting for auth 信息提示之后出现这个提示，那么很有可能是在服务器没有配置SSL，但是在手机上的“高级设置”里面选中了SSL连接所导致的，关闭手机上的SSL即可（或者配置 [http://code.google.com/p/yuchberry/wiki/SSL_yuchberry SSL yuchberry]）。
 
