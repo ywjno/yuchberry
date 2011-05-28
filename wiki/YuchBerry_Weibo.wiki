@@ -57,13 +57,23 @@
     打开客户端Weibo模块很简单，在 *高级设置* 里面勾选中* 开启Weibo模块* ，就可以开启了。开启后，在*YuchBerry 账户状态* 的界面中就会有*Weibo* 的菜单选贤点击就可以打开Weibo管理界面。<br />
     [http://i.imgur.com/hKBAo.png][http://i.imgur.com/29Km5.png]
     [http://i.imgur.com/UA81v.png][http://i.imgur.com/3b5qm.png]<br />
-    * 开启Weibo模块
+    * <b>开启Weibo模块</b>
      启用后，weibo模块就开启，进入YuchBerry的首次界面就不是*YuchBerry 账户状态* 了，而是Weibo界面，需要通过菜单才能进入 *YuchBerry 账户状态* 。
-    * 转发/评论后同时发一条Weibo
-    * 回复后同时发一条Weibo
+    * <b>转发/评论后同时发一条Weibo</b>
+    * <b>回复后同时发一条Weibo</b>
      Sina Weibo等国内Weibo对于这条选项来说有用，T Weibo所以的转发、回复都会在自己Timeline上发一条Weibo
-    * 优先显示评论原始内容
+    * <b>优先显示评论原始内容</b>
      Sina Weibo等国内Weibo对于这条选项来说有用，就是把原始内容优先显示，再显示评论的内容，方便黑莓屏幕查看，不然首先看到评论，但是不知道他评论的是什么，心里有些纳闷。
-    * 跨Weibo转发
+    * <b>跨Weibo转发</b>
      这个会在你转发、评论一条微博的时候，在自己所有的推送Weibo账户上显示出来，比如你在 T Weibo 上看到一个好笑的笑话，转发一下，那么你在 Sina Weibo 的推送账户上也会出现这条Weibo的内容。
+  ===快捷键===
+     由于屏幕的限制，Weibo查看有一定的限制，使用快捷键会大大加快查看、发表Weibo的速度。
+     * <b>T</b> 快速回到最顶端
+     * <b>空格</b> 在查看Weibo状态下，迅速查看下一个Weibo
+     * <b>Shift+空格</b> 在查看Weibo状态下，迅速查看上一个Weibo
+     * <b>F</b> 在查看Weibo状态下，转发
+     * <b>E</b> 在查看Weibo状态下，@博主
+     * <b>V</b> 在查看Weibo状态下，收藏
+     * <b>P</b> 在查看Weibo状态下，查看图片
+
     
