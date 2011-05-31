@@ -65,6 +65,8 @@ http://code.google.com/p/yuchberry/wiki/Promote_list
   * *[http://bbs.bbercn.com/ 中国莓论坛]* 帮助发布测试和支持我的开发
 
   * *zhantongcai@gmail.com* 帮助开启 YuchBerry 自驾互助QQ群，并一直维护它
+ 
+  * *aston.he@gmail.com* 帮助通过SinaWeibo的审核
 
 == 赞助 ==
 
