@@ -63,7 +63,7 @@
     cd /usr/
     unzip yuch.zip
 }}}
-     _ 如果运行 unzip的时候出现命令找不到请用 yam install unzip 解决 _
+     _ 如果运行 unzip的时候出现命令找不到请用 yum install unzip 解决 _
     * 配置邮箱信息，具体的配置看[fill_config_ini 这里]
 {{{
     cd /usr/yuchberry_server_1.1.716
