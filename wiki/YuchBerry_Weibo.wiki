@@ -42,7 +42,7 @@
 />
     }}}
     config.xml 主要属性配置（推送端口、轮训间隔等等），和PushMail配置在[fill_config_ini 这里]。<br />
-    <b>极度注意:</b> 这里的从理论上来讲，YuchBerry支持多个相同的 *SinaWeiboAccount* 标签（也就是说推送多个SinaWeibo账户），但是在真正使用的时候，比如回复、转发、评论等等会有一些意想不到的误解，所以不建议使用多个相同 *WeiboAccount* 标签。<br />
+    <b>极度注意:</b> 这里的从理论上来讲，YuchBerry支持多个相同的 *type* WeiboAccount标签（也就是说推送多个SinaWeibo账户），但是在真正使用的时候，比如回复、转发、评论等等会有一些意想不到的误解，所以不建议使用多个相同 *type* WeiboAccount标签。<br />
    * <b>配置Tag 属性</b>
     解释一下标签里面的属性的含义：<br>
      * *timelineSum*      主页
