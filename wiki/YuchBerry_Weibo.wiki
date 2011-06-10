@@ -71,10 +71,10 @@
      由于屏幕的限制，Weibo查看有一定的限制，使用快捷键会大大加快查看、发表Weibo的速度。
      * <b>T</b> 快速回到最顶端
      * <b>空格</b> 在查看Weibo状态下，迅速查看下一个Weibo
-     * <b>Shift+空格</b> 在查看Weibo状态下，迅速查看上一个Weibo
+     * <b>0</b> 在查看Weibo状态下，迅速查看上一个Weibo
      * <b>F</b> 在查看Weibo状态下，转发
      * <b>E</b> 在查看Weibo状态下，@博主
      * <b>V</b> 在查看Weibo状态下，收藏
-     * <b>P</b> 在查看Weibo状态下，查看图片
+     * <b>G</b> 在查看Weibo状态下，查看图片
 
     
