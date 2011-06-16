@@ -55,7 +55,8 @@
  == 配置客户端 ==
     打开客户端Weibo模块很简单，在 *高级设置* 里面勾选中* 开启Weibo模块* ，就可以开启了。开启后，在*YuchBerry 账户状态* 的界面中就会有*Weibo* 的菜单选贤点击就可以打开Weibo管理界面。<br />
     [http://i.imgur.com/hKBAo.png][http://i.imgur.com/29Km5.png]
-    [http://i.imgur.com/UA81v.png][http://i.imgur.com/3b5qm.png]<br />
+    [http://i.imgur.com/UA81v.png][http://i.imgur.com/3b5qm.png]
+    [http://i.imgur.com/Bhd7F.jpg]<br />
     * <b>开启Weibo模块</b>
      启用后，weibo模块就开启，进入YuchBerry的首次界面就不是*YuchBerry 账户状态* 了，而是Weibo界面，需要通过菜单才能进入 *YuchBerry 账户状态* 。
     * <b>转发/评论后同时发一条Weibo</b>
