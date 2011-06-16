@@ -5,17 +5,15 @@
    现在写这篇文档的时候YuchWeibo还没有发布，即便是过阵子发布了，这篇文档也有可能在今后的修复开发中，和实际的产品不一致——要知道，我只有一双手，十个指头，难免会有偏差，敬请谅解。
 
  == 服务端配置 ==
-   直到我写这篇文档的时候，仅仅集成了 Sina Weibo 和 T Weibo，今后可能会加入更多的Weibo进来，但是配置几乎是相同的，正所谓“天下武功出少林”，这个道理在Weibo界也是相同的——大家都是使用的xAuth来授权，所以只介绍Sina Weibo的配置。
+   直到我写这篇文档的时候，仅仅集成了 Sina Weibo 和 T Weibo 还有 QQ Weibo，今后可能会加入更多的Weibo进来，但是配置几乎是相同的，正所谓“天下武功出少林”，这个道理在Weibo界也是相同的——大家都是使用的xAuth来授权，所以只介绍QQ Weibo的配置。
   === 获得授权码 ===
-    在服务器发行版本里面有一个名为 weiboTool_sina.bat 的文件，双击它，会出现下面的界面。GNU/Linux下面需要有 XWindow 的支持。<br />
-    [http://i.imgur.com/lJ3xr.jpg]<br />
-    点击 * 请求授权* 按钮，会使用系统默认浏览器打开一个页面，就是Weibo的应用授权页面，如下所示<br />
-    [http://i.imgur.com/zMTMb.jpg]<br />
-    此时需要登陆相应的帐号，就能获得一个授权PIN码，并把这个授权PIN码，把这个PIN码复制到工具的相应位置上如图：注意，如果之前有登录过Weibo帐号，并且有缓存，可能需要 *先退出一下之前的帐号，清空一下cookies才行* <br />
-    [http://i.imgur.com/RS3aj.jpg]<br />
-    点击 *生产令牌* 按钮，出现授权码，如下：<br />
-    [http://i.imgur.com/YhUpF.jpg]<br />
-
+    在服务器发行版本里面有一个名为 weiboTool_sina.bat 的文件，双击它，会出现下面的界面。GNU/Linux下面需要有 XWindow 的支持，因为要打开浏览器。<br />
+    [http://img4.hostingpics.net/pics/446645capture1308206622.jpg]<br />
+    浏览器会自动打开，然后输入帐号，或者允许授权<br />
+    [http://img4.hostingpics.net/pics/201425capture1308206698.jpg]<br />
+    完成后，浏览器会自动跳转到一个YuchBerry的页面，这个页面时刚才的那个黑色窗口服务的，会看到如下页面 <br />
+    [http://i.imgur.com/DGxVM.jpg]<br />
+    这个时候授权就已经完成了，获得可以访问账户的 * 访问令牌* ，Yuchberry Weibo 只会使用安全的 OAuth 访问Weibo账户，不会泄漏用户的密码和信息。你还可以深入了解[http://zh.wikipedia.org/wiki/OAuth 什么是OAuth]。
 
   === 填写config.xml配置文件 ===
    * <b>配置Tag</b>
@@ -27,10 +25,10 @@
        ...
 
       <WeiboAccount
-		type="sina"
-		account="yuchberry_test"		
-		accessToken="8a2bf4e5a97194a1eb73740b44******"
-		secretToken="7529265879f3c97af609c694064bbc59"
+		type="qq"
+		account="yuchberry"		
+		accessToken="d7804a95bde0436ca9f0b62ef8******"
+		secretToken="0a076b55a89ed75bada75b72d880a60b"
 		
 		
 		timelineSum="20"
