@@ -1,96 +1,29 @@
-=使用个人服务器，免费推送邮件=
+=使用个人服务器，免费推送邮件、Weibo=
 
-   ==介绍==
-     [http://code.google.com/p/yuchberry/wiki/FAQ 快速问与答FAQ]，帮助你了解它是如何配置、推送邮件的的。<br />
-     [http://code.google.com/p/yuchberry/wiki/Promote_list 改进列表]、[http://code.google.com/p/yuchberry/wiki/Thanks_sheet 感谢名单]、[http://code.google.com/p/yuchberry/wiki/Sponsor_yuchberry 赞助yuchberry]<br />
-     可以发送邮件到 yuchberry@gmail.com 联系我<br/>
-     自驾服务器互助QQ群：148913654 <br/>
-     <a href="http://t.sina.com.cn/1894359415?s=6uyXnP" target="_blank"><img border="0" src="http://service.t.sina.com.cn/widget/qmd/1894359415/6ee1d15c/4.png"/></a><br />
-     <a href="http://t.qq.com/yuchting" target="_blank"><img src="http://v.t.qq.com/sign/yuchting/0506902fc53c71ae3240bb352d8b597036a0bba1/1.jpg" border="0" /></a>
+==介绍==
 
-   ==下载客户端、服务器==
-||[http://yuchberry.googlecode.com/files/yuchberry_server_1.0.584.zip Yuchberry服务器 1.0.584]||支持Windows、GNU/Linux、MacOS||
-||[http://yuchberry.googlecode.com/files/yuchberry_client_1.0.584_for_4.2.zip Yuchberry客户端 1.0.584]|| 黑莓4.2系统（不支持HTML附件）||
-||[http://yuchberry.googlecode.com/files/yuchberry_client_1.0.584_for_4.5.zip Yuchberry客户端 1.0.584]|| 黑莓4.5系统||
-||[http://yuchberry.googlecode.com/files/yuchberry_client_1.0.584_for_4.6.zip Yuchberry客户端 1.0.584]|| 黑莓4.6系统||
-||[http://yuchberry.googlecode.com/files/yuchberry_client_1.0.584_for_4.7.zip Yuchberry客户端 1.0.584]|| 黑莓4.7系统||
-||[http://yuchberry.googlecode.com/files/yuchberry_client_1.0.584_for_5.0.zip Yuchberry客户端 1.0.584]|| 黑莓5.0系统||
-||[http://yuchberry.googlecode.com/files/yuchberry_client_1.0.584_for_6.0.zip Yuchberry客户端 1.0.584]|| 黑莓6.0系统||
+[http://code.google.com/p/yuchberry/wiki/FAQ 快速问与答FAQ]，帮助你了解它是如何配置、推送邮件的。<br />
+[http://code.google.com/p/yuchberry/wiki/Promote_list 改进列表]、[http://code.google.com/p/yuchberry/wiki/Thanks_sheet 感谢名单]、[http://code.google.com/p/yuchberry/wiki/Sponsor_yuchberry 赞助yuchberry]<br />
+遇到任何问题，可以发送邮件到 yuchberry@gmail.com 联系我<br/>
+莓友自架服务器互助，问题咨询 QQ群：148913654 <br/>
+<a href="http://t.sina.com.cn/1894359415?s=6uyXnP" target="_blank"><img border="0" src="http://service.t.sina.com.cn/widget/qmd/1894359415/6ee1d15c/4.png"/></a>
+<a href="http://t.qq.com/yuchberry" target="_blank"><img src="http://v.t.qq.com/sign/yuchberry/8fd7bf8458b4706ae5f4bc697b209d81d6a8c48a/1.jpg" border="0" /></a><br/>
+在YuchBerry 1.1.715(不含)之后的版本加入了[YuchBerry_Weibo Weibo功能].
 
-   ==注册免费试用（无需自架服务器）==
-     配置简单，免费试用，无需架设服务器，体验极限推送！<br />
-     建议使用Chrome浏览器，其他使用IE等浏览器看不到 注册页面 的朋友，请点击下面图片访问[http://yuchberrysign.yuchberry.info 独立页面]。
+==下载==
 
-     [http://yuchberrysign.yuchberry.info/ http://www.gliffy.com/pubdoc/2618775/L.png]
+||[http://yuchberry.googlecode.com/files/yuchberry_server_1.1.716.zip Yuchberry服务器 1.2.875] || 支持Windows、GNU/Linux、MacOS                        ||
+||[http://yuchberry.googlecode.com/files/yuchberry_1.2.875_for_4.2.zip Yuchberry客户端 1.2.875]|| 黑莓4.2系统（<font color="red">含Weibo测试版</font>）||
+||[http://yuchberry.googlecode.com/files/yuchberry_1.2.875_for_4.5.zip Yuchberry客户端 1.2.875]|| 黑莓4.5系统（<font color="red">含Weibo测试版</font>）||
+||[http://yuchberry.googlecode.com/files/yuchberry_1.2.875_for_4.6.zip Yuchberry客户端 1.2.875]|| 黑莓4.6系统（<font color="red">含Weibo测试版</font>）||
+||[http://yuchberry.googlecode.com/files/yuchberry_1.2.875_for_4.7.zip Yuchberry客户端 1.2.875]|| 黑莓4.7系统（<font color="red">含Weibo测试版</font>）||
+||[http://yuchberry.googlecode.com/files/yuchberry_1.2.875_for_5.0.zip Yuchberry客户端 1.2.875]|| 黑莓5.0系统（<font color="red">含Weibo测试版</font>）||
+||[http://yuchberry.googlecode.com/files/yuchberry_1.2.875_for_6.0.zip Yuchberry客户端 1.2.875]|| 黑莓6.0系统（<font color="red">含Weibo测试版</font>）||
 
-<br /><br /><br /><br />
-///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+==注册免费试用（无需自架服务器）==
 
-     [http://i.imgur.com/6l58G.jpg]
+配置简单，免费试用，无需架设服务器，体验极限推送！<br />
+建议使用Chrome浏览器，其他使用IE等浏览器看不到 注册页面 的朋友，请点击下面图片访问 *YuchSign* [http://yuchberrysign.yuchberry.info 独立注册页面]。
 
-   今天测试、介绍的软件YuchBerry，是一款黑莓第三方邮件客户端，和其它的邮件客户端软件不同的是，这款软件是开放源代码、免费的，甚至<font color="red">开放服务器下载</font>，自己可以搭建邮件中转服务器。所以相对于其他邮件推送软件，的确是一个不错的选择。
-
-   想详细了解YuchBerry的朋友，可以到[http://code.google.com/p/yuchberry/ 作者的官网]去看看[http://code.google.com/p/yuchberry/wiki/FAQ YuchBerry的FAQ]，和视频讲解，其中有详细的搭建服务器的方法。
-
-   已经使用过YuchBerry的莓友可能已经体验到它的快捷和省电，这次作者开放了注册，那些没有独立服务器的朋友也可以使用到YuchBerry了，这次主要测试、介绍一下这个注册机制——
-
-    [http://yuchberrysign.yuchberry.info/ YuchSign] （点击可以进入注册页面）
-
-   首先需要注册一个帐号，因为要激活，所以必须使用信箱作为地址名：
-
-     [http://i.imgur.com/dACo2.jpg]
-
-   输入验证码（很xx的验证码，看着我眼疼，据说是作者独创的）
-
-     [http://i.imgur.com/8eKAK.jpg]
-
-   之后你会收到一封邮件，里面有验证链接，点击之后就激活成功了。当然只能激活一次，第二次就会失败。
-
-     [http://i.imgur.com/IToNZ.jpg]
-
-   激活成功！
-
-     [http://i.imgur.com/VO5kU.jpg]
-
-   接下来就需要添加账户了，填写上你想要推送的邮箱和密码，点击添加即可：
-
-     [http://i.imgur.com/I2KTp.jpg]
-
-   需要说明的是，YuchSign账户的用户名虽然是邮箱地址，但是和推送邮箱一点关系也没有，需要自己再重新添加推送账户。
-
-   现在是进行同步的时候了，回到 帐户属性 页，点击同步。
-
-     [http://i.imgur.com/4ghaQ.jpg]
-
-   一会儿，就会同步成功。
-
-     [http://i.imgur.com/dmipC.jpg]
-
-   之前写 没有同步 的地方，都有了相应的信息，这个就说明已经在YuchSign中转服务器上面开启了真正的推送端口和服务，可以使用客户端连接了。
-
-   如果<font color="red">在3天的时间</font>没有发现任何YuchBerry客户端链接到这个端口，就会在中转服务器上关闭推送端口，如果想要重新打开，就需要再次同步一下。
-
-   接下来，[http://code.google.com/p/yuchberry/downloads/list 到这里下载客户端]，安装。
-
-   填写上相应的信息，点击链接，一般来说没有什么问题的话，就会成功。
-
-     [http://i.imgur.com/2xgke.png]
-
-   接下来测试一下，发送一封邮件（给作者发一封）：
-
-     [http://i.imgur.com/olYAm.png]
-     [http://i.imgur.com/0UvN6.png]
-
-   发送成功了，一会儿就收到作者的回信：
-
-     [http://i.imgur.com/DF8Jn.png]
-
-   如果遇到一些问题，或者发信出现异常，YuchSign提供良好的错误、信息日志查询系统：
-
-     [http://i.imgur.com/dSOBA.jpg]
-
-   点击 查找帮助 按钮，就会去到作者wiki文档，查找相应的错误信息，和错误解决方案，如果发现链接不上，这个方法是排查问题的首选。
-
-   好了，还有[http://code.google.com/p/yuchberry/wiki/Use_introduction 详细使用说明]。关于其他具体的使用可以去作者的[http://code.google.com/p/yuchberry/ 官方网站看看]。
-
-   需要再次强调的是，不是所有的机型、系统都能用上YuchBerry，所以这个注册系统有5天的免费时间，让大家去试用，去折腾，一些莓友折腾了很久才能用上，如果有任何问题，都可以发送邮件到 yuchberry@gmail.com ，作者一般很快就能答复。
+[http://yuchberrysign.yuchberry.info/ http://www.gliffy.com/pubdoc/2618775/L.png]
+<wiki:gadget url="http://yuchberry.googlecode.com/files/yuchsign_embed.xml" height="800" width="800" border="0" /> 
