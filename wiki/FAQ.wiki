@@ -72,6 +72,21 @@
    <b>Q：</b> 那么YuchSign提供的YuchBerry服务和莓友自行搭建YuchBerry服务器有什么不同？<br>
    <b>A：</b> 这里的关键是 * 硬件服务器的租用* ，YuchSign虽然租用的是商业的服务器运行YuchBerry，但是他要运行、服务成百上千的用户；莓友自行搭建的服务器，若是2M带宽的ADSL，那么在10-20个用户范围内，服务质量是基本上一致的。
 
+==PushWeiboFAQ==
+
+   <b>Q：</b> YuchBerry支持了Weibo功能，这个又是怎么回事呢？<br>
+   <b>A：</b> 对，从1.2.875版本开始，客户端+服务器就已经在测试Weibo模块了，因为YuchBerry推送机制不变，可以推送更多的东西，Weibo就是这样一个功能。YuchBerry PushWeibo 是把你的所有微博账户的信息推送到你的手机上来，同样和邮件一样具有快捷，省电，省流量的特性。
+
+   <b>Q：</b> 不想用Weibo功能的用户会占用客户端资源么？<br>
+   <b>A：</b> YuchBerry PushWeibo 在一开始设计就是：不配置便是禁用，禁用便是不占用任何资源。
+
+   <b>Q：</b> 现在YuchBerry Weibo模块支持多少种微博？<br>
+   <b>A：</b> 现在支持新浪微博、腾讯微博、以及传说中T微博，今后将会加入更多的微博种类，网易微博、搜狐微博、饭否就在计划中。
+
+   <b>Q：</b> 我如何使用YuchBerry Weibo呢？<br>
+   <b>A：</b> 哦，这个不是一两句就能说得清楚的，[YuchBerry_Weibo 这篇文档]有详细的说明，来帮助莓友配置PushWeibo
+
+
 == YuchBerry原理解说视频 ==
  _ 看不见的朋友点[http://v.youku.com/v_show/id_XMjM5MjU1MzIw.html 这里] _
 <wiki:gadget url="http://yuchberry.googlecode.com/files/intro_video_gadget.xml" width="480" height="400" border=0 up_projectName="intro" />
