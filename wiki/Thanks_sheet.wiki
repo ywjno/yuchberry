@@ -1,6 +1,6 @@
 #sidebar Sidebar
 ##@##
-YuchBerry 1.1.715 正式版发布了！
+YuchBerry 1.2.875 带有PushWeibo测试版本发布了！
 更新内容在：
 http://code.google.com/p/yuchberry/wiki/Promote_list
 
