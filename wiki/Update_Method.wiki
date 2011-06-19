@@ -3,17 +3,24 @@
 个版本功能更新、bug修复说明在[Promote_list 这里]。
 
 == 1.0.584 升级到 1.1.715 ==
-
   * 客户端不用管，直接下载直接安装即可
   * 服务器更新步骤：
     # 下载新版服务器程序
     # 使用版本的frame.jar，svr.jar覆盖原来旧的版本
-    # 打开旧的config.xml，在 *EmailAccount* tag 中添加如下在两个字段（具体说明在[http://code.google.com/p/yuchberry/wiki/fill_config_ini 这里]）：
+    # 打开旧的config.xml，在 *EmailAccount* tag 中添加如下在两个字段（具体说明在[fill_config_ini 这里]）：
      * sendName="" _ 发送邮件的名字_
      * pushHistoryMsg="0" _ 是否推送历史邮件_
     # 如果使用SSL方式的Yuchberry，覆盖旧版本的genkey.bat，重新生成一下密钥，不然之前生成的会在3个月内过期。
     # 如果使用frame集成配置工具的话，替换一下commonMailSvr.ini，foxmail的配置有所更改。
     # 增加了一个runFrame_hide.bat的文件，可以使frame集成配置工具隐藏运行。
     # OK，完成更新
-    
+
+== 1.1.715 升级到 1.2.875 ==
+  * 客户端
+    # 如果使用Weibo模块，请在客户端高级设置里面打开选项
+    # 如果使用的是[Password_Crypt 加密算子]加密邮箱密码，请在高级设置里面填写加密算子
+  * 服务器更新步骤：
+    # 替换 svr.jar
+    # 由于服务器去掉了frame.jar 集成进了svr.jar，所以需要把之前的runframe.bat去掉，替换上新的 runframe.bat
+    # 如果想使用新功能[Password_Crypt 加密算子]加密邮箱密码，请复制cryptPasswordTool.bat到原来的目录。
     
