@@ -48,6 +48,7 @@ http://code.google.com/p/yuchberry/wiki/Promote_list
   * seven204@gmail.com（@没注册s sina Weibo）帮助测试自动切换wifi和gprs的功能
   * ffxkim@gmail.com 帮助发现、测试、修正转发邮件无法回复的bug
   * linjuncpu@gmail.com 帮助发现发送邮件时，联系人为中文时会出现乱码的问题
+  * berry.makie@gmAil.com 帮助测试PushWeibo最初的版本，并反馈很多有用的意见
 
 
 == 严重鸣谢 ==
