@@ -49,6 +49,7 @@ http://code.google.com/p/yuchberry/wiki/Promote_list
   * ffxkim@gmail.com 帮助发现、测试、修正转发邮件无法回复的bug
   * linjuncpu@gmail.com 帮助发现发送邮件时，联系人为中文时会出现乱码的问题
   * berry.makie@gmAil.com 帮助测试PushWeibo最初的版本，并反馈很多有用的意见
+  * bartonchen347@gmail.com 帮助测试出发送邮件是出现 4>=4 Index 问题。
 
 
 == 严重鸣谢 ==
