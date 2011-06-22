@@ -19,7 +19,7 @@
 
   === 填写config.xml配置文件 ===
    * <b>配置Tag</b>
-    通过上面获得 *访问令牌* 之后，就可以填写 config.xml 配置文件了，新加了一组以   *WeiboAccount* 的Tag，里面通过 *type* 属性来区分类型，现在有 *sina* *twitter* *qq* 几种类型，之后可能会加入更多的Weibo Type。上面获得的令牌（Token）填写如下：
+    通过上面获得 *访问令牌* 之后，就可以填写 config.xml 配置文件了，新加了一组以   *WeiboAccount* 的Tag，里面通过 *type* 属性来区分类型，现在有 *sina* *tw* *qq* 几种类型，之后可能会加入更多的Weibo Type。上面获得的令牌（Token）填写如下：
     {{{
 <?xml version="1.0" encoding="UTF-8"?>
 <Yuchberry userPassword="111111" serverPort="9716" pushInterval="10" userSSL="0" convertoSimpleChar="0" >
