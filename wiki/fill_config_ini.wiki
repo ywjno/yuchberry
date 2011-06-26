@@ -72,6 +72,8 @@
      邮件服务端口号。例如 port=993
   ===password（帐户密码）===
      邮箱密码，当然这个谁都不应该忘记。 例如 password=123456
+  ===cryptPassword（加密后的密码）===
+     password 填写的密码明文，无法保证在服务器被黑之后的密码安全，于是就增加一个加密过后的密码字段，详细的配置在[Password_Crypt 这里]。
   ===useFullNameSignIn（是否使用全地址登录）===
      是否利用全地址登录邮箱。有些邮箱需要用全地址xxxx@host.com 而不是xxxx作为用户名称。例如hotmail，谷歌企业邮箱、foxmail（因为使用的是pop.qq.com）、vip.qq.com等等，就貌似需要全地址登录。
   ===protocol_send（发送邮件协议）===
