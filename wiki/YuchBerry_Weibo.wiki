@@ -4,11 +4,17 @@
 
    现在写这篇文档的时候YuchWeibo还没有发布，即便是过阵子发布了，这篇文档也有可能在今后的修复开发中，和实际的产品不一致——要知道，我只有一双手，十个指头，难免会有偏差，敬请谅解。
 
-   <font color="red">1.2.875的版本是Weibo测试版，YuchSign暂时无法提供此服务，需要有自己服务器的朋友，才能使用Weibo功能，以后的版本才会推出YuchSign的集中服务版本。</font>
 
  == 服务端配置 ==
    直到我写这篇文档的时候，仅仅集成了 Sina Weibo 和 T Weibo 还有 QQ Weibo，今后可能会加入更多的Weibo进来，但是配置几乎是相同的，正所谓“天下武功出少林”，这个道理在Weibo界也是相同的——大家都是使用的xAuth来授权，所以只介绍QQ Weibo的配置。
-  === 获得授权码 ===
+  ===Yuch Sign 配置 ===
+   登录YuchSign 之后，点击<b>推送列表</b>，可以看到除了邮件之外，还有一个Weibo的Tab打开之后下图：
+   [http://clip2net.com/clip/m85555/1309193426-clip-8kb.png]<br />
+   点击 <b>生成授权信息</b> 就会在服务器生成授权记录，不过还没有得到用户的允许，需要等待用户的许可，如下图：<br />
+   [http://clip2net.com/clip/m85555/1309193537-clip-7kb.png][http://clip2net.com/clip/m85555/1309193652-clip-7kb.png]<br />
+   继续点击<b>请求用户授权</b> 授权完毕之后，就会获得授权访问码，这个时候，就能进行添加，并且同步了。
+  === 自架服务器配置 ===
+   * 获得授权码 
     在服务器发行版本里面有一个名为 weiboTool_sina.bat 的文件，双击它，会出现下面的界面。GNU/Linux下面需要有 XWindow 的支持，因为要打开浏览器。<br />
     [http://img4.hostingpics.net/pics/446645capture1308206622.jpg]<br />
     浏览器会自动打开，然后输入帐号，或者允许授权<br />
@@ -16,10 +22,9 @@
     完成后，浏览器会自动跳转到一个YuchBerry的页面，这个页面时刚才的那个黑色窗口服务的，会看到如下页面 <br />
     [http://i.imgur.com/DGxVM.jpg]<br />
     这个时候授权就已经完成了，获得可以访问账户的 * 访问令牌* ，Yuchberry Weibo 只会使用安全的 OAuth 访问Weibo账户，不会泄漏用户的密码和信息。你还可以深入了解[http://zh.wikipedia.org/wiki/OAuth 什么是OAuth]。
-
-  === 填写config.xml配置文件 ===
-   * <b>配置Tag</b>
-    通过上面获得 *访问令牌* 之后，就可以填写 config.xml 配置文件了，新加了一组以   *WeiboAccount* 的Tag，里面通过 *type* 属性来区分类型，现在有 *sina* *tw* *qq* 几种类型，之后可能会加入更多的Weibo Type。上面获得的令牌（Token）填写如下：
+   * 填写config.xml配置文件
+    * <b>配置Tag</b>
+     通过上面获得 *访问令牌* 之后，就可以填写 config.xml 配置文件了，新加了一组以   *WeiboAccount* 的Tag，里面通过 *type* 属性来区分类型，现在有 *sina* *tw* *qq* 几种类型，之后可能会加入更多的Weibo Type。上面获得的令牌（Token）填写如下：
     {{{
 <?xml version="1.0" encoding="UTF-8"?>
 <Yuchberry userPassword="111111" serverPort="9716" pushInterval="10" userSSL="0" convertoSimpleChar="0" >
@@ -43,7 +48,7 @@
     }}}
     config.xml 主要属性配置（推送端口、轮训间隔等等），和PushMail配置在[fill_config_ini 这里]。<br />
     <b>极度注意:</b> 这里的从理论上来讲，YuchBerry支持多个相同的 *type* WeiboAccount标签（也就是说推送多个SinaWeibo账户），但是在真正使用的时候，比如回复、转发、评论等等会有一些意想不到的误解，所以不建议使用多个相同 *type* WeiboAccount标签。<br />
-   * <b>配置Tag 属性</b>
+    * <b>配置Tag 属性</b>
     解释一下标签里面的属性的含义：<br>
      * *timelineSum*      主页
      * *directMessageSum* 私信
@@ -52,7 +57,10 @@
     YuchBerry的机制永远不会改变：服务器轮训，及时推送到客户端（原理视频在[http://code.google.com/p/yuchberry/wiki/FAQ#原理解说视频 这里]）。但是由于Weibo的特殊性：主页Weibo数量较多，回复、评论到我的Weibo对于每一个人来说又不一样，又要保证手机端达到省电、省流量的目的，还要保证Weibo快捷的推送到，于是使用一种算法来实施这个特殊的Weibo推送：<br>
      <b>推送时机 ：轮训次数 + Weibo数量 >= Sum属性的值</b><br>
     举个例子，如果设置 timelineSum="20"，当前已经轮训3次，只有累计Weibo达到或者超过 17个的时候，才能触发一次推送，把17个Weibo集中起来，压缩，一次性推送给客户端；否则，继续轮训，直到它们的和超过指定的 Sum 值。<br />
-    当然，还有一个普遍规律适用：* 如果你弄不清楚什么意思，那就是用默认的值吧* 。
+    当然，还有一个普遍规律适用：* 如果你弄不清楚什么意思，那就是用默认的值吧* 。<br />
+    <b>手动刷新</b> 只需要将其上面的字段填为赋值即可，比如<br>
+     * *timelineSum=-30*  <br>
+    就是服务器不会主动推送主页的Weibo，要等到客户端请求才会推送，推送最近的、不重复的30条Weibo。
 
  == 配置客户端 ==
     打开客户端Weibo模块很简单，在 *高级设置* 里面勾选中* 开启Weibo模块* ，就可以开启了。开启后，在*YuchBerry 账户状态* 的界面中就会有*Weibo* 的菜单选贤点击就可以打开Weibo管理界面。<br />
