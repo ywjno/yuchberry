@@ -36,7 +36,7 @@
      其中有些最基本的用户信息，这些信息都是存储在注册服务器（YuchSign）里面的，在手工同步之后，才会发送给中转服务器，中转服务器产生账户信息，等待手机连接上来，完成推送。
 
  === 推送列表 ===
-    在推送列表页面，用户可以根据自己的配置添加推送账户：
+   在推送列表页面，用户可以根据自己的配置添加推送账户：
 
   [http://i.imgur.com/q792n.jpg]
 
@@ -66,6 +66,8 @@
 	@sohu.com,imap,mail.sohu.com,143,mail.sohu.com,25,0
 }}}
  推荐使用163、126、gmail的邮箱进行推送。其他地址需要自己手动配置。
+
+ <b>推送Weibo</b>的配置详细参见[http://code.google.com/p/yuchberry/wiki/YuchBerry_Weibo#Yuch_Sign_配置 这里]。 
 
  === 查询日志===
 
