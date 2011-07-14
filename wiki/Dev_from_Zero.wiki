@@ -14,7 +14,12 @@
      你可以选择命令行的方式签出代码[http://www.sliksvn.com/en/download SlikSVN]，也可以选择 [http://tortoisesvn.net/downloads TortoiseSVN] 这个图形配置界面（推荐），如果你不知道什么是SVN，签出完代码之后请自行搜索，补充知识。
 
   === 签出yuchberry主版本代码===
-     点击Google Project Hosting 的Source 来到[http://code.google.com/p/yuchberry/source/checkout 这个页面] 然后找到签出的地址：<pre>        http://yuchberry.googlecode.com/svn/trunk/ yuchberry-read-only </pre>然后如图建立自己的工作目录，签出自己代码。<font color="red">建议放在D盘</font>，图片上的不对，因为我的配置文件会提交同步到google code上面，如果目录不同，会导致代码编译不过。如果你知道为什么编译不过，那么就可以随意设置，同时自己排查原因了。
+     点击Google Project Hosting 的Source 来到[http://code.google.com/p/yuchberry/source/checkout 这个页面] 然后找到签出的地址：
+{{{
+        http://yuchberry.googlecode.com/svn/trunk/@926 yuchberry-read-only 
+}}}
+     然后如图建立自己的工作目录，签出自己代码。<font color="red">建议放在D盘</font>，图片上的不对，因为我的配置文件会提交同步到google code上面，如果目录不同，会导致代码编译不过。如果你知道为什么编译不过，那么就可以随意设置，同时自己排查原因了。
+     <br /><b>@926</b>这个数字是每次发布版本的稳定版，比如1.3.926 版本，后面的数字就是SVN版本，需要下载稳定版本，才能mod，不然就会出问题。现在我没有开发合作者，所以还不需要branches进行开发。
 
   [http://i.imgur.com/yH1rz.jpg]        [http://i.imgur.com/yZ8eH.jpg]
 
@@ -25,7 +30,7 @@
    # 下载 [http://60.28.113.74:8000/weibo4j-2010-09-07.zip weibo4j]，解压放到签出的目录下面的 server\src 下面，例如 D:\Java_Project\yuchberry\server\src\weibo4j 
    # 下载 [http://bbsdk.csdn.net/BlackBerry_JDE_PluginFull_1.1.2.201004161203-16.exe Blackberry Java Development for Eclipse Plugin1.1] 这个只有黑莓5.0系统的开发包。
    # 继续下载 [http://downloads.blackberry.com/upr/developers/javadev/net.rim.ejde.componentpack4.5.0_4.5.0.21.jar 4.5]   [http://downloads.blackberry.com/upr/developers/javadev/net.rim.ejde.componentpack4.6.0_4.6.0.21.jar 4.6]    [http://downloads.blackberry.com/upr/developers/javadev/net.rim.ejde.componentpack4.7.0_4.7.0.53.jar 4.7]     [http://downloads.blackberry.com/upr/developers/javadev/net.rim.ejde.componentpack6.0.0_6.0.0.29.jar 6.0] 的开发包。统统下完之后，用解压缩工具（7zip 或者WinRAR）打开，解压到 eclipse\plugins 目录底下。
-  _ 一段很长的下载时间过去之后。。。_
+    _ 一段很长的下载时间过去之后。。。_
   === 配置Eclipse开发环境及yuchberry服务器工程===
    # 运行之前下载好的 Blackberry Java Development for Eclipse Plugin1.1，然后指定你的Eclipse目录作为安装路径，进行安装（图就不截了，相当简单）。
    # 打开Eclipse，点击 File -> Switch Workspace -> Ohter... 指定工作空间到你签出代码的地方，比如D:\Java_Project\yuchberry\ 
