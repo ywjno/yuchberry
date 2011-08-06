@@ -5,7 +5,7 @@
 [http://code.google.com/p/yuchberry/wiki/FAQ 快速问与答FAQ]，帮助你了解它是如何配置、推送邮件的。<br />
 [http://code.google.com/p/yuchberry/wiki/Promote_list 改进列表]、[http://code.google.com/p/yuchberry/wiki/Thanks_sheet 感谢名单]、[http://code.google.com/p/yuchberry/wiki/Sponsor_yuchberry 赞助yuchberry]<br />
 遇到任何问题，可以发送邮件到 yuchberry@gmail.com 联系我<br/>
-莓友自架服务器互助，问题咨询 QQ群：148913654 <br/>
+莓友自架服务器互助，问题咨询 QQ群：<a href="http://qun.qq.com/#jointhegroup/gid/148913654">148913654</a> <br/>
 <a href="http://t.sina.com.cn/1894359415?s=6uyXnP" target="_blank"><img border="0" src="http://service.t.sina.com.cn/widget/qmd/1894359415/6ee1d15c/4.png"/></a>
 <a href="http://t.qq.com/yuchberry" target="_blank"><img src="http://v.t.qq.com/sign/yuchberry/8fd7bf8458b4706ae5f4bc697b209d81d6a8c48a/1.jpg" border="0" /></a><br/>
 在YuchBerry 1.1.715(不含)之后的版本加入了[YuchBerry_Weibo Weibo功能].
