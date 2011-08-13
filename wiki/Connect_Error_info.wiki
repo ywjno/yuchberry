@@ -1,5 +1,6 @@
 #sidebar Sidebar
 = 错误/提示信息 =
+<font color=red>所有的手机都必须使用net APN连接，只能使用wap的连接无法使用语盒</font>
 <wiki:toc max_depth="3" />
 
 ==前言==
