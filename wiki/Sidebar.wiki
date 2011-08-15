@@ -4,6 +4,7 @@
       * [Router_DDNS_Config 路由器配置]
       * [fill_config_ini 填写Config文件]
       * [SSL_yuchberry 配置安全SSL的 yuchberry]
+      * [Password_Crypt 加密自己的邮件密码]
       * [fill_APN 填写客户端APN]
     * [Independent_Host_yuchberry 配置独立主机]
       * [Integration_Config_tool 集成配置工具]
