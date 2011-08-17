@@ -7,6 +7,8 @@
 
    集成配置工具 * 现在尚处于测试阶段* ，使用的时候请注意，有bug即使反馈到[http://code.google.com/p/yuchberry/issues/list 问题页面]，我会及时更改，在下个版本的时候就能改进。当然功能增加建议也是可以提出的。
 
+   <b>集成配置工具就是一个服务器，可以为多人服务，不用再开runSvr的命令行服务器了。</b>
+
 == 主界面 ==
 
   [http://i.imgur.com/NWwpo.jpg]
