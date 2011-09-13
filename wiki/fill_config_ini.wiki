@@ -3,7 +3,7 @@
 = 填写服务器 config.xml 文件 =
 <wiki:toc max_depth="3" />
 
-   服务器配置需要一个简单的说明，用于填写yuchberry中间服务器访问的邮箱服务器地址、用户、密码等等。这个说明存放在config.xml 文件里面。
+   服务器配置需要一个简单的说明，用于填写语盒中间服务器访问的邮箱服务器地址、用户、密码等等。这个说明存放在config.xml 文件里面。
 
    这个配置文件是利用xml配置的，xml是一种标记语言，语法很简单，不会的自己可以google一下，例如[http://www.google.com.hk/search?rlz=1C1GPEA_enCN394CN394&sourceid=chrome&ie=UTF-8&q=xml 这样]。
 
@@ -28,9 +28,9 @@
      yuchberry server 监听端口,负责与手机端通讯，推送服务器。在[http://code.google.com/p/yuchberry/wiki/ADSL_DDNS_yuchberry#配置客户端 客户端的设置]需要用到他。例如 serverPort=9716
 
   ===pushInterval（推送间隔）===
-     yuchBerry中间服务器到邮件服务器上取信间隔，单位为秒，间隔越小，服务器占用资源越多。但是Push 到客户端的延迟也就越小。最小值为1。 例如 pushInterval=10。<font color="red">对于有些邮箱来说，有一定的安全性，所以过短的间隔会导致邮箱锁定，IMAP/POP3方式无法访问，需要去手动解锁</font>
+     语盒中间服务器到邮件服务器上取信间隔，单位为秒，间隔越小，服务器占用资源越多。但是Push 到客户端的延迟也就越小。最小值为1。 例如 pushInterval=10。<font color="red">对于有些邮箱来说，有一定的安全性，所以过短的间隔会导致邮箱锁定，IMAP/POP3方式无法访问，需要去手动解锁</font>
 
-  ===userSSL（YuchBerry客户端是否使用SSL来连接服务器）===
+  ===userSSL（语盒客户端是否使用SSL来连接服务器）===
      是否使用SSL进行推送。这个选项如果为1，则表示需要，为0或者其他值，表示不许要。SSL具体配置看[http://code.google.com/p/yuchberry/wiki/SSL_yuchberry 这里]。例如 userSSL=0
 
   ===convertoSimpleChar（简体转换繁体）=== 
@@ -38,6 +38,10 @@
 
  === disableLog（禁止输出log日志）===
      用于表示是否禁用log日志的输出，默认是关闭的（就是可以输出日志的）。
+
+ === disableReport（禁止发送统计数据）===
+     语盒由于需要更好的开发产品，用户在使用的过程中，可能需要中间服务器发送统计数据给语盒官方服务器，如果将其写为 1 就是禁止发送这个统计数据。
+     默认是发送的。这个统计信息<b>绝对不会涉及</b>用户隐私（包括密码，信件、微博、聊天内容等等），只有数量和容量。请你相信语盒开发者们，能够开发出更好的推送软件。
 
 ==Email账户配置说明==
 {{{
@@ -68,7 +72,7 @@
   [http://imgur.com/Yj4gW.jpg]
 
   === sendName（发送者名字）===
-     如果你不想自己发送的时候别人收到的是赤裸裸的邮件地址的话，可以将其填上你希望别人看到的名字。例如 "YuchBerry"
+     如果你不想自己发送的时候别人收到的是赤裸裸的邮件地址的话，可以将其填上你希望别人看到的名字。例如 "语盒"
   ===host（邮局取信主机地址）===
      邮件服务主机地址。例如 host=imap.gmail.com
   ===port（邮局取信主机端口）===
