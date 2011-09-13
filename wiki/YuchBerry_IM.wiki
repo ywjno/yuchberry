@@ -1,0 +1,46 @@
+= 语盒 IM模块的配置和使用 =
+
+在语盒1.6版本（含）之后，就带有IM模块了，1.6 IM模块支持Gtalk，但是之后可能会加入MSN，飞信等功能。
+
+== 客户端配置 ==
+
+   客户端配置很简单，只需进入高级设置界面，开启“IM模块”即可，在账户状态界面、微博界面，都能看到IM模块的菜单，按“M”快捷键就能打开界面。
+   
+   [http://clip2net.com/clip/m85555/1315920391-clip-16kb.png][http://clip2net.com/clip/m85555/1315920465-clip-21kb.jpg]
+
+   IM 界面非常简单，不需要过多的解释就能熟悉。点击每一个好友，就会弹出回话窗口，可以进行聊天了。
+
+   [http://clip2net.com/clip/m85555/1315920606-clip-26kb.jpg][http://clip2net.com/clip/m85555/1315920646-clip-27kb.jpg][http://clip2net.com/clip/m85555/1315920689-clip-27kb.jpg][http://clip2net.com/clip/m85555/1315920766-clip-15kb.png]
+
+==配置服务器==
+
+   同样是修改[fill_config_ini config.xml文件]，里面加入了一个新的tag <b>IMAccount</b> ：
+{{{
+<Yuchberry ... >
+	
+	...
+
+	<IMAccount
+		type="gtalk"
+		account="yuchdroid@gmail.com"
+		password=""
+		cryptPassword=""
+	/>
+	<IMAccount
+		type="gtalk"
+		account="yuchberry@gmail.com"
+		password=""
+		cryptPassword=""
+	/>
+
+</Yuchberry>
+}}}
+
+  <b>type</b> 目前只有<b>gtalk</b>，之后可能会加入 <b>msn</b> <b>fetion</b> 的类型，请暂且等待。
+
+  和Email 的tag <b>EmailAccount</b>一样里面的属性, <b>password</b> 是明文密码，<b>cryptPassword</b>是[Password_Crypt 加密之后的密码]。
+  
+   
+
+
+   
