@@ -1,13 +1,13 @@
-#summary One-sentence summary of this page.
+= 语盒官方帐号邀请机制 =
 
-= Introduction =
+  每一个注册帐号成为语盒官方用户的朋友，都会获得一个<b>15位</b>由数字和字母组成的全局唯一邀请码：
 
-Add your content here.
+  [http://clip2net.com/clip/m85555/1315924221-clip-23kb.jpg]
 
+  将邀请码发给你的朋友，邀请你的朋友使用语盒的官方服务。
 
-= Details =
+  [http://clip2net.com/clip/m85555/1315924538-clip-12kb.jpg]
 
-Add your content here.  Format your content with:
-  * Text in *bold* or _italic_
-  * Headings, paragraphs, and lists
-  * Automatic links to other wiki pages
+  在你的朋友注册激活之后，你和你的朋友<font color=red>迅速获得15天的使用时间</font>（使用的天数在之后的实践中官方开发者们会有所调整）。
+
+  [http://clip2net.com/clip/m85555/1315924909-clip-7kb.png]
