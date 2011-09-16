@@ -32,3 +32,9 @@
   * 客户端 安装新版本即可
   * 服务器 替换svr.jar即可
     # 在config.xml中添加一个字段 *disableLog="0"* 用于表示是否禁用log日志的输出，默认是关闭的（就是可以输出日志的）。
+
+== 1.5.1071 升级到 1.6 ==
+  * 客户端 直接安装新版本即可
+  * 服务器 替换 svr.jar
+    # 在config.xml添加一个字段（可以不添加） *disableReport="0"* 用于表示是否禁用上报统计数据，具体的功能见[fill_config_ini#disableReport（禁止发送统计数据）这里]。
+    # 可以添加 *IMAccount* tag是服务器推送Gtalk，在这个版本中，语盒添加了IM的测试版本。具体的tag使用见[YuchBerry_IM 这里]。
