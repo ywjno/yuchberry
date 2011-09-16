@@ -15,7 +15,7 @@
 
 ==配置服务器==
 
-   同样是修改[fill_config_ini config.xml文件]，里面加入了一个新的tag <b>IMAccount</b> ：
+   同样是修改[fill_config_ini config.xml文件]，里面加入了一个新的tag <b>IMAccount</b> (如下是两个帐号的的Gtalk)：
 {{{
 <Yuchberry ... >
 	
@@ -23,7 +23,7 @@
 
 	<IMAccount
 		type="gtalk"
-		account="yuchdroid@gmail.com"
+		account="yuchting@gmail.com"
 		password=""
 		cryptPassword=""
 	/>
