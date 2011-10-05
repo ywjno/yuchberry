@@ -42,9 +42,9 @@
 
     可以推送的账户数量是和* 用户等级* 有关系的，设置这个属性的原因是推送越多的账户，那么消耗的流量也就越多，相应占用的资源也就越多，同时也就需要支付更多的费用。（下面会说到）
 
-    YuchSign提供五天（120小时）的试用时间，最主要的原因是，到现在发现，不是每一种BB都能正常的使用yuchberry软件，可以看[http://code.google.com/p/yuchberry/issues/detail?id=95&colspec=ID%20Type%20Status%20Priority%20Stars%20Summary 这里]、[http://code.google.com/p/yuchberry/issues/detail?id=77&colspec=ID%20Type%20Status%20Priority%20Stars%20Summary 这里]、[http://code.google.com/p/yuchberry/issues/detail?id=67&colspec=ID%20Type%20Status%20Priority%20Stars%20Summary 这里]来了解细节。我一直在努力是大多数BB都能使用Yuchberry的服务器，但是总是不能达到100%的。
+    官方服务器提供十五天（360小时）的试用时间，最主要的原因是，到现在发现，不是每一种BB都能正常的使用yuchberry软件，可以看[http://code.google.com/p/yuchberry/issues/detail?id=95&colspec=ID%20Type%20Status%20Priority%20Stars%20Summary 这里]、[http://code.google.com/p/yuchberry/issues/detail?id=77&colspec=ID%20Type%20Status%20Priority%20Stars%20Summary 这里]、[http://code.google.com/p/yuchberry/issues/detail?id=67&colspec=ID%20Type%20Status%20Priority%20Stars%20Summary 这里]来了解细节。我一直在努力是大多数BB都能使用Yuchberry的服务器，但是总是不能达到100%的。
 
-  有一点需要着重说明的是：<font color="red">YuchSign 不会因为你是试用、最低的等级用户，就降低服务质量，反之亦然。</font>换句话说就是，如果你在试用期间内无法使用、推送速度慢、收不到邮件，那么你在付费之后，也是一样的无法使用、推送速度慢、收不到邮件。这也是语盒和其他第三方付费邮件系统不一样的地方。
+  有一点需要着重说明的是：<font color="red">官方服务不会因为你是试用、最低的等级用户，就降低服务质量，反之亦然。</font>换句话说就是，如果你在试用期间内无法使用、推送速度慢、收不到邮件，那么你在付费之后，也是一样的无法使用、推送速度慢、收不到邮件。这也是语盒和其他第三方付费邮件系统不一样的地方。
 
   现在yuchberry只提供邮件一种推送服务，自动配置POP3/IMAP 的邮箱如下：
 {{{
@@ -109,11 +109,11 @@
 
  [http://i.imgur.com/FYPbQ.jpg]
 
- 如果连接遇到问题，可以打开 客户端的“诊断信息”查看错误信息，同时可以在 YuchSign的* 检查日志* 面板里面查看服务器的日志，在[http://code.google.com/p/yuchberry/wiki/Connect_Error_info 这里]可以找到对应的问题，以及解决方法。
+ 如果连接遇到问题，可以打开 客户端的“诊断信息”查看错误信息，同时可以在 官方服务的* 检查日志* 面板里面查看服务器的日志，在[http://code.google.com/p/yuchberry/wiki/Connect_Error_info 这里]可以找到对应的问题，以及解决方法。
 
 == 账户充值时间、等级 ==
 
- 在15天的免费试用期到了之后，如果发现用户仍然在使用，系统以推送账户的为发件人，发送一封提醒邮件，提醒用户，同时暂停用户的账户推送，直到用户充值时间，一旦充值时间成功，大多数情况下，YuchSign会通知中转服务器，开启用户推送，但是某些情况下，需要用户手动同步一下。
+ 在15天的免费试用期到了之后，如果发现用户仍然在使用，系统以推送账户的为发件人，发送一封提醒邮件，提醒用户，同时暂停用户的账户推送，直到用户充值时间，一旦充值时间成功，大多数情况下，官方服务会通知中转服务器系统，开启用户推送，但是某些情况下，需要用户手动同步一下。
 
  充值时间的费用和用户等级有关，如果确认自己要推送多个账户，那么可以升级用户等级，推送更多的账户。充值时间与用户等级的对应表如下：
 
