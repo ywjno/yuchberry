@@ -1,5 +1,5 @@
   * [FAQ 什么是语盒]
-    * [YuchBerry_Client_Help YB简短帮助说明]
+    * [YuchBerry_Client_Help 语盒简短帮助说明]
     * [ADSL_DDNS_yuchberry 配置ADSL+DDNS服务器]
       * [Router_DDNS_Config 路由器配置]
       * [fill_config_ini 填写Config文件]
