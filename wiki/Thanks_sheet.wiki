@@ -1,8 +1,8 @@
 #sidebar Sidebar
 ##@##
-YuchBerry 1.6.1201 带有IM（Gtalk帐户）模块测试发布，官方网站 http://www.yuchs.com/
+语盒 1.6.1201 带有IM（Gtalk帐户）模块测试发布，官方网站 http://www.yuchs.com/
 
-= 关于语盒（YuchBerry） =
+= 关于语盒 =
 
 没错，这是一款免费、开源的黑莓PushMail、PushWeibo软件，和其它免费开源的软件一样，需要使用者有一定的专业知识和钻研精神。当然，语盒拥有大量的使用文档，同时也有很多排查问题的文档，如果遇到问题，仔细查看这些文档是应该最先使用的方法。
 
@@ -20,11 +20,11 @@ YuchBerry 1.6.1201 带有IM（Gtalk帐户）模块测试发布，官方网站 ht
 
   * *RAiN* 贡献OS5.0 断网修复的代码！
 
-  * *zhangjianying666@gmail.com* 阅读yuchberry的代码，并且提出一些问题和改进方案
+  * *zhangjianying666@gmail.com* 阅读语盒的代码，并且提出一些问题和改进方案
 
   * *[http://bbs.bbercn.com/ 中国莓论坛]* 帮助发布测试和支持我的开发
 
-  * *zhantongcai@gmail.com* 帮助开启 YuchBerry 自驾互助QQ群，并一直维护它
+  * *zhantongcai@gmail.com* 帮助开启语盒自驾互助QQ群，并一直维护它
  
   * *aston.he@gmail.com* 帮助通过SinaWeibo的审核
   
@@ -56,7 +56,7 @@ YuchBerry 1.6.1201 带有IM（Gtalk帐户）模块测试发布，官方网站 ht
   * geekblackberry@gmail.com 帮助我测试集成管理工具，反馈很多问题、建议。
   * geekblackberry@gmail.com 自带浏览器浏览能中断连接。
   * toyining@gmail.com beta2无法正确设置心跳间隔的bug
-  * 239572278@qq.com beta2 帮助调试bug“在SDCard不存在YuchBerry目录的情况下会假死”
+  * 239572278@qq.com beta2 帮助调试bug“在SDCard不存在语盒目录的情况下会假死”
   * kfc315@gmail.com SMTP登录的时候不是使用的“是否全名称”选项登录连接、发送的，GApps 邮箱会发送失败
   * nihongoni@gmail.com 英文提示中的一处拼写错误
   * btworm@gmail.com 提供 4.2系统的编译方法
@@ -71,7 +71,7 @@ YuchBerry 1.6.1201 带有IM（Gtalk帐户）模块测试发布，官方网站 ht
 
 == 赞助 ==
 
-  赞助者们的娟娟溪流也帮助了yuchberry逐渐完善，感谢他们！
+  赞助者们的娟娟溪流也帮助了语盒逐渐完善，感谢他们！
 
   _如果有人觉得公布这个信息不妥或是错误，请联系我 yuchberry@gmail.com 我会尽快撤下、更改_
 

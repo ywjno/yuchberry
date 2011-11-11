@@ -5,7 +5,7 @@
 
    下面的路由器配置例子是 TP_LINK 系列的，这个系列的家庭路由器应该是使用人数最多了吧？DDNS是以花生壳 为介绍，其他的DDNS服务器我相信也不会太难。
 
-   如果是其他型号的路由器或者是带路由功能的猫，请自行搜索。比如 型号为 “中兴ZXV10 H608B”的路由器，就可以搜索“[http://www.google.com.hk/search?sourceid=chrome&ie=UTF-8&q=%E4%B8%AD%E5%85%B4ZXV10+H608B+%E7%AB%AF%E5%8F%A3%E6%98%A0%E5%B0%84 中兴ZXV10 H608B DDNS 花生壳]”或者“[http://www.google.com.hk/search?sourceid=chrome&ie=UTF-8&q=%E4%B8%AD%E5%85%B4ZXV10+H608B+%E7%AB%AF%E5%8F%A3%E6%98%A0%E5%B0%84 中兴ZXV10 H608B 端口映射]”。端口映射的例子一般都是BT、电驴下载的例子，但是没有关系，他们的端口开放的意义和yuchberry的意义差不多，我的默认端口是9716，开放它既可。
+   如果是其他型号的路由器或者是带路由功能的猫，请自行搜索。比如 型号为 “中兴ZXV10 H608B”的路由器，就可以搜索“[http://www.google.com.hk/search?sourceid=chrome&ie=UTF-8&q=%E4%B8%AD%E5%85%B4ZXV10+H608B+%E7%AB%AF%E5%8F%A3%E6%98%A0%E5%B0%84 中兴ZXV10 H608B DDNS 花生壳]”或者“[http://www.google.com.hk/search?sourceid=chrome&ie=UTF-8&q=%E4%B8%AD%E5%85%B4ZXV10+H608B+%E7%AB%AF%E5%8F%A3%E6%98%A0%E5%B0%84 中兴ZXV10 H608B 端口映射]”。端口映射的例子一般都是BT、电驴下载的例子，但是没有关系，他们的端口开放的意义和语盒的意义差不多，我的默认端口是9716，开放它既可。
 
 == 路由器端口映射配置 ==
 
@@ -17,7 +17,7 @@
 
 [http://imgur.com/N5cdB.jpg]
 
-  * 然后在添加界面输入你想添加的端口和映射的主机IP地址，如果你想映射的服务器（就是家里那台会运行yuchberry服务器程序的机器）是 192.168.10.20，那么就填上他。端口是你在配置服务器config.ini文件中填写的那个 *serverPort* 的值，忘了可以看[http://code.google.com/p/yuchberry/wiki/fill_config_ini 这里]。
+  * 然后在添加界面输入你想添加的端口和映射的主机IP地址，如果你想映射的服务器（就是家里那台会运行语盒服务器程序的机器）是 192.168.10.20，那么就填上他。端口是你在配置服务器config.ini文件中填写的那个 *serverPort* 的值，忘了可以看[http://code.google.com/p/yuchberry/wiki/fill_config_ini 这里]。
 
 [http://imgur.com/ixENg.jpg]
 

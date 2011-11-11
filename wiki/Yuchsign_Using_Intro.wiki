@@ -42,11 +42,11 @@
 
     可以推送的账户数量是和* 用户等级* 有关系的，设置这个属性的原因是推送越多的账户，那么消耗的流量也就越多，相应占用的资源也就越多，同时也就需要支付更多的费用。（下面会说到）
 
-    官方服务器提供十五天（360小时）的试用时间，最主要的原因是，到现在发现，不是每一种BB都能正常的使用yuchberry软件，可以看[http://code.google.com/p/yuchberry/issues/detail?id=95&colspec=ID%20Type%20Status%20Priority%20Stars%20Summary 这里]、[http://code.google.com/p/yuchberry/issues/detail?id=77&colspec=ID%20Type%20Status%20Priority%20Stars%20Summary 这里]、[http://code.google.com/p/yuchberry/issues/detail?id=67&colspec=ID%20Type%20Status%20Priority%20Stars%20Summary 这里]来了解细节。我一直在努力是大多数BB都能使用Yuchberry的服务器，但是总是不能达到100%的。
+    官方服务器提供十五天（360小时）的试用时间，最主要的原因是，到现在发现，不是每一种BB都能正常的使用语盒软件，可以看[http://code.google.com/p/yuchberry/issues/detail?id=95&colspec=ID%20Type%20Status%20Priority%20Stars%20Summary 这里]、[http://code.google.com/p/yuchberry/issues/detail?id=77&colspec=ID%20Type%20Status%20Priority%20Stars%20Summary 这里]、[http://code.google.com/p/yuchberry/issues/detail?id=67&colspec=ID%20Type%20Status%20Priority%20Stars%20Summary 这里]来了解细节。我一直在努力是大多数BB都能使用语盒的服务器，但是总是不能达到100%的。
 
   有一点需要着重说明的是：<font color="red">官方服务不会因为你是试用、最低的等级用户，就降低服务质量，反之亦然。</font>换句话说就是，如果你在试用期间内无法使用、推送速度慢、收不到邮件，那么你在付费之后，也是一样的无法使用、推送速度慢、收不到邮件。这也是语盒和其他第三方付费邮件系统不一样的地方。
 
-  现在yuchberry只提供邮件一种推送服务，自动配置POP3/IMAP 的邮箱如下：
+  现在语盒提供邮件、微博、IM（GTalk）推送服务，自动配置POP3/IMAP 的邮箱如下：
 {{{
 	@gmail.com,imaps,imap.gmail.com,993,smtp.gmail.com,587,0
 	@163.com,imap,imap.163.com,143,smtp.163.com,25,0

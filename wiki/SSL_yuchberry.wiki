@@ -1,5 +1,5 @@
 #sidebar Sidebar
-= 配置更加安全的yuchberry =
+= 配置更加安全的语盒 =
 <wiki:toc max_depth="3" />
 
    通过jre提供的keytool工具生成服务器使用的私钥证书，打开服务器config.ini 文件中的SSL配置，客户端选择“使用SSL”，然后连接、安装、启用自己制作的数字证书，就可以进行安全通讯了。
@@ -27,7 +27,7 @@
 
  === 客户端配置 === 
 
-  * 打开yuchberry 选择 "使用SSL"。其他配置不变，具体看[http://code.google.com/p/yuchberry/wiki/ADSL_DDNS_yuchberry#配置客户端 这里]。点击连接。
+  * 打开语盒 选择 "使用SSL"。其他配置不变，具体看[http://code.google.com/p/yuchberry/wiki/ADSL_DDNS_yuchberry#配置客户端 这里]。点击连接。
 
   * 这个时候客户端会下载证书，全部点击确认的选项。如果之前没有设置过“密钥存储区密码”，也就是每次使用BlackBerry Desktop Manager 连接手机的时候，出现的密码设定对话框都点击了取消，那么最好是设置一个密码，不然证书无法安装。
 
@@ -42,7 +42,7 @@
 
     [http://imgur.com/rve6B.jpg]
 
-  * 重新打开yuchberry连接服务器。
+  * 重新打开语盒连接服务器。
 
 
 如果遇到其他任何问题，可以到[http://code.google.com/p/yuchberry/issues/list 这里]进行查找和询问。
