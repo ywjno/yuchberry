@@ -25,5 +25,5 @@
 配置简单，免费试用，无需架设服务器，体验极限推送！<br />
 建议使用Chrome浏览器，其他使用IE等浏览器看不到 注册页面 的朋友，请点击下面图片访问 *YuchSign* [http://yuchberrysign.yuchberry.info 独立注册页面]。
 
-[http://yuchberrysign.yuchberry.info/ http://www.gliffy.com/pubdoc/2618775/L.png]
+[http://www.yuchs.com/ http://www.gliffy.com/pubdoc/2618775/L.png]
 <wiki:gadget url="http://yuchberry.googlecode.com/files/yuchsign_embed.xml" height="800" width="800" border="0" /> 

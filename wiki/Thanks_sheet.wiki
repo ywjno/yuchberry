@@ -1,6 +1,6 @@
 #sidebar Sidebar
 ##@##
-YuchBerry 1.6.1201 带有IM（Gtalk帐户）模块测试发布，官方网站 http://www.yuchberry.info/
+YuchBerry 1.6.1201 带有IM（Gtalk帐户）模块测试发布，官方网站 http://www.yuchs.com/
 
 = 关于语盒（YuchBerry） =
 
