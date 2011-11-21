@@ -1,6 +1,7 @@
 #sidebar Sidebar
 ##@##
-语盒 1.6.1201 带有IM（Gtalk帐户）模块测试发布，官方网站 http://www.yuchs.com/
+语盒黑莓版1.8.1405 发布，同时发布Android beta测试版
+官方网站 http://www.yuchs.com/
 
 = 关于语盒 =
 
@@ -68,6 +69,7 @@
   * linjuncpu@gmail.com 帮助发现发送邮件时，联系人为中文时会出现乱码的问题
   * berry.makie@gmAil.com 帮助测试PushWeibo最初的版本，并反馈很多有用的意见
   * bartonchen347@gmail.com 帮助测试出发送邮件是出现 4>=4 Index 问题。
+  * zhb@iredmail.org 帮助改进邮件裂帖(Break Thread)的问题。
 
 == 赞助 ==
 
