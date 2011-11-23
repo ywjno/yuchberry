@@ -21,13 +21,13 @@
 
   * *RAiN* 贡献OS5.0 断网修复的代码！
 
-  * *zhangjianying666@gmail.com* 阅读语盒的代码，并且提出一些问题和改进方案
+  * *zhangjianying666#gmail.com* 阅读语盒的代码，并且提出一些问题和改进方案
 
   * *[http://bbs.bbercn.com/ 中国莓论坛]* 帮助发布测试和支持我的开发
 
-  * *zhantongcai@gmail.com* 帮助开启语盒自驾互助QQ群，并一直维护它
+  * *zhantongcai#gmail.com* 帮助开启语盒自驾互助QQ群，并一直维护它
  
-  * *aston.he@gmail.com* 帮助通过SinaWeibo的审核
+  * *aston.he#gmail.com* 帮助通过SinaWeibo的审核
   
   * *[http://etaoqu.taobao.com/ E淘趣黑莓专卖]* 我从他们那里便宜地购买了最原始开发机
 
@@ -37,47 +37,47 @@
 
   名次不分前后，建议、bug、帮助也没有大小之分。
 
-  * kongzhuoshi@gmail.com 推送邮件顺序不对的bug
-  * spenceric@gmail.com 繁体字推送到客户端时候的乱码问题。
-  * maitcn@gmail.com 服务器疯狂输出日志的问题。
-  * rabbitzhang52@gmail.com SmartMail 可能存在不兼容问题。
-  * maitcn@gmail.com 铃声在有些机器上过小，希望调整的建议。
-  * irvanabird@gmail.com 英文系统可能出现问题。
+  * kongzhuoshi#gmail.com 推送邮件顺序不对的bug
+  * spenceric#gmail.com 繁体字推送到客户端时候的乱码问题。
+  * maitcn#gmail.com 服务器疯狂输出日志的问题。
+  * rabbitzhang52#gmail.com SmartMail 可能存在不兼容问题。
+  * maitcn#gmail.com 铃声在有些机器上过小，希望调整的建议。
+  * irvanabird#gmail.com 英文系统可能出现问题。
   * hugeperson.ll 关于断网的文档及建议
-  * rabbitzhang52@gmail.com 不填写标题会发不出去信件的问题。
-  * tongyuyang@gmail.com(@却只是路过) @黑莓右键总管 加入开机自动启动的配置。
-  * smallbber@gmail.com 建议把配置信息放到ROM里面，这样的话就不会在插拔usb的时候出现读不出配置的现象了
-  * tongyuyang@gmail.com(@却只是路过) 联系人界面发送右键，如果是中文的话，发送不了。
-  * hoqi33@hotmail.com JavaMail库的“no such domain”问题。
-  * nirvanabird@gmail.com 强有力的一系列问题。
-  * spencer_lu@eutechmicro.com 服务器系统可能设置不对导致java虚拟机解码不对，导致乱码。
-  * navidev@gmail.com 关于通知提醒的开发建议。
-  * 413044770@qq.com 关于HTML图文并茂的建议。
-  * kevinele@gmail.com 关于服务器明文密码保存问题的建议。
-  * geekblackberry@gmail.com 帮助我测试集成管理工具，反馈很多问题、建议。
-  * geekblackberry@gmail.com 自带浏览器浏览能中断连接。
-  * toyining@gmail.com beta2无法正确设置心跳间隔的bug
-  * 239572278@qq.com beta2 帮助调试bug“在SDCard不存在语盒目录的情况下会假死”
-  * kfc315@gmail.com SMTP登录的时候不是使用的“是否全名称”选项登录连接、发送的，GApps 邮箱会发送失败
-  * nihongoni@gmail.com 英文提示中的一处拼写错误
-  * btworm@gmail.com 提供 4.2系统的编译方法
-  * bruceliu496@gmail.com 帮助解决 CDMA等手机的 Bad Parameter 问题
-  * 37middle@gmail.com 发现流量统计在重连的时候会算错的bug
-  * zuola.com@gmail.com 生成SSL证书会有3个月的使用期限，要加上一个参数可以生成10年的期限
-  * seven204@gmail.com（@没注册s sina Weibo）帮助测试自动切换wifi和gprs的功能
-  * ffxkim@gmail.com 帮助发现、测试、修正转发邮件无法回复的bug
-  * linjuncpu@gmail.com 帮助发现发送邮件时，联系人为中文时会出现乱码的问题
-  * berry.makie@gmAil.com 帮助测试PushWeibo最初的版本，并反馈很多有用的意见
-  * bartonchen347@gmail.com 帮助测试出发送邮件是出现 4>=4 Index 问题。
-  * zhb@iredmail.org 帮助改进邮件裂帖(Break Thread)的问题。
+  * rabbitzhang52#gmail.com 不填写标题会发不出去信件的问题。
+  * tongyuyang#gmail.com(@却只是路过) @黑莓右键总管 加入开机自动启动的配置。
+  * smallbber#gmail.com 建议把配置信息放到ROM里面，这样的话就不会在插拔usb的时候出现读不出配置的现象了
+  * tongyuyang#gmail.com(@却只是路过) 联系人界面发送右键，如果是中文的话，发送不了。
+  * hoqi33#hotmail.com JavaMail库的“no such domain”问题。
+  * nirvanabird#gmail.com 强有力的一系列问题。
+  * spencer_lu#eutechmicro.com 服务器系统可能设置不对导致java虚拟机解码不对，导致乱码。
+  * navidev#gmail.com 关于通知提醒的开发建议。
+  * 413044770#qq.com 关于HTML图文并茂的建议。
+  * kevinele#gmail.com 关于服务器明文密码保存问题的建议。
+  * geekblackberry#gmail.com 帮助我测试集成管理工具，反馈很多问题、建议。
+  * geekblackberry#gmail.com 自带浏览器浏览能中断连接。
+  * toyining#gmail.com beta2无法正确设置心跳间隔的bug
+  * 239572278#qq.com beta2 帮助调试bug“在SDCard不存在语盒目录的情况下会假死”
+  * kfc315#gmail.com SMTP登录的时候不是使用的“是否全名称”选项登录连接、发送的，GApps 邮箱会发送失败
+  * nihongoni#gmail.com 英文提示中的一处拼写错误
+  * btworm#gmail.com 提供 4.2系统的编译方法
+  * bruceliu496#gmail.com 帮助解决 CDMA等手机的 Bad Parameter 问题
+  * 37middle#gmail.com 发现流量统计在重连的时候会算错的bug
+  * zuola.com#gmail.com 生成SSL证书会有3个月的使用期限，要加上一个参数可以生成10年的期限
+  * seven204#gmail.com（@没注册s sina Weibo）帮助测试自动切换wifi和gprs的功能
+  * ffxkim#gmail.com 帮助发现、测试、修正转发邮件无法回复的bug
+  * linjuncpu#gmail.com 帮助发现发送邮件时，联系人为中文时会出现乱码的问题
+  * berry.makie#gmAil.com 帮助测试PushWeibo最初的版本，并反馈很多有用的意见
+  * bartonchen347#gmail.com 帮助测试出发送邮件是出现 4>=4 Index 问题。
+  * zhb#iredmail.org （张煌彬），帮助改进邮件裂帖 (Breaking Thread) 的问题。张煌彬是 [http://www.iredmail.org iRedMail] 开源、免费邮件服务解决方案的作者
 
 == 赞助 ==
 
   赞助者们的娟娟溪流也帮助了语盒逐渐完善，感谢他们！
 
-  _如果有人觉得公布这个信息不妥或是错误，请联系我 yuchberry@gmail.com 我会尽快撤下、更改_
+  _如果有人觉得公布这个信息不妥或是错误，请联系我 yuchberry#gmail.com 我会尽快撤下、更改_
 
-  * maxiao022@yahoo.cn 30,wudongxia@gmail.com 50,668578@gmail.com 50,bao3.cn@gmail.com 50,li_dustin@yahoo.com.cn 20,gusong@gusong.cn 5,如月中天 5,guangyaou@gmail.com 5,ffxkim@gmail.com 20,古城NJ 50,zhlr8589nj@126.com 50,yuchongfeng@163.com 10,ivan_weblive@163.com 50,yujanlee@hotmail.com 50,toyining@gmail.com 30,zhanlingw66@gmail.com 5,rabbitzhang52@gmail.com 50,pouch@126.com 14,longzhuo1990@yahoo.cn 5,ffxkim@gmail.com 60,Atlantids(mingzhen1986@163.com) 7,tony163169@sina.com 20,Zola Zhou(zolazhou@zuola.com) $5,song90273@yahoo.cn 8,SHEN JIANGUO (shenjg2010@hotmail.com) 20,laonawuli@yahoo.com.cn 10.01,zjfan200x@sina.com xxx,xyq164288@163.com 9,foxlaoye@gmail.com 48,liangzhdp@gmail.com xxx, tangsc@vip.qq.com 1,bbfans1@gmail.com xxx,@沙拉布莱德 50,@莓圈圈 50,handys@vip.sina.com 19.9,yyss110@qq.com 3,ffxkim@gmail.com 50,@英年早肥 30,717133631@qq.com 1,717133631@qq.com 8,jihyao@gmail.com $0.1,717133631@qq.com 20,ivill66@gmail.com 66,updu xxx,bossninja@gmail.com $10,gyj0917@gmail.com 10,ffxkim@gmail.com 10,updu 20,zheng-zhong@126.com 10,
+  * maxiao022#yahoo.cn 30,wudongxia#gmail.com 50,668578#gmail.com 50,bao3.cn#gmail.com 50,li_dustin#yahoo.com.cn 20,gusong#gusong.cn 5,如月中天 5,guangyaou#gmail.com 5,ffxkim#gmail.com 20,古城NJ 50,zhlr8589nj#126.com 50,yuchongfeng#163.com 10,ivan_weblive#163.com 50,yujanlee#hotmail.com 50,toyining#gmail.com 30,zhanlingw66#gmail.com 5,rabbitzhang52#gmail.com 50,pouch#126.com 14,longzhuo1990#yahoo.cn 5,ffxkim#gmail.com 60,Atlantids(mingzhen1986#163.com) 7,tony163169#sina.com 20,Zola Zhou(zolazhou#zuola.com) $5,song90273#yahoo.cn 8,SHEN JIANGUO (shenjg2010#hotmail.com) 20,laonawuli#yahoo.com.cn 10.01,zjfan200x#sina.com xxx,xyq164288#163.com 9,foxlaoye#gmail.com 48,liangzhdp#gmail.com xxx, tangsc#vip.qq.com 1,bbfans1#gmail.com xxx,@沙拉布莱德 50,@莓圈圈 50,handys#vip.sina.com 19.9,yyss110#qq.com 3,ffxkim#gmail.com 50,@英年早肥 30,717133631#qq.com 1,717133631#qq.com 8,jihyao#gmail.com $0.1,717133631#qq.com 20,ivill66#gmail.com 66,updu xxx,bossninja#gmail.com $10,gyj0917#gmail.com 10,ffxkim#gmail.com 10,updu 20,zheng-zhong#126.com 10,
 
 
 @@#@@
