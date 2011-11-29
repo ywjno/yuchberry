@@ -141,6 +141,264 @@
 	/>
 </Yuchberry>
 }}}
+
+==各个邮箱的配置模版== 
+  === Gmail ===
+    Google Apps 邮箱只要把 <b>useFullNameSignIn</b> 设置成 1 即可
+{{{
+	<EmailAccount
+		account="yuchberry@gmail.com"
+		password=""
+		
+		useFullNameSignIn="0"
+		
+		protocol="imaps"
+		host="imap.gmail.com"
+		port="993"
+		
+		protocol_send="smtp"
+		host_send="smtp.gmail.com"
+		port_send="587"
+		
+		appendHTML="0"
+	/>
+}}}
+  === 163 ===
+{{{
+	<EmailAccount
+		account="yuchberry@163.com"
+		password=""
+		
+		useFullNameSignIn="0"
+		
+		protocol="imap"
+		host="imap.163.com"
+		port="143"
+		
+		protocol_send="smtp"
+		host_send="smtp.163.com"
+		port_send="25"
+		
+		appendHTML="0"
+	/>
+}}}
+  === vip.163 ===
+{{{
+	<EmailAccount
+		account="yuchberry@vip.163.com"
+		password=""
+		
+		useFullNameSignIn="0"
+		
+		protocol="imap"
+		host="imap.vip.163.com"
+		port="143"
+		
+		protocol_send="smtp"
+		host_send="smtp.vip.163.com"
+		port_send="25"
+		
+		appendHTML="0"
+	/>
+}}}
+  === 126 ===
+{{{
+	<EmailAccount
+		account="yuchberry@126.com"
+		password=""
+		
+		useFullNameSignIn="0"
+		
+		protocol="imap"
+		host="imap.126.com"
+		port="143"
+		
+		protocol_send="smtp"
+		host_send="smtp.126.com"
+		port_send="25"
+		
+		appendHTML="0"
+	/>
+}}}
+  === QQ ===
+    QQ 邮箱存在着很多不稳定因素，如果失败，需要等等再同步
+{{{
+	<EmailAccount
+		account="yuchberry@qq.com"
+		password=""
+		
+		useFullNameSignIn="0"
+		
+		protocol="imap"
+		host="imap.qq.com"
+		port="143"
+		
+		protocol_send="smtp"
+		host_send="smtp.qq.com"
+		port_send="25"
+		
+		appendHTML="0"
+	/>
+}}}
+  === vip QQ ===
+    QQ 邮箱存在着很多不稳定因素，有的时候同步不上，需要等等在同步。注意：<b>useFullNameSignIn="1"</b>
+{{{
+	<EmailAccount
+		account="yuchberry@vip.qq.com"
+		password=""
+		
+		useFullNameSignIn="1"
+		
+		protocol="imap"
+		host="imap.qq.com"
+		port="143"
+		
+		protocol_send="smtp"
+		host_send="smtp.qq.com"
+		port_send="25"
+		
+		appendHTML="0"
+	/>
+}}}
+  === yahoo.com ===
+{{{
+	<EmailAccount
+		account="yuchberry@yahoo.com"
+		password=""
+		
+		useFullNameSignIn="0"
+		
+		protocol="imaps"
+		host="imaps,apple.imap.mail.yahoo.com"
+		port="993"
+		
+		protocol_send="smtp"
+		host_send="smtp.mail.yahoo.com"
+		port_send="587"
+		
+		appendHTML="0"
+	/>
+}}}
+  === yahoo.com.cn ===
+    465 端口可能会连接失败
+{{{
+	<EmailAccount
+		account="yuchberry@yahoo.com.cn"
+		password=""
+		
+		useFullNameSignIn="0"
+		
+		protocol="pop3s"
+		host="pop.mail.yahoo.com.cn"
+		port="995"
+		
+		protocol_send="smtp"
+		host_send="smtp.mail.yahoo.com.cn"
+		port_send="465"
+		
+		appendHTML="0"
+	/>
+}}}
+  === yahoo.cn ===
+    465 端口可能会连接失败
+{{{
+	<EmailAccount
+		account="yuchberry@yahoo.cn"
+		password=""
+		
+		useFullNameSignIn="1"
+		
+		protocol="pop3"
+		host="pop.mail.yahoo.cn"
+		port="110"
+		
+		protocol_send="smtp"
+		host_send="smtp.mail.yahoo.cn"
+		port_send="25"
+		
+		appendHTML="0"
+	/>
+}}}
+  === hotmail.com ===
+    hotmail 只能支持pop3，他的典型轮询间隔是15分钟，基本无法推送，不建议使用
+{{{
+	<EmailAccount
+		account="yuchberry@hotmail.com"
+		password=""
+		
+		useFullNameSignIn="1"
+		
+		protocol="pop3s"
+		host="pop3.live.com"
+		port="995"
+		
+		protocol_send="smtp"
+		host_send="smtp.live.com"
+		port_send="587"
+		
+		appendHTML="0"
+	/>
+}}}
+  === live.com ===
+    hotmail / live.com 只能支持pop3，他的典型轮询间隔是15分钟，基本无法推送，不建议使用
+{{{
+	<EmailAccount
+		account="yuchberry@live.com"
+		password=""
+		
+		useFullNameSignIn="0"
+		
+		protocol="pop3s"
+		host="pop3.live.com"
+		port="995"
+		
+		protocol_send="smtp"
+		host_send="smtp.live.com"
+		port_send="587"
+		
+		appendHTML="0"
+	/>
+}}}
+
+  === sina.com ===
+{{{
+	<EmailAccount
+		account="yuchberry@sina.com"
+		password=""
+		
+		useFullNameSignIn="0"
+		
+		protocol="pop3"
+		host="pop3.sina.com"
+		port="110"
+		
+		protocol_send="smtp"
+		host_send="smtp.sina.com"
+		port_send="25"
+		
+		appendHTML="0"
+	/>
+}}}
+  === 139.com ===
+{{{
+	<EmailAccount
+		account="yuchberry@139.com"
+		password=""
+		
+		useFullNameSignIn="0"
+		
+		protocol="imap"
+		host="imap.139.com"
+		port="143"
+		
+		protocol_send="smtp"
+		host_send="smtp.139.com"
+		port_send="25"
+		
+		appendHTML="0"
+	/>
+}}}
+
 ==配置Weibo模块== 
   请查看[YuchBerry_Weibo 这个文档]，获得详细配置步骤。
 ==配置IM模块== 
