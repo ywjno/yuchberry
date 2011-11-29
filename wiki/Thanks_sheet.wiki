@@ -70,6 +70,7 @@
   * berry.makie#gmAil.com 帮助测试PushWeibo最初的版本，并反馈很多有用的意见
   * bartonchen347#gmail.com 帮助测试出发送邮件是出现 4>=4 Index 问题。
   * zhb#iredmail.org （张煌彬），帮助改进邮件裂帖 (Breaking Thread) 的问题。张煌彬是 [http://www.iredmail.org iRedMail] 开源、免费邮件服务解决方案的作者
+  * [http://www.weibo.com/skyfather @我要上清华啊混蛋] 提出1.9之后的一些关于微博、IM的改进方案
 
 == 赞助 ==
 
