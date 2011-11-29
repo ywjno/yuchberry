@@ -143,8 +143,7 @@
 }}}
 
 ==各个邮箱的配置模版== 
-  === Gmail ===
-    Google Apps 邮箱只要把 <b>useFullNameSignIn</b> 设置成 1 即可
+  === gmail.com=== 
 {{{
 	<EmailAccount
 		account="yuchberry@gmail.com"
@@ -163,7 +162,7 @@
 		appendHTML="0"
 	/>
 }}}
-  === 163 ===
+  === 163 网易=== 
 {{{
 	<EmailAccount
 		account="yuchberry@163.com"
@@ -221,7 +220,8 @@
 	/>
 }}}
   === QQ ===
-    QQ 邮箱存在着很多不稳定因素，如果失败，需要等等再同步
+    QQ 邮箱存在着很多不稳定因素，如果失败，需要等等再同步。<br>
+    请使用浏览器访问QQ邮箱，确保其pop3/imap选项已经打开 [http://service.mail.qq.com/cgi-bin/help?subtype=1&id=26&no=308\ 查看帮助]
 {{{
 	<EmailAccount
 		account="yuchberry@qq.com"
@@ -241,7 +241,8 @@
 	/>
 }}}
   === vip QQ ===
-    QQ 邮箱存在着很多不稳定因素，有的时候同步不上，需要等等在同步。注意：<b>useFullNameSignIn="1"</b>
+    QQ 邮箱存在着很多不稳定因素，有的时候同步不上，需要等等再同步。注意：<b>useFullNameSignIn="1"</b><br>
+    请使用浏览器访问QQ邮箱，确保其pop3/imap选项已经打开 [http://service.mail.qq.com/cgi-bin/help?subtype=1&id=26&no=308\ 查看帮助]
 {{{
 	<EmailAccount
 		account="yuchberry@vip.qq.com"
@@ -280,7 +281,8 @@
 	/>
 }}}
   === yahoo.com.cn ===
-    465 端口可能会连接失败
+    465 端口可能会连接失败。<br>
+    雅虎邮箱免费版貌似不支持pop的链接，请确认可以在web界面配置pop选项 [http://help.cn.yahoo.com/answerpage_3631.html 查看帮助]
 {{{
 	<EmailAccount
 		account="yuchberry@yahoo.com.cn"
@@ -300,7 +302,8 @@
 	/>
 }}}
   === yahoo.cn ===
-    465 端口可能会连接失败
+    465 端口可能会连接失败。<br>
+    雅虎邮箱免费版貌似不支持pop的链接，请确认可以在web界面配置pop选项 [http://help.cn.yahoo.com/answerpage_3631.html 查看帮助]
 {{{
 	<EmailAccount
 		account="yuchberry@yahoo.cn"
@@ -393,6 +396,120 @@
 		
 		protocol_send="smtp"
 		host_send="smtp.139.com"
+		port_send="25"
+		
+		appendHTML="0"
+	/>
+}}}
+  === tom.com ===
+{{{
+	<EmailAccount
+		account="yuchberry@tom.com"
+		password=""
+		
+		useFullNameSignIn="0"
+		
+		protocol="pop3"
+		host="pop.tom.com"
+		port="110"
+		
+		protocol_send="smtp"
+		host_send="smtp.tom.com"
+		port_send="25"
+		
+		appendHTML="0"
+	/>
+}}}
+  === 21cn.com ===
+{{{
+	<EmailAccount
+		account="yuchberry@21cn.com"
+		password=""
+		
+		useFullNameSignIn="0"
+		
+		protocol="pop3"
+		host="pop.21cn.com"
+		port="110"
+		
+		protocol_send="smtp"
+		host_send="smtp.21cn.com"
+		port_send="25"
+		
+		appendHTML="0"
+	/>
+}}}
+  === Google App 企业邮箱 === 
+{{{
+	<EmailAccount
+		account="yuchberry@yuchs.com"
+		password=""
+		
+		useFullNameSignIn="1"
+		
+		protocol="imaps"
+		host="imap.gmail.com"
+		port="993"
+		
+		protocol_send="smtp"
+		host_send="smtp.gmail.com"
+		port_send="587"
+		
+		appendHTML="0"
+	/>
+}}}
+  === QQ企业邮箱 ===
+{{{
+	<EmailAccount
+		account="yuchberry@yuchs.com"
+		password=""
+		
+		useFullNameSignIn="1"
+		
+		protocol="imap"
+		host="imap.exmail.qq.com"
+		port="143"
+		
+		protocol_send="smtp"
+		host_send="smtp.exmail.qq.com"
+		port_send="25"
+		
+		appendHTML="0"
+	/>
+}}}
+  === 163 网易企业邮箱 ===
+{{{
+	<EmailAccount
+		account="yuchberry@yuchs.com"
+		password=""
+		
+		useFullNameSignIn="1"
+		
+		protocol="imap"
+		host="imap.qiye.163.com"
+		port="143"
+		
+		protocol_send="smtp"
+		host_send="smtp.qiye.163.com"
+		port_send="25"
+		
+		appendHTML="0"
+	/>
+}}}
+  === 163 网易免费企业邮 ===
+{{{
+	<EmailAccount
+		account="yuchberry@yuchs.com"
+		password=""
+		
+		useFullNameSignIn="1"
+		
+		protocol="imap"
+		host="imap.ym.163.com"
+		port="143"
+		
+		protocol_send="smtp"
+		host_send="smtp.ym.163.com"
 		port_send="25"
 		
 		appendHTML="0"
