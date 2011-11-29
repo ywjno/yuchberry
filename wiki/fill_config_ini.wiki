@@ -270,11 +270,11 @@
 		useFullNameSignIn="0"
 		
 		protocol="imaps"
-		host="imaps,apple.imap.mail.yahoo.com"
+		host="apple.imap.mail.yahoo.com"
 		port="993"
 		
 		protocol_send="smtp"
-		host_send="smtp.mail.yahoo.com"
+		host_send="apple.smtp.mail.yahoo.com"
 		port_send="587"
 		
 		appendHTML="0"
