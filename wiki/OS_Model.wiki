@@ -16,4 +16,6 @@
   * *os_5.0* 支持的机型有
    # 8520 8900
    # 9550 9630 9700
-  
+
+<script type="text/javascript" src="http://apis.google.com/js/plusone.js"></script>
+<g:plusone></g:plusone>
