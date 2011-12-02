@@ -15,7 +15,7 @@
 
 ==配置服务器==
 
-   同样是修改[fill_config_ini config.xml 文件]，里面加入了一个新的tag <b>IMAccount</b> (如下是两个帐号的的Gtalk)：
+   同样是修改[http://code.google.com/p/yuchberry/wiki/fill_config_ini config.xml文件]，里面加入了一个新的tag <b>IMAccount</b> (如下是两个帐号的的Gtalk)：
 {{{
 <Yuchberry ... >
 	
