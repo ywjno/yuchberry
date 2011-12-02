@@ -2,7 +2,11 @@
 #sidebar Sidebar
 <wiki:toc max_depth="2" /> 
 
-==语盒FAQ==
+== 语盒介绍视频 ==
+  _ 看不见的朋友点[http://v.youku.com/v_show/id_XMzIzNTY2NzQ0.html 这里] _
+<wiki:gadget url="http://yuchberry.googlecode.com/files/intro_video1_gadget.xml" width="480" height="400" border=0 up_projectName="intro" />
+
+==语盒项目FAQ==
    <b>Q：</b> 什么是语盒？<br>
    <b>A：</b> 语盒分为客户端和服务端软件，主要功能是利用具有一般Internet访问功能的黑莓手机，和一台处于Internet广域网的个人主机，高效、快捷、安全的*推送个人邮件*。
 
@@ -68,10 +72,6 @@
 ==语盒推送IMFAQ==
   待写...
 
-== 语盒介绍视频 ==
-  _ 看不见的朋友点[http://v.youku.com/v_show/id_XMzIzNTY2NzQ0.html 这里] _
-<wiki:gadget url="http://yuchberry.googlecode.com/files/intro_video1_gadget.xml" width="480" height="400" border=0 up_projectName="intro" />
-
-== 语盒原理解说视频 ==
+== 语盒终极原理解说视频 ==
  _ 看不见的朋友点[http://v.youku.com/v_show/id_XMjM5MjU1MzIw.html 这里] _
 <wiki:gadget url="http://yuchberry.googlecode.com/files/intro_video_gadget.xml" width="480" height="400" border=0 up_projectName="intro" />
