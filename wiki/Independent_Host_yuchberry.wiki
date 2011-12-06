@@ -92,6 +92,13 @@
     cd /usr/yuch/
     nohup /opt/ibm/java-i386-60/jre/bin/java -jar svr.jar &
 }}}
+    * (可选 ) <b>小内存VPS</b>
+    一些小内存的VPS貌似跑不了几个语盒服务器，可以使用java的限制内存函数进行配置，使得可以多开几个服务器：
+{{{
+    java -Xms16m -Xmx40M -jar svr.jar &
+}}}
+   -Xms16m 参数是指最小JVM运行内存， -Xmx40M 是指最大运行内存，分配的越多，JVM越稳定，但是一般来说语盒服务器都会在40M以内，这样，小内存VPS就可以多运行几个服务器了。
+    
  === 测试服务器 ===
    * 检查端口是否打开。到[http://www.t1shopper.com/tools/port-scan/ 这里]输入你的IP地址(如果你是花生壳域名，需要用ping命令解析一下域名)和配置的端口，检查是否打开，如果没有打开，检查之前的步骤是否有问题。<font color="red">很多问题都是端口没有打开导致的。</font>
    * 如果出现问题，请到[http://code.google.com/p/yuchberry/wiki/Connect_Error_info#服务器条目 这里]排查问题所在。
