@@ -14,3 +14,5 @@ bat文件是windows平台上的批处理文件，sh文件是类Linux 系统的Sh
  运行集成配置工具，多人共用服务器的时候使用。具体见[http://code.google.com/p/yuchberry/wiki/Integration_Config_tool 这里]
 
 这些都是文本文件，可以用记事本打开查看。
+
+<g:plusone size="small" annotation="inline"></g:plusone>
