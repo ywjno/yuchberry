@@ -71,6 +71,7 @@
   * bartonchen347#gmail.com 帮助测试出发送邮件是出现 4>=4 Index 问题。
   * zhb#iredmail.org （张煌彬），帮助改进邮件裂帖 (Breaking Thread) 的问题。张煌彬是 [http://www.iredmail.org iRedMail] 开源、免费邮件服务解决方案的作者
   * [http://www.weibo.com/skyfather @我要上清华啊混蛋] 提出1.9之后的一些关于微博、IM的改进方案
+  * zheng086#gmail.com 帮助语盒一直改进，都说不清楚了...
 
 == 赞助 ==
 
@@ -78,7 +79,7 @@
 
   _如果有人觉得公布这个信息不妥或是错误，请联系我 yuchberry#gmail.com 我会尽快撤下、更改_
 
-  * maxiao022#yahoo.cn 30,wudongxia#gmail.com 50,668578#gmail.com 50,bao3.cn#gmail.com 50,li_dustin#yahoo.com.cn 20,gusong#gusong.cn 5,如月中天 5,guangyaou#gmail.com 5,ffxkim#gmail.com 20,古城NJ 50,zhlr8589nj#126.com 50,yuchongfeng#163.com 10,ivan_weblive#163.com 50,yujanlee#hotmail.com 50,toyining#gmail.com 30,zhanlingw66#gmail.com 5,rabbitzhang52#gmail.com 50,pouch#126.com 14,longzhuo1990#yahoo.cn 5,ffxkim#gmail.com 60,Atlantids(mingzhen1986#163.com) 7,tony163169#sina.com 20,Zola Zhou(zolazhou#zuola.com) $5,song90273#yahoo.cn 8,SHEN JIANGUO (shenjg2010#hotmail.com) 20,laonawuli#yahoo.com.cn 10.01,zjfan200x#sina.com xxx,xyq164288#163.com 9,foxlaoye#gmail.com 48,liangzhdp#gmail.com xxx, tangsc#vip.qq.com 1,bbfans1#gmail.com xxx,@沙拉布莱德 50,@莓圈圈 50,handys#vip.sina.com 19.9,yyss110#qq.com 3,ffxkim#gmail.com 50,@英年早肥 30,717133631#qq.com 1,717133631#qq.com 8,jihyao#gmail.com $0.1,717133631#qq.com 20,ivill66#gmail.com 66,updu xxx,bossninja#gmail.com $10,gyj0917#gmail.com 10,ffxkim#gmail.com 10,updu 20,zheng-zhong#126.com 10,133xxxx8218 50,manybobo#gmail.com 50, 
+  * maxiao022#yahoo.cn 30,wudongxia#gmail.com 50,668578#gmail.com 50,bao3.cn#gmail.com 50,li_dustin#yahoo.com.cn 20,gusong#gusong.cn 5,如月中天 5,guangyaou#gmail.com 5,ffxkim#gmail.com 20,古城NJ 50,zhlr8589nj#126.com 50,yuchongfeng#163.com 10,ivan_weblive#163.com 50,yujanlee#hotmail.com 50,toyining#gmail.com 30,zhanlingw66#gmail.com 5,rabbitzhang52#gmail.com 50,pouch#126.com 14,longzhuo1990#yahoo.cn 5,ffxkim#gmail.com 60,Atlantids(mingzhen1986#163.com) 7,tony163169#sina.com 20,Zola Zhou(zolazhou#zuola.com) $5,song90273#yahoo.cn 8,SHEN JIANGUO (shenjg2010#hotmail.com) 20,laonawuli#yahoo.com.cn 10.01,zjfan200x#sina.com xxx,xyq164288#163.com 9,foxlaoye#gmail.com 48,liangzhdp#gmail.com xxx, tangsc#vip.qq.com 1,bbfans1#gmail.com xxx,@沙拉布莱德 50,@莓圈圈 50,handys#vip.sina.com 19.9,yyss110#qq.com 3,ffxkim#gmail.com 50,@英年早肥 30,717133631#qq.com 1,717133631#qq.com 8,jihyao#gmail.com $0.1,717133631#qq.com 20,ivill66#gmail.com 66,updu xxx,bossninja#gmail.com $10,gyj0917#gmail.com 10,ffxkim#gmail.com 10,updu 20,zheng-zhong#126.com 10,133xxxx8218 50,manybobo#gmail.com 50,2087#mail.pxcity.com 50,
 
 
 @@#@@
