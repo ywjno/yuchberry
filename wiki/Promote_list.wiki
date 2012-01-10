@@ -24,8 +24,8 @@
   # ~~ weibo查看资料的时候把性别显示一下 ~~
   # ~~ 表情选择的时候，向下滚动会滚歪 ~~
   # ~~ 去掉IM中@的解析 ~~ （修改了一半，实在不好更改）
-  # weibo加入一个位置按钮，使得发布时可以选择是否发布位置，当然，weibo配置里面是需要打开位置共享
-  # [http://code.google.com/p/yuchberry/issues/detail?id=196&colspec=ID%20Type%20Status%20Priority%20Stars%20Summary 这个问题]解决一下。
+  # ~~ weibo加入一个位置按钮，使得发布时可以选择是否发布位置，当然，weibo配置里面是需要打开位置共享 ~~
+  # ~~ [http://code.google.com/p/yuchberry/issues/detail?id=196&colspec=ID%20Type%20Status%20Priority%20Stars%20Summary 这个问题]（在YuchIM聊天界面默認調用是左右“aA+Enter”,期望以“左aA+Enter”作為默認，釋放右aA的佔用）解决一下。 ~~
 
  * YuchDroid
   # ~~ 草稿编辑之后，再次编辑点击发送，发送的是之前的版本 ~~
