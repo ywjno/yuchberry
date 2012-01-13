@@ -29,7 +29,7 @@
      语盒中间服务器到邮件服务器上取信间隔，单位为秒，间隔越小，服务器占用资源越多。但是Push 到客户端的延迟也就越小。最小值为1。 例如 pushInterval=10。<font color="red">对于有些邮箱来说，有一定的安全性，所以过短的间隔会导致邮箱锁定，IMAP/POP3方式无法访问，需要去手动解锁</font>
 
   ===userSSL（语盒客户端是否使用SSL来连接服务器）===
-     是否使用SSL进行推送。这个选项如果为1，则表示需要，为0或者其他值，表示不许要。SSL具体配置看[http://code.google.com/p/yuchberry/wiki/SSL_yuchberry 这里]。例如 userSSL=0
+     是否使用自己生成的SSL证书进行推送。这个选项如果为1，则表示需要，为0或者其他值，表示不许要。SSL具体配置（生成证书，配置客户端等）看[http://code.google.com/p/yuchberry/wiki/SSL_yuchberry 这里]。例如 userSSL=0
 
   ===convertoSimpleChar（简体转换繁体）=== 
      是否将服务器所有的字符串转换成简体。由于黑莓上的字体无法混用，所以使用简体中文的朋友显示不了繁体中文，索性，用服务器将其转换成简体，发送到手机上。 
