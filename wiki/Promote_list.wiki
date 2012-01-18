@@ -4,6 +4,7 @@
     有任何建议或者问题，请添加到[http://code.google.com/p/yuchberry/issues/list Issues]，或者发送邮件到 yuchberry@gmail.com ，<b>请不要在此回复评论</b>。
 
 == 正在改进... ==
+   # 待定中……
 
 == 1.10.1556更新内容 ==
    # ~~ 邮件解决裂帖问题 ~~
