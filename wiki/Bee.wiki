@@ -1,22 +1,30 @@
-= 帮助农家养蜂人寻找销路 =
-  这个农家养蜂人是我——一个程序员，的舅舅。
+= 帮助农家养蜂人寻找销路 =  
+  <wiki:toc max_depth="2" />
   
-  对大多数农村一家之主来说，抚养老人、教育后代是现在最重要、最急迫的任务，但是，和其他下海打工乡里乡亲不一样的是，舅舅选择的是依靠家乡的资源和自己的双手来过活，批量饲养过蛇（由于2003年非典而差点破产）、鸡、[http://www.google.com.hk/search?rlz=1C1GPEA_enCN394CN394&sourceid=chrome&ie=UTF-8&q=%E7%AB%B9%E9%BC%A0 竹鼠]，种植过橘子等经济作物，收过白果（我忘了是不是白果了）药类植物，可是这些年来，邻居们都盖起了2、3层新房，舅舅家的房子还是一层旧房子。
+  这个农家养蜂人是语盒作者的舅舅。
+
+== 简述 ==
+  对大多数农村一家之主来说，赚钱抚养老人、教育后代是现在最重要、最急迫的任务，但是，和其他下海打工乡里乡亲不一样的是，舅舅选择的是依靠家乡的资源和自己的双手来过活，批量饲养过蛇、鸡、[http://www.google.com.hk/search?rlz=1C1GPEA_enCN394CN394&sourceid=chrome&ie=UTF-8&q=%E7%AB%B9%E9%BC%A0 竹鼠]，种植过橘子等经济作物，收过白果药类植物，可是这些年来，也许是家里负担太重，也许是运气不好，总是不富裕。
   
-  其实舅舅和我一样，都是实干者、技术人员，我写出的语盒这套软件，没日没夜的加功能，调bug，写文档，所有的业余时间都放在上面，眼镜度数从400度变到了500度，可是效果还是不是很好，一个月扣除服务器费用，只能赚点零食钱。
-  
-  在如今眼球都被【XX门】，【恶搞】吸引的年代，【技术】太容易被人忽略了，但是我觉得虽然它枯燥，无味，却在慢慢改进人们的生活，而不是像其他东西一样烟消云散。于是，我利用自己手上便捷的条件、低廉的成本，帮助舅舅在网上宣传一下。我是从来不相信“酒香不怕巷子深”的，所以我一直在做宣传。
+  或许是出于同种性质的劳动的同情，我决定利用自己手上便捷的条件、低廉的成本，帮助舅舅在网上宣传、销售一下。我是从来不相信“酒香不怕巷子深”的，所以我一直在做宣传。
     
 == 自制结晶蜂蜜 ==
-  功效：美容、养颜、通便，[http://www.google.com.hk/search?rlz=1C1GPEA_enCN394CN394&sourceid=chrome&ie=UTF-8&q=%E8%9C%82%E8%9C%9C 其他]。
-  
-  推荐理由：
+  推荐购买理由：
    * 上班族容易产生便秘，适量的蜂蜜可以促进肠胃蠕动，缓解便秘痛苦；
    * 太阳、电脑辐射多，皮肤老化加速，蜂蜜可以促使皮肤的再生机制加速恢复；
    * 声音工作者可以使用蜂蜜润喉，预防、缓解职业病。
    * 对比商场的昂贵的<b>结晶蜂蜜</b>，省去中间成本，更加便宜，更加原生态，更加健康。
   
+  [http://item.beta.taobao.com/item.htm?id=15328352344 http://bbs.yuchs.com/outlinkimage/home_bee/taobao_buy_btn.jpg]
+  
   [http://bbs.yuchs.com/outlinkimage/home_bee/show_bee.jpg]   [http://bbs.yuchs.com/outlinkimage/home_bee/show_bee_0.jpg]
   
-  [http://bbs.yuchs.com/outlinkimage/home_bee/taobao_buy_btn.jpg]
+== 饲养竹鼠 ==
+  我回家过年是见到的小东西——[http://www.google.com.hk/search?rlz=1C1GPEA_enCN394CN394&sourceid=chrome&ie=UTF-8&q=%E7%AB%B9%E9%BC%A0 竹鼠]，很是新奇，虽说很是好卖，可是<b>难以养活，难以繁殖</b>，舅舅已经摸索到了第3年了，应该是出成果的时候了。
   
+  [http://bbs.yuchs.com/outlinkimage/home_bee/bamboo_mouse.jpg]
+  
+== 巨无霸葛根 ==
+  舅舅家后院挖出来的[http://www.google.com.hk/search?rlz=1C1GPEA_enCN394CN394&sourceid=chrome&ie=UTF-8&q=%E5%BC%A0%E5%AE%B6%E7%95%8C%E8%91%9B%E6%A0%B9 葛根]，巨大无比。不用判别真假，这东西还能有假？
+  
+  [http://bbs.yuchs.com/outlinkimage/home_bee/ge_gen.jpg]
