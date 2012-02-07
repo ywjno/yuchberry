@@ -17,7 +17,7 @@
     * [http://code.google.com/p/yuchberry/wiki/AntiNetBroken_server 兼容断续膏服务器]
     * [http://code.google.com/p/yuchberry/wiki/Promote_list 改进列表]
     * [http://code.google.com/p/yuchberry/wiki/Beta_Report beta测试报告]
-    * [http://code.google.com/p/yuchberry/wiki/Update_Method 更新方法]
+    * [http://code.google.com/p/yuchberry/wiki/Update_Method 安装、更新方法]
   * [http://code.google.com/p/yuchberry/wiki/Yuchsign_Using_Intro 语盒官方服务]
     * [http://code.google.com/p/yuchberry/wiki/Invite_Mechanism 语盒帐号邀请机制]
   * [http://code.google.com/p/yuchberry/wiki/Thanks_sheet 感谢]
