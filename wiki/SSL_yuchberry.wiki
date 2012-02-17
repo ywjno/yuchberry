@@ -2,11 +2,11 @@
 = 配置更加安全的语盒 =
 <wiki:toc max_depth="3" />
 
+   <b>注意：</b>这个安全连接是语盒客户端和语盒服务器之间的连接，不是语盒服务器与邮局服务器的连接！
+
    通过jre提供的keytool工具生成服务器使用的私钥证书，打开服务器config.ini 文件中的SSL配置，客户端选择“使用SSL”，然后连接、安装、启用自己制作的数字证书，就可以进行安全通讯了。
 
-   _如果从来没有配置过服务器，请先参照[http://code.google.com/p/yuchberry/wiki/ADSL_DDNS_yuchberry 这里]或者是[http://code.google.com/p/yuchberry/wiki/Independent_Host_yuchberry 这里]，配置服务器。_
-
-   _如果你正在运行配置过的服务器，请关闭后再进行如下操作。_
+   如果从来没有配置过服务器，请先参照[http://code.google.com/p/yuchberry/wiki/ADSL_DDNS_yuchberry 这里]或者是[http://code.google.com/p/yuchberry/wiki/Independent_Host_yuchberry 这里]，配置服务器。<br> 如果你正在运行配置过的服务器，请关闭后再进行如下操作。
 
 
 == 服务器授权方式加密 == 
