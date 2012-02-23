@@ -12,23 +12,14 @@
 == 严重鸣谢 ==
 
   * *[http://www.52blackberry.com/ 52BlackBerry]* 提供最初的测试空间。
-
   * *[http://www.feelberry.com/ 感触黑莓]* 帮助测试、宣传
-
   * *[http://www.blackberryfans.com/ 黑莓粉丝网]* 帮助宣传
-
   * *[http://www.geekbb.net/ Geek黑莓]* 帮助测试服务器、宣传
-
   * *RAiN* 贡献OS5.0 断网修复的代码！
-
   * *zhangjianying666#gmail.com* 阅读语盒的代码，并且提出一些问题和改进方案
-
   * *[http://bbs.bbercn.com/ 中国莓论坛]* 帮助发布测试和支持我的开发
-
-  * *zhantongcai#gmail.com* 帮助开启语盒自驾互助QQ群，并一直维护它
- 
-  * *aston.he#gmail.com* 帮助通过SinaWeibo的审核
-  
+  * *zhantongcai#gmail.com* 帮助开启语盒自驾互助QQ群，并一直维护它 
+  * *aston.he#gmail.com* 帮助通过SinaWeibo的审核  
   * *[http://etaoqu.taobao.com/ E淘趣黑莓专卖]* 我从他们那里便宜地购买了最原始开发机
   * *[http://www.ifanr.com/ 爱范儿]* 感谢他们给语盒提供了一个[http://www.ifanr.com/72637 展现的机会]，还有一个[http://www.ifanr.com/74259 开发者采访]。
 
