@@ -30,6 +30,7 @@
   * *aston.he#gmail.com* 帮助通过SinaWeibo的审核
   
   * *[http://etaoqu.taobao.com/ E淘趣黑莓专卖]* 我从他们那里便宜地购买了最原始开发机
+  * *[http://www.ifanr.com/ 爱范儿]* 感谢他们给语盒提供了一个[http://www.ifanr.com/72637 展现的机会]，还有一个[http://www.ifanr.com/74259 开发者采访]。
 
 == Bug及建议 ==
 
