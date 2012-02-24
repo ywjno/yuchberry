@@ -56,6 +56,8 @@ _ 有些条目是我长时间测试所得的结论，没有官方文档，如果
      绝大多数都是著名的“黑莓断网”，解决办法：拔电池、混刷ROM、降级ROM、上BIS、BES服务。
   ===your device can't support GPS location.===
      没有GPS的低端机型会输出这个异常，说明没有GPS模块，无法获得定位信息，一般来说，可以忽略。
+  ===can t use the dev ROM to store configfile!===
+     一般是没有将USB拔出，导致ROM不可用。也有可能其他导致程序无法访问ROM的原因。
 
 
 
