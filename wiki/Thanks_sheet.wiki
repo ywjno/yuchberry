@@ -59,12 +59,13 @@
   * seven204#gmail.com（@没注册s sina Weibo）帮助测试自动切换wifi和gprs的功能
   * ffxkim#gmail.com 帮助发现、测试、修正转发邮件无法回复的bug
   * linjuncpu#gmail.com 帮助发现发送邮件时，联系人为中文时会出现乱码的问题
-  * berry.makie#gmAil.com 帮助测试PushWeibo最初的版本，并反馈很多有用的意见
+  * berry.makie#gmail.com 帮助测试PushWeibo最初的版本，并反馈很多有用的意见
   * bartonchen347#gmail.com 帮助测试出发送邮件是出现 4>=4 Index 问题。
   * zhb#iredmail.org （张煌彬），帮助改进邮件裂帖 (Breaking Thread) 的问题。张煌彬是 [http://www.iredmail.org iRedMail] 开源、免费邮件服务解决方案的作者
   * [http://www.weibo.com/skyfather @我要上清华啊混蛋] 提出1.9之后的一些关于微博、IM的改进方案
   * zheng086#gmail.com 帮助语盒一直改进，都说不清楚了...
   * Carlos Gong（bfsugxy#gmail.com）帮助发现英文版的很多文法错误，并截图改进发给我
+  * 66761586#163.com（zmozb2010#gmail.com） 帮助更改超大分辨率的机器文字重叠的问题。论坛帖子在[http://bbs.yuchs.com/read.php?tid=417 这里]。
 
 == 赞助 ==
 
