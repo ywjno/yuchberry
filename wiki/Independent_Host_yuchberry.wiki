@@ -45,7 +45,7 @@
     rpm -ivh ibm-java-i386-jre-6.0-9.0.i386.rpm
     rm -f ibm-java-i386-jre-6.0-9.0.i386.rpm
 }}}
-    _ 使用 java –version 查看是否安装成功。_
+    _ 使用 java -version 查看是否安装成功。_
     * 设置PATH：
 {{{
     echo "export PATH=/opt/ibm/java-i386-60/jre/bin:\$PATH" >> /etc/profile
@@ -73,12 +73,12 @@
     * 测试运行，查看config.xml是否填写错误。
 {{{
     cd /usr/yuchberry_server_1.1.716
-    java –jar svr.jar
+    java -jar svr.jar
 }}}
     如果出现 “prepare OK”的字样表示账户准备成功。否则就需要到[Connect_Error_info 这里]查找问题出现在那里了。 
     * 按 Ctrl+C 终止上面的程序，在语盒当前目录执行
 {{{
-    nohup java –jar svr.jar &
+    nohup java -jar svr.jar &
 }}}
     让服务器程序永远运行在后台。可以使用
 {{{
