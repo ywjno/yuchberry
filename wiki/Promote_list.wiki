@@ -3,7 +3,7 @@
 <wiki:toc max_depth="2"/>
     有任何建议或者问题，请添加到[http://code.google.com/p/yuchberry/issues/list Issues]，或者发送邮件到 yuchberry@gmail.com ，<b>请不要在此回复评论</b>。
 
-== 正在改进... ==
+== 1.11.1633更新内容 ==
   * YuchBerry
    # ~~ 需要把浏览文件（附件）的模块写成延迟加载的，不然浏览几百号文件的文件夹就会卡死 ~~
    # ~~ IM发图片加一个浏览文件的功能 ~~
