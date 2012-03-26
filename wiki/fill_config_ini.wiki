@@ -4,6 +4,7 @@
 <wiki:toc max_depth="3" />
 
    服务器配置需要一个简单的说明，用于填写语盒中间服务器访问的邮箱服务器地址、用户、密码等等。这个说明存放在config.xml 文件里面。注意如下事项：
+    # 请用 <b>notepad++ UltraEdit</b> 兼容UTF-8格式的文本编辑器编辑、保存Config.xml文件，不然程序会解析出错
     # 这个配置文件是利用xml配置的，xml是一种标记语言，语法很简单，不会的自己可以google一下，例如[http://www.google.com.hk/search?rlz=1C1GPEA_enCN394CN394&sourceid=chrome&ie=UTF-8&q=xml 这样]。
     # 所有的* “是否”* 选项都是填写1为“是”，0或者其他值为否。
     # 密码字段包涵 <b>& < > " '</b> 分别替换成 <b>&amp; &lt; &gt; &quot; &apos; </b>。因为xml的字符串字段解析的时候无法处理上述字符，详情见[http://www.google.com.hk/search?hl=zh-CN&newwindow=1&safe=strict&rlz=1C1GPEA_enCN394CN394&q=XML+%E8%BD%AC%E4%B9%89%E5%AD%97%E7%AC%A6&oq=XML+%E8%BD%AC%E4%B9%89%E5%AD%97%E7%AC%A6&aq=f&aqi=g-g2g-m1&aql=&gs_sm=e&gs_upl=8117l8117l0l8896l1l1l0l0l0l0l190l190l0.1l1l0 XML转义字符]。
