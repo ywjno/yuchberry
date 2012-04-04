@@ -1,6 +1,6 @@
   * [FAQ 什么是语盒]
     * [http://code.google.com/p/yuchberry/wiki/YuchBerry_Client_Help 语盒简短帮助说明]
-    * [http://code.google.com/p/yuchberry/wiki/Update_Method 安装、更新方法]
+    * [http://code.google.com/p/yuchberry/wiki/Update_Method 客户端安装、更新方法]
     * [http://code.google.com/p/yuchberry/wiki/ADSL_DDNS_yuchberry 配置ADSL+DDNS服务器]
       * [http://code.google.com/p/yuchberry/wiki/Router_DDNS_Config 路由器配置]
       * [http://code.google.com/p/yuchberry/wiki/fill_config_ini 填写Config文件]
