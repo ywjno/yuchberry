@@ -3,6 +3,7 @@
 <wiki:toc max_depth="2"/>
     有任何建议或者问题，请添加到[http://code.google.com/p/yuchberry/issues/list Issues]，或者发送邮件到 yuchberry@gmail.com ，<b>请不要在此回复评论</b>。
 == 正在改进…… ==
+  # config.xml 登录名和邮件名分开
   * YuchBerry
    # 试图加入Weibo相互关注的状态，同时可以给对方发起私信
    # 看看是否可以加入微薄的关注者备注的功能
@@ -10,6 +11,7 @@
    # IM对话中，气泡两旁加入头像
    # Weibo转发、评论不带原文的选项
    # 选择表情的时候加入放大的图，不然分辨率太大的机器看不到小图标
+   # 发布微博成功等信息也放入到调试信息里面
   * YuchDroid
    # 加入Weibo模块
    # 回复全部的选项需要加入以下，比如你收到有风邮件，也有cc到别人的，也需要回复到
