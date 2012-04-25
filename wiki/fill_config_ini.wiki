@@ -289,13 +289,13 @@
 		
 		useFullNameSignIn="0"
 		
-		protocol="pop3s"
+		protocol="pop3"
 		host="pop.mail.yahoo.com.cn"
-		port="995"
+		port="110"
 		
 		protocol_send="smtp"
 		host_send="smtp.mail.yahoo.com.cn"
-		port_send="465"
+		port_send="110"
 		
 		appendHTML="0"
 	/>
