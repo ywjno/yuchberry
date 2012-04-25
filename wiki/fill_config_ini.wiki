@@ -295,7 +295,7 @@
 		
 		protocol_send="smtp"
 		host_send="smtp.mail.yahoo.com.cn"
-		port_send="110"
+		port_send="25"
 		
 		appendHTML="0"
 	/>
