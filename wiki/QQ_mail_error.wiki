@@ -1,6 +1,6 @@
 =QQ邮箱无法同步问题=
 
- QQ 邮箱由于提供了自行配置的白名单政策，所以在官方同步的时候，有时候可能会出现问题，请按照如下方式排查问题（首先你得使用浏览器[http://mail.qq.com/ 登陆QQ邮箱]）：
+ QQ 邮箱由于提供了自行配置的白名单和[http://service.mail.qq.com/cgi-bin/help?subtype=1&&id=20022&&no=1000727 限制IP]的策略，所以在官方同步的时候，有时候可能会出现问题，请按照如下方式排查问题（首先你得使用浏览器[http://mail.qq.com/ 登陆QQ邮箱]）：
 
   * <b>检查是否打开 IMAP/SMTP 配置</b>
     [http://clip2net.com/clip/m85555/thumb640/1336036898-clip-17kb.png]
@@ -12,4 +12,3 @@
     <br>添加 <b>yuchs.com</b> 这个域名到自己的白名单列表里面。
 
  确认完之后，再回到 [http://www.yuchs.com 语盒官网] 登陆，点击同步按钮。如果还是不行，请发送问题到 <b>yuchberry@gmail.com</b> 联系语盒开发者。
-
