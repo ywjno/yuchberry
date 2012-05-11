@@ -16,10 +16,10 @@
   === 签出语盒主版本代码===
      点击Google Project Hosting 的Source 来到[http://code.google.com/p/yuchberry/source/checkout 这个页面] 然后找到签出的地址：
 {{{
-        http://yuchberry.googlecode.com/svn/trunk/@926 yuchberry-read-only 
+        http://yuchberry.googlecode.com/svn/trunk/@1633 yuchberry-read-only 
 }}}
      然后如图建立自己的工作目录，签出自己代码。<font color="red">建议放在D盘</font>，图片上的不对，因为我的配置文件会提交同步到google code上面，如果目录不同，会导致代码编译不过。如果你知道为什么编译不过，那么就可以随意设置，同时自己排查原因了。
-     <br /><b>@926</b>这个数字是每次发布版本的稳定版，比如1.3.926 版本，后面的数字就是SVN版本，需要下载稳定版本，才能mod，不然就会出问题。现在我没有开发合作者，所以还不需要branches进行开发。
+     <br /><b>@1633</b>这个数字是每次发布版本的稳定版，比如1.11.1633 版本，后面的数字就是SVN版本，需要下载稳定版本，才能mod，不然就会出问题。现在我没有开发合作者，所以还不需要branches进行开发。
 
   [http://i.imgur.com/yH1rz.jpg]        [http://i.imgur.com/yZ8eH.jpg]
 
