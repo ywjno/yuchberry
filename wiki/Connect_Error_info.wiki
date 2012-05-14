@@ -53,7 +53,7 @@ _ 有些条目是我长时间测试所得的结论，没有官方文档，如果
     同时，换一个SB可能会好转，具体原因不明。
   === General Socket error===
      最后的Boss出来了。当RIM系统不知道什么原因，就是连接不上socket网络的时候，就会蹦出这个异常。我现在知道的一种情况是真正使用wap协议上网的手机，无法连接socket就会出这个，而一旦出现，无法解决。
-  ===null java.io.IOException===
+  ===null java.io.IOException （黑莓断网了）===
      绝大多数都是著名的“黑莓断网”，解决办法：拔电池、混刷ROM、降级ROM、上BIS、BES服务。
   ===your device can't support GPS location.===
      没有GPS的低端机型会输出这个异常，说明没有GPS模块，无法获得定位信息，一般来说，可以忽略。
