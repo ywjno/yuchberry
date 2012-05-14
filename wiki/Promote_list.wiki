@@ -3,9 +3,9 @@
 <wiki:toc max_depth="2"/>
     有任何建议或者问题，请添加到[http://code.google.com/p/yuchberry/issues/list Issues]，或者发送邮件到 yuchberry@gmail.com ，<b>请不要在此回复评论</b>。
 == 正在改进…… ==
-  # config.xml 登录名和邮件地址分开
-  # config.xml 加入自定义XMPP服务器、端口的功能
-  # 单独发布加密密码工具，下载就能用，不要下载jre的那种。
+  # ~~ config.xml 登录名和邮件地址分开 ~~
+  # ~~ config.xml 加入自定义XMPP服务器、端口的功能 ~~
+  # ~~ 单独发布加密密码工具，下载就能用，不要下载jre的那种。~~
   # 看看[http://code.google.com/p/yuchberry/issues/detail?id=221&colspec=ID%20Type%20Status%20Priority%20Stars%20Summary 这些问题]
   * YuchBerry
    # 试图加入Weibo相互关注的状态，同时可以给对方发起私信
