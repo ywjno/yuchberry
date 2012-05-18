@@ -55,7 +55,7 @@
    <b>Q：</b> 我是Java程序员，我能开发语盒么？<br>
    <b>A：</b> 现在语盒纯属个人项目，暂不招募合作开发者，如果你想借此学习Java开发，J2SE，J2ME在语盒项目里面均有涉及，可以看看[http://code.google.com/p/yuchberry/wiki/Dev_from_Zero 从零开始编译语盒]这篇文档，也许可以从中学习到一些东西。
 
-==语盒推送WeiboFAQ==
+==语盒推送Weibo(Twitter) FAQ==
 
    <b>Q：</b> 语盒支持了Weibo功能，这个又是怎么回事呢？<br>
    <b>A：</b> 对，从1.2.875版本开始，客户端+服务器就已经在测试Weibo模块了，因为语盒推送机制不变，可以推送更多的东西，Weibo就是这样一个功能。语盒PushWeibo 是把你的所有微博账户的信息推送到你的手机上来，同样和邮件一样具有快捷，省电，省流量的特性。
@@ -69,7 +69,7 @@
    <b>Q：</b> 我如何使用语盒Weibo呢？<br>
    <b>A：</b> 哦，这个不是一两句就能说得清楚的，[http://code.google.com/p/yuchberry/wiki/YuchBerry_Weibo 这篇文档]有详细的说明，来帮助莓友配置PushWeibo
 
-==语盒推送IMFAQ==
+==语盒推送IM FAQ==
   待写...
 
 == 语盒终极原理解说视频 ==
