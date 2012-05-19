@@ -66,6 +66,7 @@
   * zheng086#gmail.com 帮助语盒一直改进，都说不清楚了...
   * Carlos Gong（bfsugxy#gmail.com）帮助发现英文版的很多文法错误，并截图改进发给我
   * 66761586#163.com（zmozb2010#gmail.com） 帮助更改超大分辨率的机器文字重叠的问题。论坛帖子在[http://bbs.yuchs.com/read.php?tid=417 这里]。
+  * lewis fang（fming2314#gmail.com） 帮助查找网页英文版的各种错误。
 
 == 赞助 ==
 
