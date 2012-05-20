@@ -8,9 +8,9 @@
   # ~~ 单独发布加密密码工具，下载就能用，不要下载jre的那种。~~
   # 看看[http://code.google.com/p/yuchberry/issues/detail?id=221&colspec=ID%20Type%20Status%20Priority%20Stars%20Summary 这些问题]
   * YuchBerry
-   # 试图加入Weibo相互关注的状态，同时可以给对方发起私信
+   # ~~ 试图加入Weibo相互关注的状态 ~~ ，同时可以给对方发起私信
    # 看看是否可以加入微薄的关注者备注的功能
-   # 在编写邮件的界面加入可以选择发送人邮箱的功能
+   # ~~ 在编写邮件的界面加入可以选择发送人邮箱的功能 ~~
    # IM对话中，title加入头像
    # Weibo转发、评论不带原文的选项
    # 选择表情的时候加入放大的图，不然分辨率太大的机器看不到小图标
