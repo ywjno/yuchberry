@@ -29,7 +29,7 @@ _ 有些条目是我长时间测试所得的结论，没有官方文档，如果
      以上几种错误全是APN兼容错误，我的China Unicom网络十分常见。由于某种原因，在某些时候cmnet是有效的APN，但是有时候确是uniwap，解决这个问题的办法就是如何有效的填写APN，语盒内置了自动切换APN的算法，具体设置看[http://code.google.com/p/yuchberry/wiki/fill_APN 这篇文章]。<br /><font color="red">如果长时间收到这类消息</font>，无法连通，尝试重新刷一下另外通用，带Email版本的Service Book，我的8310有时候打死都连不上，也上不了网，于是重新刷了一遍Service Book，就可以连通了，具体什么原因我也不太清楚。
   ===DNS Error===
   ===Failed Open UDP socket===
-    # 如果是[http://www.yuchs.com 语盒官方服务器]，请确认客户端的高级设置没有选择“使用自己生成的证书SSL”，目前官方服务器不支持自己生成证书。
+    # 如果是[http://www.yuchs.com 语盒官方服务器]，请确认客户端的高级设置没有选择“使用自己生成的证书SSL”，目前官方服务器不支持自己生成证书。<br />
     # 首先在高级设置里面填写上一个合适的APN，移动填写 cmnet，联通填写 uninet，电信填写 ctnet，3g网络填写 3gnet （注意，wap无法适用语盒），再次看看是否能连接上。<br />
     # DNS 是将域名解析成IP的一种机制，如果手机报这个错误，那么，需要将主机地址的域名换成IP（通过 [http://www.ip138.com http://www.ip138.com] 可以查询），再继续尝试。<br />
     <b>自架服务器</b>
