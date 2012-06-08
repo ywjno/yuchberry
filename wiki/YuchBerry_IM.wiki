@@ -34,12 +34,23 @@
 		cryptPassword=""
 	/>
 
+	<IMAccount
+		type="xmpp"
+		xmppHost=""
+		xmppPort=""
+		account="yuchberry@gmail.com"
+		password=""
+		cryptPassword=""
+	/>
+
 </Yuchberry>
 }}}
 
-  <b>type</b> 目前只有<b>gtalk</b>，之后可能会加入 <b>msn</b> <b>fetion</b> 的类型，请暂且等待。
+  <b>type</b> 目前只有<b>gtalk</b> <b>xmpp</b>，之后可能会加入 <b>msn</b> <b>fetion</b> 的类型，请暂且等待。
 
   和Email 的tag <b>EmailAccount</b>一样里面的属性, <b>password</b> 是明文密码，<b>cryptPassword</b>是[Password_Crypt 加密之后的密码]。
+
+  使用[http://zh.wikipedia.org/zh/XMPP XMPP协议]有的网易泡泡，还有Facebook Chat。于是定义了 <b>xmppHost</b> <b>xmppPort</b> 来指定XMPP服务器的地址和端口，由于XMPP协议开放，服务器也可以用于公司内部的架设，开放了这两个字段供自架服务器者尝鲜，具体如何使用还有待研究。
   
    
 
