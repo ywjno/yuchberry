@@ -3,11 +3,12 @@
 
 == 安装语盒客户端 ==
  * 黑莓系统客户端
-   在下载完相应版本的[[http://code.google.com/p/yuchberry/#下载 打包文件]之后，解压会获得如下文件夹及文件夹（例如4.5的系统）： <b>WebOTA 4.5.0 client.alx</b>，现在有两种安装方法：
+  * OTA安装（<b>推荐</b>），手机访问 <b>http://ota.yuchs.com</b> 即可
+  * 桌面安装，在下载完相应版本的[[http://code.google.com/p/yuchberry/#下载 打包文件]之后，解压会获得如下文件夹及文件夹（例如4.5的系统）： <b>WebOTA 4.5.0 client.alx</b>，现在有两种安装方法：
     # 拷贝 WebOTA 文件夹到手机上，然后使用黑莓系统自带的“媒体”（或者“多媒体”）程序浏览到这个文件夹中的 client.jad文件，点击这个文件即可安装。
     # 是用黑莓的桌面管理器，Desktop Manager，安装软件，选择 client.alx 这个文件即可安装。黑莓的桌面管理器需要在网站上下载，可以自行下载。
- * Android安卓客户端
-   可以下载apk文件，然后通过各种方式安装到手机，不过还可以通过各种市场安装：
+
+ * Android安卓客户端。可以下载apk文件，然后通过各种方式安装到手机，不过还可以通过各种市场安装：
     # [https://market.android.com/details?id=com.yuchting.yuchdroid.client Android 官方电子市场]搜索语盒
     # [http://www.liqucn.com/rj/72195.shtml 历趣应用商店]
     # [http://static.apk.hiapk.com/html/2012/01/401052.html 国内的安卓市场]搜索语盒
