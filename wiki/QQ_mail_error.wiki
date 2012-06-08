@@ -1,5 +1,7 @@
 =QQ邮箱无法同步问题=
 
+ [http://clip2net.com/clip/m85555/thumb640/1339119904-clip-19kb.jpg]
+
  QQ 邮箱由于提供了自行配置的白名单和[http://service.mail.qq.com/cgi-bin/help?subtype=1&&id=20022&&no=1000727 限制IP]的策略，所以在官方同步的时候，有时候可能会出现问题，请按照如下方式排查问题（首先你得使用浏览器[http://mail.qq.com/ 登陆QQ邮箱]）：
 
   * <b>检查是否打开 IMAP/SMTP 配置</b>
