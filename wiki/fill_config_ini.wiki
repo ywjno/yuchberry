@@ -75,7 +75,7 @@
   === sendName（发送者名字）===
      如果你不想自己发送的时候别人收到的是赤裸裸的邮件地址的话，可以将其填上你希望别人看到的名字。例如 "语盒"
   === signinName（登录邮箱的登录名，大多数留空即可）===
-     绝大部分情况登录名与邮箱地址都有关系。比如邮箱地址为<b>yuchberry@yuchs.com</b> 那么登录名就是 <b>yuchberry</b> 或者是 <b>yuchberry@yuchs.com</b> ，这个格式可以通过 <b>[fill_config_ini#useFullNameSignIn useFullNameSignIn]</b> 进行控制，但是如果你的登录名为 <b>yuchting</b> 那就必须通过这个字段控制了。如果这个字段非空，那么就会使用这个字段的只进行登录。
+     <b>绝大部分情况留空即可</b>，登录名与邮箱地址都有关系，邮箱地址为<b>yuchberry@yuchs.com</b> 那么登录名就是 <b>yuchberry</b> 或者是 <b>yuchberry@yuchs.com</b> ，这个格式可以通过 <b>[fill_config_ini#useFullNameSignIn useFullNameSignIn]</b> 进行控制，但是如果你的登录名为 <b>diffName@yuchs.com</b> 那就必须通过这个字段控制了。如果这个字段非空，那么服务器就会使用这个字段的值登录邮箱，收发邮件。
   ===host（邮局取信主机地址）===
      邮件服务主机地址。例如 host=imap.gmail.com
   ===port（邮局取信主机端口）===
