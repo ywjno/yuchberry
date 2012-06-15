@@ -1,4 +1,4 @@
- <b>遇到任何疑问，可以发送邮件到 yuchberry@gmail.com ，我会尽快处理处理</b>
+ <b>遇到任何疑问，可以发送邮件到 yuchberry@gmail.com ，我会尽快处理</b>
  * 如何获得主机？<br>自己架设或者租用语盒官方的中转服务。
 
  * 自己怎么架设？<br>最简单的是ADSL+DDNS，如果没有条件的可以租用便宜的Linux VPS（$2-$6一个月不等），可以合伙租用。ADSL+DDNS教程在[ADSL_DDNS_yuchberry 这里] ,Linux VPS购买教程在[http://www.vpsma.com/ 这里]，使用教程在[http://www.geektu.com/?p=680 这里]。(语盒开发这不对这些文档给出的教程负责，希望大家谨慎)
