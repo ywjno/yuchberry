@@ -1,4 +1,4 @@
-#for http://www.programmer.com.cn/12254/
+#for the Programmer 
 
 = 语盒解决方案构架（基于无线长链接的通讯，开源组织项目） =
  
