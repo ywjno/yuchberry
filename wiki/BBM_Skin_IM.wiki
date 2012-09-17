@@ -1,6 +1,6 @@
 = 更换皮肤的Mod版本 =
 
-  感谢热心莓友<b>三叶莓</b>（886055#gmail.com）友情制作[http://code.google.com/p/yuchberry/wiki/YuchBerry_IM IM模块]的BBM皮肤Mod版本的语盒。
+  感谢热心莓友<b>三叶莓</b>（886055#gmail.com）友情制作[http://code.google.com/p/yuchberry/wiki/YuchBerry_IM IM模块]的BBM皮肤Mod版本的语盒。（见[http://code.google.com/p/yuchberry/#%E4%B8%8B%E8%BD%BD 下载页面]）
 
   我之前突然看到<b>三叶莓</b>同学在群里了几张图片，惊讶的发现这位朋友竟然能够更改语盒的代码和图片，实现换肤功能，心里很高兴，同时也在想，为何不让他也把这个发出来让大家也能够用到呢？
 
