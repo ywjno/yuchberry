@@ -5,6 +5,7 @@
 
 == 正在改进... ==
   # 标题、发件人没法“繁体转简体”（[http://code.google.com/p/yuchberry/issues/detail?id=232 Issue]）
+  # 139 pop3 收取的时候收到旧邮件，无法收到新邮件
   * YuchDroid
    # 加入Weibo模块
    # 回复全部的选项需要加入以下，比如你收到有邮件，也有cc到别人的，也需要回复到
