@@ -25,7 +25,7 @@
   # ~~ config.xml 登录名和邮件地址分开 ~~
   # ~~ config.xml 加入自定义XMPP服务器、端口的功能 ~~
   # ~~ 单独发布加密密码工具，下载就能用，不要下载jre的那种。~~
-  # 看看[http://code.google.com/p/yuchberry/issues/detail?id=221&colspec=ID%20Type%20Status%20Priority%20Stars%20Summary 这些问题]
+  # 看看[http://code.google.com/p/yuchberry/issues/detail?id=221 Issue]
   * YuchBerry
    # ~~ 试图加入Weibo相互关注的状态 ~~ ，同时可以给对方发起私信
    # ~~ 看看是否可以加入微薄的关注者备注的功能 ~~
@@ -87,7 +87,7 @@
   # ~~ 表情选择的时候，向下滚动会滚歪 ~~
   # ~~ 去掉IM中@的解析 ~~ （修改了一半，实在不好更改）
   # ~~ weibo加入一个位置按钮，使得发布时可以选择是否发布位置，当然，weibo配置里面是需要打开位置共享 ~~
-  # ~~ [http://code.google.com/p/yuchberry/issues/detail?id=196&colspec=ID%20Type%20Status%20Priority%20Stars%20Summary 这个问题]（在YuchIM聊天界面默認調用是左右“aA+Enter”,期望以“左aA+Enter”作為默認，釋放右aA的佔用）解决一下。 ~~
+  # ~~ [http://code.google.com/p/yuchberry/issues/detail?id=196 Issue]（在YuchIM聊天界面默認調用是左右“aA+Enter”,期望以“左aA+Enter”作為默認，釋放右aA的佔用）解决一下。 ~~
 
  * YuchDroid
   # ~~ 草稿编辑之后，再次编辑点击发送，发送的是之前的版本 ~~
@@ -256,7 +256,7 @@
    # ~~ 6.0 系统转发邮件没有原文 ~~
    # ~~ 客户端主机地址中的空格需要去掉，或者提示 ~~
    # ~~ 发送带有附件的邮件的时候，会在手机本地将内容重复一遍。~~
-   # 解决一下[http://code.google.com/p/yuchberry/issues/detail?id=158 这个Issue]
+   # 解决一下[http://code.google.com/p/yuchberry/issues/detail?id=158 Issue]
    # yuchweibo
     # ~~ Space下翻到最后条时页面变灰无法选择条目~~
     # ~~ 头像只能展开才能看见可以提到合并时就可以看见~~
@@ -286,4 +286,4 @@
    # ~~ 发送一封邮件，就可以更改服务器的签名 ~~
    # ~~ 增加“集成配置工具”可以手动更改到期时间 ~~
    # ~~ 增加 最多接受多少字节的邮件的功能。 ~~
-   # ~~ 修改一下这个[http://code.google.com/p/yuchberry/issues/detail?id=124&colspec=ID%20Type%20Status%20Pri
+   # ~~ 修改一下这个[http://code.google.com/p/yuchberry/issues/detail?id=124 Issue] ~~
