@@ -36,7 +36,10 @@
    直到我写这篇文档的时候，仅仅集成了 Sina Weibo 和 T Weibo 还有 QQ Weibo，今后可能会加入更多的Weibo进来，但是配置几乎是相同的，正所谓“天下武功出少林”，这个道理在Weibo界也是相同的——大家都是使用的xAuth来授权，所以只介绍QQ Weibo的配置。
   
   === 自架服务器配置 ===
-   * 获得授权码 
+  * 获得授权码 
+   * 网页授权
+    <b>建议使用网页授权获得授权码，直接访问 [http://api.yuchs.com/passgen.html http://api.yuchs.com/passgen.html]</b>
+   * 本地授权
     在服务器发行版本里面有一个名为 weiboTool_sina.bat 的文件，双击它，会出现下面的界面。GNU/Linux下面需要有 XWindow 的支持，因为要打开浏览器。<br />
     此时需要java运行时环境，如果在自己机器上没有安装jre的，请到[http://www.java.com/zh_CN/download/manual.jsp 这里下载jre]。<br />
     [http://img4.hostingpics.net/pics/446645capture1308206622.jpg]<br />
@@ -45,7 +48,7 @@
     完成后，浏览器会自动跳转到一个语盒的页面，这个页面时刚才的那个黑色窗口服务的，会看到如下页面 <br />
     [http://i.imgur.com/DGxVM.jpg]<br />
     这个时候授权就已经完成了，获得可以访问账户的 * 访问令牌* ，语盒Weibo 只会使用安全的 OAuth 访问Weibo账户，不会泄漏用户的密码和信息。你还可以深入了解[http://zh.wikipedia.org/wiki/OAuth 什么是OAuth]。
-   * 填写config.xml配置文件
+  * 填写config.xml配置文件
     * <b>配置Tag</b>
      通过上面获得 *访问令牌* 之后，就可以填写 config.xml 配置文件了，新加了一组以   *WeiboAccount* 的Tag，里面通过 *type* 属性来区分类型，现在有 *sina* *tw* *qq* 几种类型，之后可能会加入更多的Weibo Type。上面获得的令牌（Token）填写如下：
     {{{
