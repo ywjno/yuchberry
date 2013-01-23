@@ -2,8 +2,9 @@
 = 改进列表（版本更新内容） =
 <wiki:toc max_depth="2"/>
     有任何建议或者问题，请添加到[http://code.google.com/p/yuchberry/issues/list Issues]，或者发送邮件到 yuchberry@gmail.com ，<b>请不要在此回复评论</b>。
-
 == 正在改进... ==
+
+== 1.15.1971 ==
   # 标题、发件人没法“繁体转简体”[http://code.google.com/p/yuchberry/issues/detail?id=232 Issue]
   # ~~ 微博不需要“繁体转简体” [http://code.google.com/p/yuchberry/issues/detail?id=236 Issue] ~~　
   # ~~ 139 pop3 收取的时候收到旧邮件，无法收到新邮件 ~~
