@@ -1,0 +1,52 @@
+RIM-COD-SHA1-4: 10 f5 66 52 76 24 00 10 10 43 78 83 cb 78 e8 64 ee 2a e7 b8
+RIM-COD-SHA1-3: 87 ba dd 02 72 96 e5 8f 12 15 f8 9c 74 d0 3e f9 31 29 b8 1c
+RIM-COD-SHA1-2: ce be ef fe 4f fd d9 d5 6f f7 4e d9 99 86 1a cc 04 25 5c 31
+RIM-COD-URL-11: yuchbox-11.cod
+RIM-COD-SHA1-1: d5 cd 38 0a 3a bc 44 76 43 33 dc 41 81 bc 07 10 48 26 63 fd
+RIM-COD-URL-10: yuchbox-10.cod
+RIM-MIDlet-Flags-1: 1
+MIDlet-Jar-Size: 1648959
+MIDlet-Name: client-my
+MIDlet-Jar-URL: client-my.jar
+MicroEdition-Configuration: CLDC-1.1
+MIDlet-Description: Push Personal Message for your BlackBerry (Please uninstall former version of YuchBerry)
+RIM-COD-URL-9: yuchbox-9.cod
+RIM-COD-URL-8: yuchbox-8.cod
+RIM-COD-URL-7: yuchbox-7.cod
+RIM-COD-Module-Dependencies: net_rim_cldc,net_rim_bbapi_mailv2,net_rim_os,net_rim_pdap,net_rim_bb_browser_field2_api,net_rim_bb_browser_field_api,net_rim_xml,net_rim_xml_org,net_rim_bbapi_messagelist,net_rim_bbapi_invoke,net_rim_locationapi,net_rim_bbapi_menuitem,net_rim_bbapi_browser
+RIM-COD-URL-6: yuchbox-6.cod
+RIM-COD-URL-5: yuchbox-5.cod
+RIM-COD-URL-4: yuchbox-4.cod
+RIM-COD-URL-3: yuchbox-3.cod
+RIM-COD-URL-2: yuchbox-2.cod
+RIM-COD-URL-1: yuchbox-1.cod
+RIM-COD-Size-9: 67044
+RIM-COD-Size-8: 72412
+RIM-COD-Size-7: 66308
+RIM-COD-Size-6: 67368
+RIM-COD-Size-5: 67940
+RIM-COD-Size-4: 64468
+RIM-COD-Size-3: 67520
+RIM-COD-Module-Name: yuchbox
+RIM-COD-Size-2: 64472
+RIM-COD-Size-1: 74756
+RIM-COD-SHA1: a8 34 71 1a 70 08 ac a2 60 b7 51 06 b0 aa 97 fa ab 81 cc 79
+RIM-COD-Size: 63192
+MicroEdition-Profile: MIDP-2.0
+RIM-COD-Size-11: 53496
+RIM-COD-Size-10: 93296
+MIDlet-Vendor: YuchTing
+MIDlet-1: YuchBox,Main_offline.png,
+RIM-COD-URL: yuchbox.cod
+RIM-COD-SHA1-11: e5 06 b8 57 35 17 d9 40 54 fc d2 fa b7 86 7e cd f0 18 91 46
+RIM-COD-SHA1-10: 51 1c 30 44 34 43 45 89 f1 14 a4 ad 67 b2 ac c7 8a c1 76 90
+RIM-MIDlet-NameResourceId-1: 0
+Manifest-Version: 1.0
+MIDlet-Version: 1.15.1971
+RIM-COD-SHA1-9: 2a 83 66 3e 9d 5a fa 68 fc 43 f7 b2 3b 70 3e 8d 86 e2 dd f9
+RIM-COD-SHA1-8: 2f 86 33 68 06 8d c8 88 a4 3b 0e c4 e8 9d 1e d6 64 a9 2b d5
+RIM-COD-SHA1-7: d6 12 34 fb 0c 27 3b fb 1d 92 da 5f a7 bd ae 8d b9 f4 39 e3
+RIM-MIDlet-NameResourceBundle-1: local.yblocal
+RIM-COD-SHA1-6: 89 09 9d 9a 32 15 43 f6 ec 55 27 35 e8 3b b5 fc b8 4d a0 13
+RIM-COD-Creation-Time: 1358955614
+RIM-COD-SHA1-5: c3 57 4a 93 a7 52 78 c6 94 a0 ec c6 ad 4b 92 49 c3 3b 63 15
