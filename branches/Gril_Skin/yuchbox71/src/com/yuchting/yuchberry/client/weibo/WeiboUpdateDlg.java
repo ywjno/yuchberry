@@ -173,9 +173,9 @@ final class WeiboUpdateManager extends Manager implements FieldChangeListener{
 				m_weiboUIImageSets,Field.FIELD_LEFT);
 		
 		if(recvMain.sm_standardUI){
-			m_updateTitle = m_weiboUIImageSets.getImageUnit("compose_nav_bar");
+			m_updateTitle = m_weiboUIImageSets.getImageUnit("w_updlg_header");
 		}else{
-			m_updateTitle = m_weiboUIImageSets.getImageUnit("w_updlg_header");//RRR:发微博页面Header背景m_updateTitle = m_weiboUIImageSets.getImageUnit("nav_bar");
+			m_updateTitle = m_weiboUIImageSets.getImageUnit("compose_nav_bar");//RRR:发微博页面Header背景m_updateTitle = m_weiboUIImageSets.getImageUnit("nav_bar");
 		}
 		
 		
@@ -517,7 +517,7 @@ public class WeiboUpdateDlg extends Screen implements IUploadFileScreenCallback{
 		m_hasImageSign		= m_weiboUIImageSets.getImageUnit("picSign");
 		m_hasLocation		= m_weiboUIImageSets.getImageUnit("locationSign");
 		
-		m_backgroundColor = WeiboItemField.fsm_extendBGColor;
+		m_backgroundColor = WeiboItemField.fsm_extendBGColor; //RRR:背景色
 		m_snapshotAvaiable = recvMain.fsm_snapshotAvailible;
 		
 		m_updateManager = (WeiboUpdateManager)getDelegate();		

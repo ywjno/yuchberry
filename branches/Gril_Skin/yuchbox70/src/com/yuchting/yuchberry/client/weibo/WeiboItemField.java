@@ -72,12 +72,12 @@ public class WeiboItemField extends Manager{
 	public final static int		fsm_timeTextColor			= recvMain.sm_standardUI?0xfb9620:0x8bc5f8;
 	
 	public final static int		fsm_extendTextColor			= recvMain.sm_standardUI?0:0xd0d0d0;
-	public final static int		fsm_extendBGColor			= recvMain.sm_standardUI?0xc1e6ff:0x1f2d39;//RRR:微博内容字体背景//
+	public final static int		fsm_extendBGColor			= recvMain.sm_standardUI?0xfad5e9:0x1f2d39;//Original: 0xc0deed:0x1f2d39;微博内容字体背景//
 	
 	public final static int		fsm_absTextColor			= recvMain.sm_standardUI?0x586061:0xbbc1c6;
 	public final static int		fsm_absTextColor_disable	= recvMain.sm_standardUI?0x98a0a1:0x7b8186;
 	
-	public final static int		fsm_weiboNameTextColor		= recvMain.sm_standardUI?0x073b50:0xe5e3cf;
+	public final static int		fsm_weiboNameTextColor		= recvMain.sm_standardUI?0xfb4d7b:0xe5e3cf;
 	public final static int		fsm_weiboNameTextColor_disable	= recvMain.sm_standardUI?0x868686:0x85836f;
 	
 	public final static int		fsm_weiboCommentFGColor		= recvMain.sm_standardUI?0x6d6f6f:0x84c3fa;
