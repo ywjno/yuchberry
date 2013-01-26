@@ -132,24 +132,27 @@ public class RosterItemField extends Field{
 		Font font = _g.getFont();
 		try{
 		//RRR: 选中后字体颜色
-		try{
+
 			if (_on){
 				_g.setColor(fsm_nameTextColor);//选中字体颜色
 				_g.setFont(font); //RRR:去除昵称字体加粗(MainIMScreen.fsm_boldFont);
-				}else{
-			_g.setColor(fsm_nameTextColor);
-			_g.setFont(font); //RRR:去除昵称字体加粗(MainIMScreen.fsm_boldFont);
+			}else{
+				_g.setColor(fsm_nameTextColor);
+				_g.setFont(font); //RRR:去除昵称字体加粗(MainIMScreen.fsm_boldFont);
 			}
+			
 			_g.drawText(m_currRoster.m_roster.getName(),t_x + 4,3); //RRR:昵称向右偏移4 _g.drawText(m_currRoster.m_roster.getName(),t_x,2);
+			
 			if (_on){
 				_g.setColor(fsm_statusTextColor);//选中字体颜色
 				_g.setFont(fsm_addressFont);
 			}else{
-			_g.setColor(fsm_statusTextColor);
-			_g.setFont(fsm_addressFont);
+				_g.setColor(fsm_statusTextColor);
+				_g.setFont(fsm_addressFont);
 			}
+
 	/* 源码
-		try{
+		
 			_g.setColor(fsm_nameTextColor);
 			_g.setFont(font); //RRR:去除昵称字体加粗(MainIMScreen.fsm_boldFont);
 			
