@@ -7,6 +7,8 @@
   # IM，weibo模块快照的时候图片没有压缩，导致信息特别大。
   # 电脑发送txt附件的时候无法正常收取附件。
   # 大附件（大于5M）的接收有可能卡死服务器
+  * YuchBerry
+   # IM需要加个配置，使其在听筒播放语音
 
 == 1.15.1971更新内容 ==
   # 标题、发件人没法“繁体转简体”[http://code.google.com/p/yuchberry/issues/detail?id=232 Issue]
