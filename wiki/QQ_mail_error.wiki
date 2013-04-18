@@ -4,7 +4,7 @@
 
  <font color='red'>QQ 邮箱由于提供了自行配置的白名单和[http://service.mail.qq.com/cgi-bin/help?subtype=1&&id=20022&&no=1000727 限制IP]的策略</font>，所以在官方同步的时候，有时候可能会出现问题，请按照如下方式排查问题（首先你得使用浏览器[http://mail.qq.com/ 登陆QQ邮箱]）。
 
- <font color='red'>下面的方法可能无效，因为QQ邮箱限制IP需要等待一段时间（1-2天）才会接触限制，才能同步成功。</font>这个问题已经电话过腾讯，得到的答复是无解，只能等待。
+ <font color='red'>下面的方法可能无效，因为QQ邮箱限制IP需要等待一段时间（1-2天）才会接触限制，才能同步成功。</font>这个问题已经电话过腾讯，得到的答复是无解，只能等待一两天之后再同步看看，说不定就可以同步成了。
 
   * <b>检查是否打开 IMAP/SMTP 配置</b>
     [http://clip2net.com/clip/m85555/thumb640/1336036898-clip-17kb.png]
