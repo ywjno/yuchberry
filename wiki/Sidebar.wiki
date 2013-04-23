@@ -7,6 +7,7 @@
       * [http://code.google.com/p/yuchberry/wiki/SSL_yuchberry 配置安全SSL的语盒]
       * [http://code.google.com/p/yuchberry/wiki/Password_Crypt 加密自己的邮件密码]
       * [http://code.google.com/p/yuchberry/wiki/fill_APN 填写客户端APN]
+      * [http://code.google.com/p/yuchberry/wiki/YuchCaller_Sync 语电通同步联系人、日历服务器]
     * [http://code.google.com/p/yuchberry/wiki/Independent_Host_yuchberry 配置独立主机]
       * [http://code.google.com/p/yuchberry/wiki/Integration_Config_tool 集成配置工具]
     * [http://code.google.com/p/yuchberry/wiki/Use_introduction 使用语盒]
