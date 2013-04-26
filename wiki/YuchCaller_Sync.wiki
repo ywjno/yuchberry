@@ -8,7 +8,6 @@
 == 服务器启动 ==
   语盒服务器和语电通服务器都是使用java编写的，两者都可以使用 java application 环境架设，但是java虚拟机在 GNU/Linux 下面运行需要使用大量的内存，对于小型的VPS自架服务器的用户来说实在是够呛，于是下面介绍一下如何使用语盒服务器运行语电通服务器，使用一个java虚拟机内存运行语盒+语电通服务器。
   
-  还有一个要注意的是，语电通服务器会<strong>占用系统的80端口</strong>，因为手机和服务器使用的是WAP代理协议，而这个协议只能使用80端口进行通讯，无法使用其他端口。如果服务器主机上面有其他应用程序（Apache Nginx等）占用80端口，那么就无法架设语电通服务器。
 
   * 获得授权
    首先去到[http://api.yuchs.com/passgen.html 这个页面]进行授权，步骤如下：<br />
@@ -16,9 +15,13 @@
    授权成功之后，会出现如图所示：<br />
       [http://clip2net.com/clip/m85555/1366767648-clip-8kb.png]
   * 填写到语盒服务器的 config.xml 中
-   config.xml 对最一开始的Yuchberry标签，在最后加入两个属性：<b>yc_AccessToken</b> 与 <b>yc_RefreshToken</b> 填入上一步授权获得访问码。
+   config.xml 对最一开始的<b>Yuchberry标签</b>，在最后加入两个属性：<b>yc_AccessToken</b> 与 <b>yc_RefreshToken</b> 填入上一步授权获得访问码。
 {{{
-<Yuchberry userPassword="111111" serverPort="9716" pushInterval="10" userSSL="0" convertoSimpleChar="0" disableLog="0" disableReport="0" yc_AccessToken="ya29.AHES6ZSq5TkKd1s0uNIqRILKyvCUG????????????" yc_RefreshToken="1/fuDZo_VdkjTLby-JiIH-FxYVZK?????????">
+<Yuchberry ... yc_AccessToken="ya29.AHES6ZSq5TkKd1s0uNIqRILKyvCUG????????????" yc_RefreshToken="1/fuDZo_VdkjTLby-JiIH-FxYVZK?????????">
+}}}
+   语电通默认是使用80端口进行监听，但是也可以加入 <b>yc_port</b> 字段来指定语电通开启监听的端口，如下所示（开启88端口）:
+{{{
+<Yuchberry ... yc_port="88" yc_AccessToken="ya29.AHES6ZSq5TkKd1s0uNIqRILKyvCUG????????????" yc_RefreshToken="1/fuDZo_VdkjTLby-JiIH-FxYVZK?????????">
 }}}
   * 下载语电通服务器程序
    访问语电通服务器[https://code.google.com/p/yuchcaller/downloads/list 下载页面]现在最新的<strong>语电通服务器 sync_svr.jar 文件</strong>，并且上传到与<strong>语盒服务器 svr.jar 文件同一目录</strong>。
@@ -48,8 +51,8 @@ nohup java -Xbootclasspath/a:./sync_svr.jar -jar svr.jar &
   * 安装语电通客户端<strong>（0.4版本以上）</strong>
    访问语电通[http://yuchcaller.googlecode.com 项目主页]，或者手机访问语电通[http://ota.yuchs.com OTA主页]，将语电通客户端安装入手机。
   * 登陆你的语电通服务器
-   安装完毕之后，进入语电通设置，在同步特性那里的语盒账户输入你的主机地址，而并非电子邮件格式的语盒账户，用户密码输入config.xml里面填写的 userPassword 指向的值。如图所示：<br />
-      [http://clip2net.com/clip/m85555/1366717807-8300-14kb.png]<br />
+   安装完毕之后，进入语电通设置，在同步特性那里的语盒账户输入你的主机地址，而并非电子邮件格式的语盒账户，用户密码输入config.xml里面填写的 userPassword 指向的值。如果是指定过语电通服务器端口的，需要加上端口号，如图所示：<br />
+      [http://clip2net.com/clip/m85555/1366717807-8300-14kb.png]  [http://clip2net.com/clip/m85555/1366958323-8300-13kb.png]<br />
    点击登陆按钮，如果顺利，就能够看到同步设置的出现，这个时候就表示登陆自己的语电通成功了。<br />
       [http://clip2net.com/clip/m85555/1366768800-8300-11kb.png]
 
