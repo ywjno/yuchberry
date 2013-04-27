@@ -15,7 +15,7 @@
    授权成功之后，会出现如图所示：<br />
       [http://clip2net.com/clip/m85555/1366767648-clip-8kb.png]
   * 填写到语盒服务器的 config.xml 中
-   config.xml 对最一开始的<b>Yuchberry标签</b>，在最后加入两个属性：<b>yc_AccessToken</b> 与 <b>yc_RefreshToken</b> 填入上一步授权获得访问码。
+   config.xml 对最开始的<b>Yuchberry标签</b>，在最后加入两个属性：<b>yc_AccessToken</b> 与 <b>yc_RefreshToken</b> 填入上一步授权获得访问码。
 {{{
 <Yuchberry ... yc_AccessToken="ya29.AHES6ZSq5TkKd1s0uNIqRILKyvCUG????????????" yc_RefreshToken="1/fuDZo_VdkjTLby-JiIH-FxYVZK?????????">
 }}}
