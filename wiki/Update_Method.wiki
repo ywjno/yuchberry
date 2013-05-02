@@ -15,10 +15,13 @@
 
 == 更新语盒 ==
   个版本功能更新、bug修复说明在[Promote_list 这里]。
+ === 1.15.1971 升级到 1.16.2085 ===
+  * 客户端 直接更新安装新版本（手机直接访问 http://ota.yuchs.com）
+  * 服务器 直接替换svr.jar重启服务器即可，如果需要增加语电通同步功能，请仔细参看[http://code.google.com/p/yuchberry/wiki/YuchCaller_Sync 这里]   
 
  === 1.12.1833 升级到 1.15.1971 ===
   * 客户端 直接更新安装新版本（手机直接访问 http://ota.yuchs.com）
-  * 服务器 直接替换svr.jar重启服务器即可服务器 直接替换svr.jar重启服务器即可
+  * 服务器 直接替换svr.jar重启服务器即可。
 
  === 1.11.1633 升级到 1.12.1833 ===
   * 客户端 直接更新安装新版本（手机直接访问 http://ota.yuchs.com）
@@ -26,11 +29,7 @@
    # <b>EmailAccount</b> Tag 添加 <b>signinName</b> 字段，详细解释见[http://code.google.com/p/yuchberry/wiki/fill_config_ini#signinName%EF%BC%88%E7%99%BB%E5%BD%95%E9%82%AE%E7%AE%B1%E7%9A%84%E7%99%BB%E5%BD%95%E5%90%8D%EF%BC%8C%E5%A4%A7%E5%A4%9A%E6%95%B0%E7%95%99%E7%A9%BA%E5%8D%B3%E5%8F%AF%EF%BC%89 这里]
    # <b>IMAccount</b> Tag 添加了 <b>xmppHost</b> <b>xmppPort</b> 字段，详细见[http://code.google.com/p/yuchberry/wiki/YuchBerry_IM#%E9%85%8D%E7%BD%AE%E6%9C%8D%E5%8A%A1%E5%99%A8 这里]
 
- === 1.10.1556 升级到 1.11.1633 ===
- === 1.9.1405 升级到 1.10.1556 ===
- === 1.8.1301 升级到 1.9.1405 ===
- === 1.7.1289 升级到 1.8.1301 ===
- === 1.6.1201 升级到 1.7.1289 ===
+ === 1.6.1201 升级到 1.11.1633 ===
    * 客户端 直接替换安装新版本即可
    * 服务器 直接替换svr.jar重启服务器即可
 
