@@ -41,6 +41,8 @@
  === disableReport（禁止发送统计数据）===
      语盒由于需要更好的开发产品，用户在使用的过程中，可能需要中间服务器发送统计数据给语盒官方服务器，如果将其写为 1 就是禁止发送这个统计数据。
      默认是发送的。这个统计信息<b>绝对不会涉及</b>用户隐私（包括密码，信件、微博、聊天内容等等），只有数量和容量。请你相信语盒开发者们，能够开发出更好的推送软件。
+ === yc_port（语电通同步）===
+     关于 yc_port 、yc_AccessToken、yc_RefreshToken 的说明，详细见[https://code.google.com/p/yuchberry/wiki/YuchCaller_Sync 这里]。
 
 ==Email账户配置说明==
 {{{
